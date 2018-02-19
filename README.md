@@ -249,7 +249,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Hebrew](https://github.com/Sinros/YOURLS-he_IL-Translation) (`he_IL`)
 - [Hindi](https://github.com/itsKV/YOURLS-Hindi-translation) (`hi-IN`)
 - [Indonesian](https://github.com/tigefa4u/YOURLS-1.6-id_ID) (`id_ID`)
-- [Italian](http://code.google.com/p/yourls-italian-translation/source/browse/tags) (`it_IT`)
+- [Italian](https://github.com/ggardin/YOURLS-it_IT) (`it_IT`)
 - [Japanese](https://github.com/luixxiul/YOURLS-ja_JP) (`ja_JP`)
 - [Korean](https://github.com/at4am/YOURLS-ko_KR) (`ko_KR`)
 - [Polish](https://github.com/tomslominski/YOURLS-pl_PL) (`pl_PL`)
