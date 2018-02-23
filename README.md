@@ -141,6 +141,7 @@
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`)
 - [Multi User](http://www.matbra.com/en/code/multi-user-yourls-plugin/) - Add support for multiple users
+- [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Added ability to redirection by user's device type
 
 ### N
 
