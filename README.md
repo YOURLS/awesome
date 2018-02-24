@@ -141,7 +141,7 @@
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`)
 - [Multi User](http://www.matbra.com/en/code/multi-user-yourls-plugin/) - Add support for multiple users
-- [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Added ability to redirection by user's device type
+- [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Add ability to redirect by user device OS
 
 ### N
 
@@ -151,7 +151,7 @@
 
 - [Password Protection](https://github.com/GhostCyborg/yourls-password-protection) - Password protect any Short URL you want so that users are prompted for a password before redirection
 - [Phishtank](http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - Prevent spam links using Phishtank's API
-- [Phishtank 2.0](https://github.com/joshp23/YOURLS-Phishtank-2.0) - Functiolnal rewrite of the old Phishtank plugin with more features
+- [Phishtank 2.0](https://github.com/joshp23/YOURLS-Phishtank-2.0) - Functional rewrite of the old Phishtank plugin with more features
 - [Piwik Stats](http://code.google.com/p/yourls/issues/detail?id=661) - Integrate statistics with Piwik
 - [Piwik-YOURLS](https://github.com/interfasys/piwik-yourls) - Piwik and a few other features
 - [Popular Clicks](https://github.com/miconda/yourls/tree/master/plugins/popular-clicks) - Display the top of the most clicked links during past days
