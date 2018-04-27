@@ -99,8 +99,8 @@
 - [hexdec](https://github.com/plttn/yourls-hexdec) - Changes the sequential keywords from base36 to base16 (ie `[0-9a-f]`)
 - [Hide Referrer](https://github.com/Sire/yourls-hide-referrer) - Hide referrer on all or some short links
 - [Hide Version String](https://github.com/YOURLS/YOURLS/issues/1878#issuecomment-88450475) - Hide the version string in the footer
-- [HTTP:BL](https://github.com/joshp23/YOURLS-httpBL) - Prevent spam using the black list from Project Honeypot. 
-- [HTTP Proxy](https://github.com/adigitalife/yourls-http-proxy) - Get remote content using an HTTP proxy, for instance when YOURLS is running behind a firewall (e.g. corporate intranet) 
+- [HTTP:BL](https://github.com/joshp23/YOURLS-httpBL) - Prevent spam using the black list from Project Honeypot.
+- [HTTP Proxy](https://github.com/adigitalife/yourls-http-proxy) - Get remote content using an HTTP proxy, for instance when YOURLS is running behind a firewall (e.g. corporate intranet)
 - [HTTP status per link](https://github.com/Jelle-S/YOURLS-http-status-per-link) - Plugin to allow you to select `3XX` Status Code to return per keyword.
 
 ### I
@@ -116,6 +116,7 @@
 ### J
 
 - [Jappix](https://github.com/jonrandoem/yourls-jappix) - Adds a JappixMini chat on your YOURLS admin pages
+- [JSON Response](https://github.com/tessus/yourls-json-response) - Add `.json` (or a custom string/character) to the short URL to get info about it as a JSON response.
 
 ### K
 
@@ -210,7 +211,7 @@
 - [Thumbnail URL image](https://github.com/prog-it/yourls-thumbnail-url) - Get the Thumbnail URL image (long URL) by adding `.i` to the end of the keyword
 - [Time Limit Link](https://github.com/chesterrush/yourls-Time-Limit-Link) - Set a time limit for links
 - [Track Custom Keyword](https://github.com/timcrockford/track-custom-keywords) - Add a new field to YOURLS designed to track if a keyword was randomly assigned or manually specified
-- [Tuber](http://williamscastillo.com/code/yourls/tuber/) - Show the videos that you bookmark in their own page instead of redirecting to the video page. Works with Youtube, Vimeo, Blip.tv and DailyMotion. 
+- [Tuber](http://williamscastillo.com/code/yourls/tuber/) - Show the videos that you bookmark in their own page instead of redirecting to the video page. Works with Youtube, Vimeo, Blip.tv and DailyMotion.
 - [Typer, a yourls prank plugin](https://github.com/koma5/typer) - Add an underscore * to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
 
 ### U
