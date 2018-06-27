@@ -261,6 +261,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Slovak](https://github.com/RunGroup/YOURLS-sk_SK) (`sk_SK`)
 - [Slovenian](https://supan.si/gogs/davidsupan/yourls_trans/src/master) (`sl_SI`)
 - [Spanish](https://github.com/kralizeck/YOURLS-es_ES) (`es_ES`)
+- [Telugu](https://github.com/kalyan4786/YOURLS_Telugu_Translation) (`te_IN`)
 - [Turkish](https://github.com/mugurcagdas/YOURLS_TR) (`tr_TR`)
 - [Traditional Chinese](https://github.com/aee1027/YOURLS-zh_TW) (`zh_TW`)
 - [Viet Nam](https://github.com/tmtung144/YOURLS) (`vi_VN`)
