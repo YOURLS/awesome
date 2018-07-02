@@ -157,7 +157,7 @@
 - [Piwik-YOURLS](https://github.com/interfasys/piwik-yourls) - Piwik and a few other features
 - [Popular Clicks](https://github.com/miconda/yourls/tree/master/plugins/popular-clicks) - Display the top of the most clicked links during past days
 - [Popular Clicks Extended](https://github.com/vaughany/yourls-popular-clicks-extended) - Shows which short links get clicked the most during a specific time frame
-- [Popular Links](http://laaatech.com/yourls-plugin-popular-links) - Adds an admin page that displays your shortener's most popular links
+- [Popular Links](https://github.com/laaabaseball/Yourls-Popular-Links) - Adds an admin page that displays your shortener's most popular links
 - [Preview URL](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Preview-URL) ⭐ - Add the character '~' to a short URL to display a preview screen before redirection
 - [Preview URL with QR Code](https://github.com/dennydai/yourls-preview-url-with-qrcode) - Add the character '~' to a short URL to display a preview screen & QR code before redirection
 - [Preview URL with QR Code And Thumbnail](https://github.com/prog-it/yourls-preview-url-with-qrcode-thumbnail) - Add the character '~' to a short URL to display a QR code and Thumbnail image before redirection
