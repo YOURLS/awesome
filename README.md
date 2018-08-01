@@ -283,13 +283,21 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 
 ## Other devices and softwares
 
-- Mac: (Desktop URL shortening tool)[https://www.macupdate.com/app/mac/44088/yourls], (Textexpander)[http://www.chrismarquardt.com/blog.php?id=7952283233607249761]
-- Android: (aYourls)[https://play.google.com/store/apps/details?id=de.mateware.ayourls], (URLy)[https://play.google.com/store/apps/details?id=com.mndroid.apps.urly], (URL Shortener)[https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener]
-- iOS: (ShortTail)[http://adamdehaven.com/blog/2015/05/shorttail-for-yourls-an-elegant-yourls-client-for-iphone/], (Clicklytics)[http://itunes.apple.com/us/app/clicklytics-track-clicks-on/id444008024?mt=8], (myYOURLS)[https://itunes.apple.com/us/app/myyourls/id661934890?mt=8]
-- Chrome: (Chrouls)[https://github.com/ukoms/Chrourls]
-- Firefox: (YOURLS shortener)[https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/]
-- (Tweetie 2)[http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html]
-- (Tweetbot)[http://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/]
+- Mac:
+  * _None currently avaliable_
+- Android:
+  * [aYourls](https://play.google.com/store/apps/details?id=de.mateware.ayourls)
+  * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
+  * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener)
+- iOS:
+  * [ShortFox](https://itunes.apple.com/us/app/shortfox/id1412452706?ls=1&mt=8)
+  * [myYOURLS](https://itunes.apple.com/us/app/myyourls/id661934890?mt=8) (**OUTDATED**)
+- Chrome:
+  * [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
+- Firefox:
+  * [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
+- [Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html)
+- [Tweetbot](http://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
 
 ## Contribute
 
