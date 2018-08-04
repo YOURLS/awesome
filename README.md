@@ -270,7 +270,8 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 ## Other platforms and frameworks
 
 - [Wordpress](http://wordpress.org/extend/plugins/search.php?q=yourls) : there are numerous [WordPress plugins](http://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support. [YOURLS Link Creator](http://wordpress.org/extend/plugins/yourls-link-creator/) is recommended.
-- [Drupal](http://drupal.org/project/yourls)
+- [Drupal](http://drupal.org/project/yourls) : YOURLS plugin (outdated)
+- [Drupal alternative](https://www.drupal.org/project/shorten) : A more robust solution. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
 - [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin): plugin to integrate YOURLS
 
 - [status.net](https://github.com/rthees/yourls-status-net): plugin for status.net to use YOURLS
