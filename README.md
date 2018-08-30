@@ -2,14 +2,76 @@
 
 > A curated list of awesome things related to YOURLS
 
-## Contents
-
+- [Resources](#resources)
+    - [Official Resources](#official-resources)
+    - [External Resources](#external-resources)
+    - [Community](#community)
+    - [Tutorials](#tutorials)
+- [Tools](#tools)
+    - [Official Tools](#official-tools)
+    - [3rd party Integrations and Frameworks](#3rd-party-integrations-and-frameworks)
+    - [Applications](#applications)
 - [Plugins](#plugins)
   - [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 - [Translations](#translations)
-- [Other platforms and frameworks](#other-platforms-and-frameworks)
-- [Other devices and softwares](#other-devices-and-softwares)
 
+## Resources
+
+### Official Resources
+
+- [Official Guide](https://yourls.org)
+- [GitHub Repo](https://github.com/YOURLS/YOURLS)
+- [Release Notes](https://github.com/YOURLS/YOURLS/releases)
+- [Road Map](https://github.com/YOURLS/YOURLS/milestones)
+- [YOURLS News](http://blog.yourls.org/)
+
+### External Resources
+
+- [YOURLS Newsletter](https://yourls.org/newsletter) - User Newsletter
+
+### Community
+
+- [Twitter](https://twitter.com/yourls)
+- [Official Forum](https://discourse.yourls.org/)
+
+### Tutorials
+
+- [YOURLS with Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html) on eugenegordin.com
+- [YOURLS with Tweetbot](http://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/) on 2fatdads.com
+
+## Tools
+
+### Official Tools
+
+- [YOURLS using Docker](https://hub.docker.com/_/yourls/)
+
+### 3rd party Integrations and Frameworks
+
+- WordPress
+  * [YOURLS Link Creator](http://wordpress.org/extend/plugins/yourls-link-creator/)
+  * There are numerous other [WordPress plugins](http://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support.
+- [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
+- [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS
+- [status.net](https://github.com/rthees/yourls-status-net) - Plugin for status.net to use YOURLS
+- [Sharetronix](http://developer.sharetronix.com/mpview/12/tag:yourls) - YOURLS addon for Sharetronix
+- [Perl](https://github.com/pjain/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS
+- [Ruby](https://github.com/threestage/yourls) - A Ruby wrapper for the YOURLS API
+- [Python](https://github.com/tflink/python-yourls/) - A Python client for YOURLS
+- [VB .Net](http://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API
+- [Javascript](http://neocotic.com/yourls-api/) - JavaScript bindings for the YOURLS API to leverage JSONP support
+
+### Applications
+
+- Android
+  * [aYourls](https://play.google.com/store/apps/details?id=de.mateware.ayourls)
+  * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
+  * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener)
+- iOS
+  * [ShortFox](https://itunes.apple.com/us/app/shortfox/id1412452706?ls=1&mt=8)
+- Chrome
+  * [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
+- Firefox
+  * [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
 
 ## Plugins
 
@@ -269,39 +331,6 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Turkish](https://github.com/mugurcagdas/YOURLS_TR) (`tr_TR`)
 - [Traditional Chinese](https://github.com/aee1027/YOURLS-zh_TW) (`zh_TW`)
 - [Viet Nam](https://github.com/tmtung144/YOURLS) (`vi_VN`)
-
-## Other platforms and frameworks
-
-- [Wordpress](http://wordpress.org/extend/plugins/search.php?q=yourls) : there are numerous [WordPress plugins](http://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support. [YOURLS Link Creator](http://wordpress.org/extend/plugins/yourls-link-creator/) is recommended.
-- [Drupal](http://drupal.org/project/yourls) : YOURLS plugin (outdated)
-- [Drupal alternative](https://www.drupal.org/project/shorten) : A more robust solution. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
-- [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin): plugin to integrate YOURLS
-
-- [status.net](https://github.com/rthees/yourls-status-net): plugin for status.net to use YOURLS
-- [Sharetronix](http://developer.sharetronix.com/mpview/12/tag:yourls): YOURLS addon for Sharetronix
-- [Perl](http://github.com/pjain/WWW-Shorten-Yourls): a Perl module to shorten URLs using YOURLS
-- [Ruby](https://github.com/threestage/yourls): a Ruby wrapper for the YOURLS API
-- [Python](http://tflink.github.com/python-yourls/): a Python client for YOURLS
-- [VB .Net](http://www.nugardt.com/open-source/yourls-api/): a VB .Net 4.0 wrapper for the YOURLS API
-- [Javascript](http://neocotic.com/yourls-api/): JavaScript bindings for the YOURLS API to leverage JSONP support
-
-## Other devices and softwares
-
-- Mac:
-  * _None currently avaliable_
-- Android:
-  * [aYourls](https://play.google.com/store/apps/details?id=de.mateware.ayourls)
-  * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
-  * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener)
-- iOS:
-  * [ShortFox](https://itunes.apple.com/us/app/shortfox/id1412452706?ls=1&mt=8)
-  * [myYOURLS](https://itunes.apple.com/us/app/myyourls/id661934890?mt=8) (**OUTDATED**)
-- Chrome:
-  * [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
-- Firefox:
-  * [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
-- [Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html)
-- [Tweetbot](http://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
 
 ## Contribute
 
