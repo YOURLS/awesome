@@ -109,6 +109,7 @@
 
 ### C
 
+- [cAuth](https://github.com/joshp23/YOURLS-cAuth) - Client side SSL certificate authentication for admin pages.
 - [Cache Stat Pages](https://github.com/YOURLS/cache-stats-pages) ⭐ - Serve stat pages (`http://sho.rt/blah+`) from cache
 - [CAS Plugin](https://github.com/nicwaller/yourls-cas-plugin) - Enable authentication through a CAS server
 - [Case Insensitive](https://github.com/seandrickson/YOURLS-Case-Insensitive/) - Makes all keywords case insensitive (creates and calls all keywords lowercase)
