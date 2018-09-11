@@ -155,6 +155,7 @@
 - [GA MP](https://github.com/powerthazan/YOURS-GA-MP-Tracking) - Track YOURLS link clicks with Google Analytics Measurement protocol in Real Time
 - [Git Version](https://github.com/chtaube/YOURLS-plugin-gitversion) - Add version information from the git repository into the footer of the admin page
 - [Geo API](https://github.com/boxedfish/yourls-Geo-API-plugin) - Plugin to look up country code from another 3rd party API (geoiplookup.net)
+- [GeoShortURL](https://github.com/tobozo/YOURLS-GeoShortURL) - Plugin to add per-country support to existing short URLs (use it with [302-Instead](https://github.com/timcrockford/302-instead))
 - [Google Analytics Link Tagging](http://www.seodenver.com/add-google-analytics-link-tagging-yourls/) - Add GA tags (utm_source and others) to your shortened links
 - [Google Auth](https://github.com/8thwall/google-auth-yourls) - Enables Google Authentication for YOURLS
 - [Google Analytics YOURLS Plugin](http://www.matbra.com/en/code/google-analytics-yourls-plugin/) - Add your Google Analytics tags to admin and stat pages
