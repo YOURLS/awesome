@@ -287,6 +287,7 @@
 
 - [Upload and Shorten](https://github.com/fredl99/YOURLS-Upload-and-Shorten) - Upload and share files with YOURLS
 - [U-SRV](https://github.com/joshp23/YOURLS-U-SRV) - Provides secure links to files while obfuscating filesystem paths, allowing easy, secure access to files between plugins or from 3rd party scripts. Manual uploading of files is supported.
+-  [Update 30X](https://github.com/joshp23/YOURLS-Update-30X) - An API plugin to test single, domain based, or all available links and update the URL in YOURLS if redirection occures at the destination.
 
 ### V
 
