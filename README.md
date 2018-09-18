@@ -49,6 +49,7 @@
 
 - WordPress
   * [YOURLS Link Creator](http://wordpress.org/extend/plugins/yourls-link-creator/)
+  * [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
   * There are numerous other [WordPress plugins](http://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support.
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
 - [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS
