@@ -93,6 +93,7 @@
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server
 - [Allow Forward Slashes in Short URLs](https://github.com/williambargent/YOURLS-Forward-Slash-In-Urls) - Just as the name says.
 - [Amazon Affiliate](https://github.com/floschliep/YOURLS-Amazon-Affiliate) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection.
+- [Amazon Affiliate With Redirect Noice](https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection and adds a redirection notice.
 - [Antispam](https://github.com/YOURLS/antispam) ⭐ - Merciless antispam plugin using the 3 major domain blacklists
 - [YOURLS APC Cache](http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/) - Add support for APC to reduce MySQL queries
 - [API Action](https://github.com/YOURLS/API-action) ⭐ - Example plugin for YOURLS 1.6+ to show how to implement custom API actions
