@@ -56,6 +56,7 @@
 - [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) - A plugin to resolve concurrency issues with the API as described in Issue 765.
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
 - [Conditional Toolbar](http://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/) ⭐ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar
+- [Conditional Advertisements](https://github.com/HeroCC/yourls-conditional-urlads) - A plugin to conditionally send links through various link monetizing services: `http://your.site/short` is normal, `http://your.site/a/short` redirects through AdFly
 - [Custom Header & Footer](https://github.com/scriptgeni/yourls-custom-header-footer) - A plugin administration page to add custom header and footer style and content
 - [Custom Javascript](https://github.com/scriptgeni/yourls-custom-javascript) - Add custom javascript to admin pages
 - [Custom Protocol](https://github.com/YOURLS/custom-protocol) ⭐ - If the user is known, this plugin adds custom protocol (eg `blah://`) to authorized protocols, otherwise restricts to `http|s`
