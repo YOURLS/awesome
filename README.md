@@ -180,7 +180,6 @@
 - [YOURLS IDN](https://github.com/YOURLS/YOURLS-IDN) ⭐ - Add IDN support to YOURLS
 - [YOURLS Import Export](https://github.com/GautamGupta/YOURLS-Import-Export) - A plugin to import and export YOURLS URL
 - [Integrated QRCodes](https://github.com/joshp23/YOURLS-IQRCodes) - Integrated QRCodes is an updated fork of Inline QRCode, but more compact, configurable, and just as efficient with more features.
-- [Interstitial Plugin for YOURLs](https://github.com/joelgratcyk/yourls-interstitial-plugin) - Display an interstitial ad when user clicks on YOURLs link with plugin enabled
 - [iOS URL](https://github.com/suculent/yourls-ios-url-schemes-plugin) - Adds support for URLs starting with `itms-apps://` and `itms-services://`
 - [iTunes-Affiliate](https://github.com/floschliep/YOURLS-iTunes-Affiliate) - Adds your iTunes Affiliate-Token to all iTunes URLs before redirection
 
