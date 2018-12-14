@@ -327,6 +327,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Italian](https://github.com/ggardin/YOURLS-it_IT) (`it_IT`)
 - [Japanese](https://github.com/luixxiul/YOURLS-ja_JP) (`ja_JP`)
 - [Korean](https://github.com/at4am/YOURLS-ko_KR) (`ko_KR`)
+- Norwegian: [bokmål](https://github.com/armandg/YOURLS-nb_NO) (`nb_NO`)
 - [Polish](https://github.com/tomslominski/YOURLS-pl_PL) (`pl_PL`)
 - [Portuguese](https://github.com/oscarmarcelo/YOURLS-pt_PT) (`pt_PT`)
 - [Russian](https://github.com/nsauk/YOURLS-ru_RU) (`ru_RU`)
