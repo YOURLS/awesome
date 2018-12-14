@@ -313,7 +313,6 @@
 
 YOURLS supports localization: this means if a language file for YOURLS in available in your language, YOURLS will speak your language!
 
-- [Asturian](https://github.com/artilanes/YOURLS-Translations) (`ast_ES`)
 - Brazilian: [here](https://github.com/didi3d/YOURLS-pt_BR) and [here](https://github.com/henriquecrang/YOURLS-pt_BR)  (`pt_BR`)
 - [Bulgarian ](https://github.com/VoodooServ/YOURLS-bg_BG) (`bg_BG`)
 - [Czech](https://github.com/KubaCZ721/YOURLS-cs_CZ) (`cs_CZ`)
@@ -322,7 +321,6 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Farsi](https://github.com/saahmadnejad/YOURLS-fa_FA) (`fa_FA`)
 - [French](https://github.com/ozh/YOURLS-fr_FR) (`fr_FR`)
 - [German](https://github.com/Jules81/YOURLS-de_DE) (`de_DE`)
-- [Hebrew](https://github.com/Sinros/YOURLS-he_IL-Translation) (`he_IL`)
 - [Hindi](https://github.com/itsKV/YOURLS-Hindi-translation) (`hi-IN`)
 - [Indonesian](https://github.com/tigefa4u/YOURLS-1.6-id_ID) (`id_ID`)
 - [Italian](https://github.com/ggardin/YOURLS-it_IT) (`it_IT`)
@@ -331,9 +329,8 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Polish](https://github.com/tomslominski/YOURLS-pl_PL) (`pl_PL`)
 - [Portuguese](https://github.com/oscarmarcelo/YOURLS-pt_PT) (`pt_PT`)
 - [Russian](https://github.com/nsauk/YOURLS-ru_RU) (`ru_RU`)
-- Simplified Chinese: [here](https://github.com/guox/yourls-zh_CN/) and [here](https://github.com/Nilucifel/Yourls_zh-CN) (`zh_CN`)
+- [Simplified Chinese](https://github.com/guox/yourls-zh_CN/) (`zh_CN`)
 - [Slovak](https://github.com/RunGroup/YOURLS-sk_SK) (`sk_SK`)
-- [Slovenian](https://supan.si/gogs/davidsupan/yourls_trans/src/master) (`sl_SI`)
 - [Spanish](https://github.com/kralizeck/YOURLS-es_ES) (`es_ES`)
 - [Telugu](https://github.com/kalyan4786/YOURLS_Telugu_Translation) (`te_IN`)
 - [Turkish](https://github.com/mugurcagdas/YOURLS_TR) (`tr_TR`)
