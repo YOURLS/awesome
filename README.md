@@ -54,7 +54,6 @@
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
 - [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS
 - [status.net](https://github.com/rthees/yourls-status-net) - Plugin for status.net to use YOURLS
-- [Sharetronix](http://developer.sharetronix.com/mpview/12/tag:yourls) - YOURLS addon for Sharetronix
 - [Perl](https://github.com/pjain/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS
 - [Ruby](https://github.com/threestage/yourls) - A Ruby wrapper for the YOURLS API
 - [Python](https://github.com/tflink/python-yourls/) - A Python client for YOURLS
@@ -64,7 +63,6 @@
 ### Applications
 
 - Android
-  * [aYourls](https://play.google.com/store/apps/details?id=de.mateware.ayourls)
   * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
   * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener)
 - iOS
@@ -249,7 +247,7 @@
 - [Random Keywords](https://github.com/YOURLS/random-keywords) ⭐ - Assign random keywords to shorturls, like bitly (ie `http://sho.rt/hJudjK`)
 - [reCaptcha](https://github.com/spbriggs/recaptcha-plugin) - YOURLS plugin implementing reCaptcha for unauthenticated users in your public interface
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation
-- [Redirect with GET](https://bitbucket.org/fnkr/yourls-redirect-with-get) - Redirect with all GET parameters (eg `sho.rt/abc123?blah` redirects to `longu.rl/somepage?blah`)
+- [Redirect with GET](https://github.com/fnkr/YOURLS-merge-query-string) - Redirect with all GET parameters (eg `sho.rt/abc123?blah` redirects to `longu.rl/somepage?blah`)
 - [Regenerate URL](https://github.com/TheLeonKing/yourls-api-regenerate-url) - Regenerate a new keyword for a URL that has already been shortened.
 - [Remove The Share Function](https://github.com/seandrickson/YOURLS-Remove-the-Share-Function) - Remove the Share button and box that toggles the sharing options on the Admin page
 - [Remove YouTube Play Indicator](https://github.com/UltraNurd/youtube-play-indicator) - Removes the triangle from the title of Youtube shortened URL
@@ -261,7 +259,6 @@
 
 - [Semantic Scuttle](https://github.com/jonrandoem/yourls-semanticscuttle) - Allows the sharing of the URL to a Semantic Scuttle installation.
 - [Separate Users](https://github.com/ianbarber/Yourls-Separate-Users) - Adds a username to each created URL, and filters the admin interface.
-- [Share Files](http://www.mattytemple.com/projects/yourls-share-files/) - Add a form to upload files and share them using your YOURLS setup.
 - [Share G+](https://github.com/ChrTang/yourls-share-gplus) - Adds Google+ to the Quick Share Box.
 - [Share LinkedIn](https://github.com/popnt/yourls-linkedin-share) - Adds LinkedIn to the Quick Share Box.
 - [Share with Tumblr](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Share-Tumblr) ⭐ - In the Quick Share box, add a one-click share to Tumblr link.
@@ -269,10 +266,8 @@
 - [ShortShort](https://bitbucket.org/abaumg/yourls-shortshort/) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
 - [Show Git Branch](https://github.com/ozh/show-git-branch) - Using YOURLS on a dev box under Git? Show the current branch in page footer.
 - [SimpleDB Clickqueue](https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue) - Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
-- [Simple Charset](https://github.com/giveforward/yourls-simplecharset) - Define a custom character set for your short URLs (for instance to generate shorturls only using letters "23456bcdefxyz")
 - [Skimlinks](http://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes
 - [Snapshot](https://github.com/joshp23/YOURLS-Snapshot) - Visual preview plugin with image caching powered by PhantomJS.
-- [YOURLS Social Toolbar](http://technicalnotebook.com/wiki/display/DEV/YourLS+Social+Toolbar) - A fork of the official sample toolbar plugin, with alternative display for Youtube videos.
 - [YOURLS SQLite](https://github.com/ozh/yourls-sqlite) - SQLite driver for YOURLS
 - [Static Titles](https://github.com/softius/yourls-static-titles) - Provide two options to avoid the network traffic when retrieving URL titles.
 - [SSL for SSL](https://github.com/tipichris/ssl4ssl) - Generates SSL short links if the original link was SSL.
@@ -284,7 +279,6 @@
 - [Time-Period Clicks](https://github.com/rinogo/yourls-time-period-clicks) - A simple API plugin for reporting URL clicks in a specific time period (e.g. the last week, January 1 - February 1, etc).
 - [Time Limit Link](https://github.com/chesterrush/yourls-Time-Limit-Link) - Set a time limit for links
 - [Track Custom Keyword](https://github.com/timcrockford/track-custom-keywords) - Add a new field to YOURLS designed to track if a keyword was randomly assigned or manually specified
-- [Tuber](http://williamscastillo.com/code/yourls/tuber/) - Show the videos that you bookmark in their own page instead of redirecting to the video page. Works with Youtube, Vimeo, Blip.tv and DailyMotion.
 - [Typer, a yourls prank plugin](https://github.com/koma5/typer) - Add an underscore * to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
 
 ### U
@@ -292,10 +286,6 @@
 - [Upload and Shorten](https://github.com/fredl99/YOURLS-Upload-and-Shorten) - Upload and share files with YOURLS
 - [U-SRV](https://github.com/joshp23/YOURLS-U-SRV) - Provides secure links to files while obfuscating filesystem paths, allowing easy, secure access to files between plugins or from 3rd party scripts. Manual uploading of files is supported.
 -  [Update 30X](https://github.com/joshp23/YOURLS-Update-30X) - An API plugin to test single, domain based, or all available links and update the URL in YOURLS if redirection occures at the destination.
-
-### V
-
-- [Virustotal for YOURLS](http://pastie.org/1833229) - Avoid spam links with Virustotal
 
 ### W
 
@@ -327,7 +317,6 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Italian](https://github.com/ggardin/YOURLS-it_IT) (`it_IT`)
 - [Japanese](https://github.com/luixxiul/YOURLS-ja_JP) (`ja_JP`)
 - [Korean](https://github.com/at4am/YOURLS-ko_KR) (`ko_KR`)
-- [Norwegian (bokmål)](https://github.com/armandg/YOURLS-nb_NO) (`nb_NO`)
 - [Polish](https://github.com/tomslominski/YOURLS-pl_PL) (`pl_PL`)
 - [Portuguese](https://github.com/oscarmarcelo/YOURLS-pt_PT) (`pt_PT`)
 - [Russian](https://github.com/nsauk/YOURLS-ru_RU) (`ru_RU`)
