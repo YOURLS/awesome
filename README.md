@@ -291,7 +291,7 @@
 ### W
 
 - [wallabag](https://github.com/jonrandoem/yourls-wallabag) - Allows the sharing of the URL to a Wallabag installation (previously named Poche)
-- [Whatsapp quickshare](https://wissehesnl.github.io/Whatsapp-quickshare/) - Allows you to share your short URL via whatsapp
+- [Whatsapp quickshare](https://github.com/WisseHesNL/Whatsapp-quickshare) - Allows you to share your short URL via whatsapp
 
 ### X
 
