@@ -44,6 +44,7 @@
 ### Official Tools
 
 - [YOURLS using Docker](https://hub.docker.com/_/yourls/)
+- [YOURLS using Helm for Kubernetes](https://hub.helm.sh/charts/yourls/yourls)
 
 ### 3rd party Integrations and Frameworks
 
