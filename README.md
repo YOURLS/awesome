@@ -200,6 +200,7 @@
 - [Link List](https://github.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page
 - [Limit keyword length](https://github.com/adigitalife/yourls-limit-keyword-length) - This plugin limits the number of characters allowed for the custom keyword.
 - [log-login](https://github.com/SweBarre/log-login) - Logs login atempts to YOURLS. To be used with fail2ban.
+- [Login Timeout](https://github.com/reanimus/yourls-login-timeout) - Adds a timeout after a certain number of failed logins to mitigate brute force logins.
 - [lowercase username](https://github.com/Virinum/yourls-lowercase-username) - Makes the username lowercase when logging in.
 
 ### M
