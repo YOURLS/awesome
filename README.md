@@ -74,7 +74,7 @@
 - Firefox
   * [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
 - Mac
-  * [Short Menu](https://shortmenu.com/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
+  * [Short Menu](https://shortmenu.com/mac/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 
 ## Plugins
 
