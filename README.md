@@ -68,13 +68,13 @@
   * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener)
 - iOS
   * [ShortFox](https://itunes.apple.com/us/app/shortfox/id1412452706?ls=1&mt=8)
-  * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
+  * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/))
 - Chrome
   * [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
 - Firefox
   * [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
 - Mac
-  * [Short Menu](https://shortmenu.com/mac/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
+  * [Short Menu](https://shortmenu.com/mac/) - Available for $6 from the App Store or directly from the developer (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/))
 
 ## Plugins
 
