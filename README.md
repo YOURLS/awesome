@@ -68,7 +68,7 @@
   * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener)
 - iOS
   * [ShortFox](https://itunes.apple.com/us/app/shortfox/id1412452706?ls=1&mt=8)
-  * [Short Menu](https://shortmenu.com/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
+  * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 - Chrome
   * [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
 - Firefox
