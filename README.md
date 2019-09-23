@@ -138,6 +138,7 @@
 - [DNSBL](https://github.com/Diftraku/yourls_dnsbl/) - Uses various DNSBLs to check the submitter's IP and prevent shortening URLs if any malicious activity has been detected.
 - [Domain Limit](https://github.com/nicwaller/yourls-domainlimit-plugin) - Limit the domains that users can create shortlinks to
 - [Domain Limiter](https://bitbucket.org/quantumwebco/domain-limiter-yourls-plugin) - Fork of Nic Waller's plugin with the addition of an admin panel to edit the white list from the admin area
+- [Do TLS](https://github.com/joshp23/YOURLS-doTLS) - Always use SSL/TLS for a destination url if available
 - [Don't Log Bots](https://github.com/YOURLS/dont-log-bots) ⭐ - Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats)
 - [Don't Log Crawlers](https://github.com/luixxiul/dont-log-crawlers/) - A fork of the `Don't Log Bots`, with more bots filtered out.
 - [Don't Log Health Checker](https://github.com/guessi/yourls-dont-log-health-checker) - A fork of `Don't Log Bots`, with more bots filtered out.
