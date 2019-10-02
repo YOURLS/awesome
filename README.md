@@ -58,7 +58,8 @@
 - [status.net](https://github.com/rthees/yourls-status-net) - Plugin for status.net to use YOURLS
 - [Perl](https://github.com/pjain/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS
 - [Ruby](https://github.com/threestage/yourls) - A Ruby wrapper for the YOURLS API
-- [Python](https://github.com/tflink/python-yourls/) - A Python client for YOURLS
+- [Python 3](https://pypi.org/project/pyourls3/) - A Python client for YOURLS, built for Python 3
+- [Python 2](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS
 - [VB .Net](http://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API
 - [Javascript](http://neocotic.com/yourls-api/) - JavaScript bindings for the YOURLS API to leverage JSONP support
 
