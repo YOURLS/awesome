@@ -253,7 +253,6 @@
 
 ### R
 
-- [Random Keywords](https://github.com/YOURLS/random-keywords) ⭐ - Assign random keywords to shorturls, like bitly (ie `http://sho.rt/hJudjK`)
 - [reCaptcha](https://github.com/spbriggs/recaptcha-plugin) - YOURLS plugin implementing reCaptcha for unauthenticated users in your public interface
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation
 - [Redirect with GET](https://github.com/fnkr/YOURLS-merge-query-string) - Redirect with all GET parameters (eg `sho.rt/abc123?blah` redirects to `longu.rl/somepage?blah`)
