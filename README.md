@@ -124,6 +124,7 @@
 - [Case Insensitive](https://github.com/adigitalife/yourls-case-insensitive) - Make YOURLS case insensitive: if you create `http://sho.rt/MyLink`, then variations like `mylink` or `MYLINK` will redirect to the same URL.
 - [Change Error Messages](https://github.com/adigitalife/yourls-change-error-messages) - Changes the error message when a keyword or URL already exists and displays the long URL.
 - [YOURLS GWall Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
+- [Change Password](https://github.com/ozh/yourls-change-password)  ⭐ - Change your password from within YOURLS instead of editing the config file
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
 - [Check URL](https://github.com/adigitalife/yourls-check-url) - Check if a long URL is reachable before creating a short URL
 - [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) - A plugin to resolve concurrency issues with the API as described in Issue 765.
