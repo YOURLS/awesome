@@ -323,6 +323,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Danish](https://github.com/jensz12/YOURLSDK) (`da_DK`)
 - [Dutch](https://github.com/Beun/YOURLS-nl_NL) (`nl_NL`)
 - [Farsi](https://github.com/saahmadnejad/YOURLS-fa_FA) (`fa_FA`)
+- [Finnish](https://github.com/re2man/YOURLS-fi_FI) (`fi_FI`)
 - [French](https://github.com/ozh/YOURLS-fr_FR) (`fr_FR`)
 - [German](https://github.com/Jules81/YOURLS-de_DE) (`de_DE`)
 - [Hindi](https://github.com/itsKV/YOURLS-Hindi-translation) (`hi-IN`)
