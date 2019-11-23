@@ -224,7 +224,11 @@
 
 ### N
 
+- [No Traking Admins](https://github.com/joshp23/YOURLS-No-Tracking-Admins) - No loggin clicks for authenticated users (compatible with OIDC).
+
 ### O
+
+- [OIDC](https://github.com/joshp23/YOURLS-OIDC) - OpenID Connect authentication against a generic OpenID Connect server
 
 ### P
 
