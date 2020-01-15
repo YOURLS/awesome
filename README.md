@@ -104,6 +104,7 @@
 - [Allow Forward Slashes in Short URLs](https://github.com/williambargent/YOURLS-Forward-Slash-In-Urls) - Just as the name says.
 - [Amazon Affiliate](https://github.com/floschliep/YOURLS-Amazon-Affiliate) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection.
 - [Amazon Affiliate With Notice](https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate-With-Redirect-Notice) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection with a notice of Amazon Affiliate link usage.
+- [Anonymise](https://github.com/wlabarron/yourls-anonymise) - Anonymise the log data that YOURLS captures.
 - [Antispam](https://github.com/YOURLS/antispam) ⭐ - Merciless antispam plugin using the 3 major domain blacklists
 - [YOURLS APC Cache](http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/) - Add support for APC to reduce MySQL queries
 - [API Action](https://github.com/YOURLS/API-action) ⭐ - Example plugin for YOURLS 1.6+ to show how to implement custom API actions
@@ -111,7 +112,7 @@
 - [API Edit URL](https://github.com/timcrockford/yourls-api-edit-url) - Add an "update" action to the API to edit a URL, and a "geturl" action to get the long URL of a short URL
 - [Append Query String](https://github.com/drockney/append-qs) - Appends the query string to a long URL- as is
 - [Auth Manager](https://github.com/nicwaller/yourls-authmgr-plugin) - Assign users to roles like "Editor" and "Contributor" to limit the changes they are permitted to make (edit URLs, manage plugins...)
-- [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC) 
+- [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC)
 
 ### B
 
