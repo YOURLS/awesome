@@ -69,6 +69,8 @@
   * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
   * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener)
   * [URL Manager](https://play.google.com/store/apps/details?id=com.kizitonwose.urlmanager) - Integrates with other shortners as well, but allows multiple YOURLS servers. Mainly only creates links for YOURLS
+  * [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete))
+  
 - iOS
   * [ShortFox](https://itunes.apple.com/us/app/shortfox/id1412452706?ls=1&mt=8)
   * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/))
