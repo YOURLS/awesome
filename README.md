@@ -163,7 +163,7 @@
 
 ### F
 
-- [Fallback URL](http://diegopeinador.blogspot.fr/2013/04/fallback-url-simple-plugin-for-yourls.html) - Redirect to a custom URL when the short URL does not exist
+
 - [Filter Code](https://github.com/ShredCode/YOURLS-filter-code) - Allow to select 3XX Status Code to return per keyword
 - [Fix long URLs](https://github.com/adigitalife/yourls-fix-long-url) - Fix long URLs that contain %20 and other similar encodings
 - [Force Lowercase](https://github.com/YOURLS/force-lowercase) ⭐ - Force lowercase so `http://sho.rt/ABC` → `http://sho.rt/abc`
