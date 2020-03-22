@@ -67,7 +67,6 @@
 
 - Android
   * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
-  * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener) // not updated in long time, won't be able to use yourls on new android versions.
   * [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete))
   
 - iOS
