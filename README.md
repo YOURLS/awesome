@@ -4,7 +4,6 @@
 
 - [Resources](#resources)
     - [Official Resources](#official-resources)
-    - [External Resources](#external-resources)
     - [Community](#community)
     - [Tutorials](#tutorials)
 - [Tools](#tools)
@@ -22,12 +21,7 @@
 - [Official Guide](https://yourls.org)
 - [GitHub Repo](https://github.com/YOURLS/YOURLS)
 - [Release Notes](https://github.com/YOURLS/YOURLS/releases)
-- [Road Map](https://github.com/YOURLS/YOURLS/milestones)
 - [YOURLS News](http://blog.yourls.org/)
-
-### External Resources
-
-- [YOURLS Newsletter](https://yourls.org/newsletter) - User Newsletter
 
 ### Community
 
@@ -81,6 +75,7 @@
 
 ### Themes
 
+* [∞²](https://github.com/tomslominski/infinity-squared) - Infinity Squared, a beautiful public page theme for YOURLS
 * [Sleeky](https://github.com/Flynntes/Sleeky) - A sleek and simple frontend & backend theme for YOURLS with light and dark modes
 
 ## Plugins
