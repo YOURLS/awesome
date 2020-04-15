@@ -311,6 +311,7 @@
 
 - [wallabag](https://github.com/jonrandoem/yourls-wallabag) - Allows the sharing of the URL to a Wallabag installation (previously named Poche)
 - [Whatsapp quickshare](https://github.com/WisseHesNL/Whatsapp-quickshare) - Allows you to share your short URL via whatsapp
+- [Word Based Short URLs](https://github.com/ozh/yourls-word-based-short-urls) ⭐ - Generate short URLs with adjectives and nouns, like `http://sho.rt/FluffyArrogantUnicorn`
 
 ### X
 
