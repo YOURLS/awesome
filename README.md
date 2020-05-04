@@ -62,7 +62,7 @@
 - Android
   * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
   * [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete))
-  
+
 - iOS
   * [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
   * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/))
@@ -88,6 +88,7 @@
 
 ### A
 
+- [AAF Rapid Connect auth](https://github.com/clmcavaney/aaf-rapidconnect-auth-yourls) - AAF Rapid Connect authentication plugin for YOURLS
 - [Abuse Desk for YOURLS](http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - A Google Safe Browsing implementation for YOURLS to avoid spam links
 - [Access Control Allow Origin](https://github.com/TEODE/yourls-access-control-allow-origin) - Prevents CORS issue with domain CNAMES and aliases for admin actions
 - [Additional Charsets](https://github.com/josheby/yourls-additional-charsets) - Define additional character sets for short URLs
