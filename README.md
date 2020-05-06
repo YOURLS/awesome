@@ -188,6 +188,7 @@
 
 - [Identi.ca for YOURLS](http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/) - Share YOURLS links via identi.ca
 - [YOURLS IDN](https://github.com/YOURLS/YOURLS-IDN) ⭐ - Add IDN support to YOURLS
+- [Image Placeholder](https://github.com/LeoColomb/yourls-image-placeholder) -  Simple image placeholder service for YOURLS
 - [YOURLS Import Export](https://github.com/GautamGupta/YOURLS-Import-Export) - A plugin to import and export YOURLS URL
 - [Integrated QRCodes](https://github.com/joshp23/YOURLS-IQRCodes) - Integrated QRCodes is an updated fork of Inline QRCode, but more compact, configurable, and just as efficient with more features.
 - [iOS URL](https://github.com/suculent/yourls-ios-url-schemes-plugin) - Adds support for URLs starting with `itms-apps://` and `itms-services://`
@@ -211,6 +212,7 @@
 - [Link Anonymizer](https://github.com/katzwebservices/YOURLS-Link-Anonymizer) - Generate a link that will take you to an anonymizer service.
 - [Link List](https://github.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page
 - [Limit keyword length](https://github.com/adigitalife/yourls-limit-keyword-length) - This plugin limits the number of characters allowed for the custom keyword.
+- [Limited Links](https://github.com/LeoColomb/yourls-limited-links) -limit the number of redirections of a specific link.
 - [log-login](https://github.com/SweBarre/log-login) - Logs login atempts to YOURLS. To be used with fail2ban.
 - [Login Timeout](https://github.com/reanimus/yourls-login-timeout) - Adds a timeout after a certain number of failed logins to mitigate brute force logins.
 - [lowercase username](https://github.com/Virinum/yourls-lowercase-username) - Makes the username lowercase when logging in.
