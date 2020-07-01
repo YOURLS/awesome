@@ -299,7 +299,7 @@
 - [Telegram Quickshare](https://github.com/ColinTheShark/YOURLS_tg-quickshare) - Quickly share a shortened URL via Telegram Messenger.
 - [Title Refetch](https://github.com/joshp23/YOURLS-title-refetch) - Refetch page titles
 - [Timezones](https://github.com/YOURLS/timezones) ⭐ - Tell YOURLS your time zone and how you'd like times and dates displayed
-- [Thumbnail URL image](https://github.com/prog-it/yourls-thumbnail-url) - Get the Thumbnail URL image (long URL) by adding `.i` to the end of the keyword
+- [Thumbnail URL image](https://github.com/stevecohenfr/yourls-thumbnail-url) - Get the Thumbnail URL image (long URL) by adding `.i` to the end of the keyword
 - [Time-Period Clicks](https://github.com/rinogo/yourls-time-period-clicks) - A simple API plugin for reporting URL clicks in a specific time period (e.g. the last week, January 1 - February 1, etc).
 - [Time Limit Link](https://github.com/chesterrush/yourls-Time-Limit-Link) - Set a time limit for links
 - [Track Custom Keyword](https://github.com/timcrockford/track-custom-keywords) - Add a new field to YOURLS designed to track if a keyword was randomly assigned or manually specified
