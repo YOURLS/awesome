@@ -283,7 +283,7 @@
 - [Share LinkedIn](https://github.com/popnt/yourls-linkedin-share) - Adds LinkedIn to the Quick Share Box.
 - [Share with Tumblr](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Share-Tumblr) ⭐ - In the Quick Share box, add a one-click share to Tumblr link.
 - [Shibboleth](https://github.com/fuero/yourls-shibboleth) - Enable authentication with Shibboleth
-- [ShortShort](https://bitbucket.org/abaumg/yourls-shortshort/) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
+- [ShortShort](https://github.com/abaumg/yourls-shortshort) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
 - [Show Git Branch](https://github.com/ozh/show-git-branch) - Using YOURLS on a dev box under Git? Show the current branch in page footer.
 - [SimpleDB Clickqueue](https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue) - Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
 - [Skimlinks](http://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes
