@@ -176,6 +176,7 @@
 - [Google Auth](https://github.com/8thwall/google-auth-yourls) - Enables Google Authentication for YOURLS
 - [Google Analytics YOURLS Plugin](http://www.matbra.com/en/code/google-analytics-yourls-plugin/) - Add your Google Analytics tags to admin and stat pages
 - [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing) ⭐ - Check every new URL against Google's Safe Browsing Lookup service
+- [GTM for YOURLS](https://github.com/dorks-delivered/GTM-for-YOURLS) - Google Tag Manager for every single click
 
 ### H
 
