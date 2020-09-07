@@ -245,7 +245,6 @@
 - [Password Protection](https://github.com/MatthewC/yourls-password-protection) - Password protect any Short URL you want so that users are prompted for a password before redirection
 - [Phishtank](http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - Prevent spam links using Phishtank's API
 - [Phishtank 2.0](https://github.com/joshp23/YOURLS-Phishtank-2.0) - Functional rewrite of the old Phishtank plugin with more features
-- [Piwik Stats](http://code.google.com/p/yourls/issues/detail?id=661) - Integrate statistics with Piwik
 - [Piwik-YOURLS](https://github.com/interfasys/piwik-yourls) - Piwik and a few other features
 - [Popular Clicks](https://github.com/miconda/yourls/tree/master/plugins/popular-clicks) - Display the top of the most clicked links during past days
 - [Popular Clicks Extended](https://github.com/vaughany/yourls-popular-clicks-extended) - Shows which short links get clicked the most during a specific time frame
