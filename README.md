@@ -289,6 +289,7 @@
 - [Show Git Branch](https://github.com/ozh/show-git-branch) - Using YOURLS on a dev box under Git? Show the current branch in page footer.
 - [SimpleDB Clickqueue](https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue) - Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
 - [Skimlinks](http://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes
+- [SMTP Contact](https://github.com/joshp23/YOURLS-SMTP-contact) - Provides a public contact page using PHPMailer for outbound mail delivery
 - [Snapshot](https://github.com/joshp23/YOURLS-Snapshot) - Visual preview plugin with image caching powered by PhantomJS.
 - [YOURLS SQLite](https://github.com/ozh/yourls-sqlite) - SQLite driver for YOURLS
 - [Static Titles](https://github.com/softius/yourls-static-titles) - Provide two options to avoid the network traffic when retrieving URL titles.
