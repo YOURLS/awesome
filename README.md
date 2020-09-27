@@ -218,6 +218,7 @@
 - [Limited Links](https://github.com/LeoColomb/yourls-limited-links) -limit the number of redirections of a specific link.
 - [log-login](https://github.com/SweBarre/log-login) - Logs login atempts to YOURLS. To be used with fail2ban.
 - [Login Timeout](https://github.com/reanimus/yourls-login-timeout) - Adds a timeout after a certain number of failed logins to mitigate brute force logins.
+- [Lookup keywords by long URL substring](https://github.com/bryzgaloff/yourls-api-lookup-keywords-by-url-substr) - Add a "lookup-url-substr" action to YOURLS API which searches keywords by long URL substring (implements `url LIKE %substr%` SQL operation).
 - [lowercase username](https://github.com/Virinum/yourls-lowercase-username) - Makes the username lowercase when logging in.
 
 ### M
