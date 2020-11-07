@@ -56,6 +56,7 @@
 - [Python 2](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS
 - [VB .Net](http://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API
 - [Javascript](http://neocotic.com/yourls-api/) - JavaScript bindings for the YOURLS API to leverage JSONP support
+- [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard
 
 ### Applications
 
