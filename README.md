@@ -77,6 +77,7 @@
 ### Themes
 
 * [∞²](https://github.com/tomslominski/infinity-squared) - Infinity Squared, a beautiful public page theme for YOURLS
+* [Air 66](https://github.com/air66design/air66-yourls-admin-theme) - A responsive admin theme for YOURLS
 * [Sleeky](https://github.com/Flynntes/Sleeky) - A sleek and simple frontend & backend theme for YOURLS with light and dark modes
 
 ## Plugins
