@@ -22,10 +22,6 @@
 - [GitHub Repo](https://github.com/YOURLS/YOURLS)
 - [Release Notes](https://github.com/YOURLS/YOURLS/releases)
 - [YOURLS News](http://blog.yourls.org/)
-
-### Community
-
-- [Twitter](https://twitter.com/yourls)
 - [Official Forum](https://discourse.yourls.org/)
 
 ### Tutorials
@@ -57,6 +53,7 @@
 - [VB .Net](http://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API
 - [Javascript](http://neocotic.com/yourls-api/) - JavaScript bindings for the YOURLS API to leverage JSONP support
 - [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard
+- [Telegram bot](https://simon-eller.at/en/projects/lets-short) - A [Telegram bot](https://t.me/LetsShortBot) to shorten links
 
 ### Applications
 
