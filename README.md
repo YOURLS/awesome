@@ -58,8 +58,8 @@
 ### Applications
 
 - Android
-  * [URLy](https://play.google.com/store/apps/details?id=com.mndroid.apps.urly)
   * [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete))
+  * [iC-YOURLS](https://play.google.com/store/apps/details?id=net.inscomers.yourls) - A simple YOURLS app for Android, supports receiving links from other apps
 
 - iOS
   * [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
