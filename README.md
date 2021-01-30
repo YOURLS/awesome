@@ -24,6 +24,10 @@
 - [YOURLS News](http://blog.yourls.org/)
 - [Official Forum](https://discourse.yourls.org/)
 
+### Community
+
+- [Install Guide in Chinese](https://lza59.com/archives/yourls.html)
+
 ### Tutorials
 
 - [YOURLS with Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html) on eugenegordin.com
