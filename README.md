@@ -345,7 +345,7 @@ Make YOURLS work with other platforms, programming languages or tools
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
 - [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS
 - [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package
-- Laraval
+- Laravel
   * [Laravel YOURLS Plugin](https://github.com/phpsa/laravel-yourls-plugin)
   * [Laraval YOURLS](https://github.com/orumad/laravel-yourls)
 - Perl
@@ -362,13 +362,11 @@ Make YOURLS work with other platforms, programming languages or tools
 - [Telegram bot](https://simon-eller.at/en/projects/lets-short) - A [Telegram bot](https://t.me/LetsShortBot) to shorten links
 
 
-
 ### Applications [⇡](#integrations-)
 
 - Android
   * [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete))
   * [iC-YOURLS](https://play.google.com/store/apps/details?id=net.inscomers.yourls) - A simple YOURLS app for Android, supports receiving links from other apps
-
 - iOS
   * [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
   * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/))
