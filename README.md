@@ -367,9 +367,14 @@ Make YOURLS work with other platforms, programming languages or tools
 
 - Android
   * [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete))
+  * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener) - Supports various shortener, including YOURLS
   * [iC-YOURLS](https://play.google.com/store/apps/details?id=net.inscomers.yourls) - A simple YOURLS app for Android, supports receiving links from other apps
+  * [AutoAffiliate](https://play.google.com/store/apps/details?id=com.autoaffiliate) - Automatically convert someone's affiliate link to your affiliate link
 - iOS
+  * [ShortTail](https://www.adamdehaven.com/blog/shorttail-for-yourls-an-elegant-yourls-client-for-iphone/) - An elegant YOURLS client for iPhone
   * [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
+  * [Clicklytics](http://itunes.apple.com/us/app/clicklytics-track-clicks-on/id444008024?mt=8)
+  * [myYOURLS](https://itunes.apple.com/us/app/myyourls/id661934890?mt=8)
   * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/))
 - Chrome
   * [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
@@ -377,7 +382,8 @@ Make YOURLS work with other platforms, programming languages or tools
   * [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
 - Mac
   * [Short Menu](https://shortmenu.com/mac/) - Available for $6 from the App Store or directly from the developer (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/))
-
+- Windows
+  * [YOURLS on Windows](https://appsonwindows.com/apk/127308/) - Run YOURLS as a Windows program
 
 
 ## Guides & Tutorials [⇪](#readme)
