@@ -10,6 +10,7 @@
 - [Translations](#translations-) - YOURLS in your language
 - [Integrations](#integrations-) - Third-party integrations and frameworks
 - [Guides & tutorials](#guides--tutorials-) - Community resources
+- [Showcases](#showcases-) - Inspiration and celebrity endorsements
 
 *Something missing or incorrect ? Want to get your work listed ? See how you can [contribute](CONTRIBUTING.md) !*
 
@@ -411,6 +412,26 @@ Make YOURLS work with other platforms, programming languages or tools
 - [YOURLS with Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html)
 - [YOURLS with Tweetbot](http://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
 
+
+## Showcases [⇪](#readme)
+
+### Sites running YOURLS with a unique design or concept  [⇡](#showcases-)
+
+* http://oe.cd/ - Europe OECD's internal URL shortener with a neat interface and private features
+* https://kiwi.gg/ - A sexy shortener home page with stats and details
+* https://u.nu/ - Very neat public interface and their own command line tool
+* http://yourwish.es/ -  Easily share an Amazon wishlist
+* http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/2010/10/06/vbly-domain-seizure/?europe=true))
+
+### Celebrity endorsements (sort of) [⇡](#showcases-)
+
+* Early review on [Lifehacker](https://lifehacker.com/make-your-own-url-shortening-service-5335216)
+* http://mclrn.co/ by [McLaren Cars](http://www.mclaren.com/)
+* http://smashed.by/ by [Smashing Magazine](http://smashingmagazine.com/)
+* http://cuny.is/ by the [City University of New York](https://www.cuny.edu/)
+* http://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost)
+
+YOURLS has also been used by the NASA, Virgin and Epic Games. Sweet :)
 
 
 ## Contribute [⇪](#readme)
