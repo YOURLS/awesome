@@ -1,6 +1,6 @@
 # Awesome YOURLS [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [<img src="https://github.com/YOURLS/YOURLS/raw/master/images/yourls-logo.svg" alt="YOURLS Logo" align="right" height="120">](https://github.com/YOURLS/awesome-yourls/)
 
-> A curated list of **awesome things** related to **YOURLS**
+> A curated list of **awesome things** related to **[YOURLS](https://github.com/YOURLS/YOURLS)**
 
 ## Contents
 
