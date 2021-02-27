@@ -297,9 +297,9 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 
 This will be the next big thing when YOURLS fully support theming
 
-* [∞²](https://github.com/tomslominski/infinity-squared) - Infinity Squared, a beautiful public page theme for YOURLS.
-* [Air 66](https://github.com/air66design/air66-yourls-admin-theme) - A responsive admin theme for YOURLS.
-* [Sleeky](https://github.com/Flynntes/Sleeky) - A sleek and simple frontend & backend theme for YOURLS with light and dark modes.
+- [∞²](https://github.com/tomslominski/infinity-squared) - Infinity Squared, a beautiful public page theme for YOURLS.
+- [Air 66](https://github.com/air66design/air66-yourls-admin-theme) - A responsive admin theme for YOURLS.
+- [Sleeky](https://github.com/Flynntes/Sleeky) - A sleek and simple frontend & backend theme for YOURLS with light and dark modes.
 
 
 
@@ -341,18 +341,18 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### 3rd party Integrations and Frameworks  [⇡](#integrations-)
 
 - WordPress
-  * [YOURLS Link Creator](http://wordpress.org/extend/plugins/yourls-link-creator/)
-  * [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
-  * There are numerous [WordPress plugins](http://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support.
+  - [YOURLS Link Creator](http://wordpress.org/extend/plugins/yourls-link-creator/)
+  - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
+  - There are numerous [WordPress plugins](http://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support.
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
 - [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS
 - [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package
 - Laravel
-  * [Laravel YOURLS Plugin](https://github.com/phpsa/laravel-yourls-plugin)
-  * [Laraval YOURLS](https://github.com/orumad/laravel-yourls)
+  - [Laravel YOURLS Plugin](https://github.com/phpsa/laravel-yourls-plugin)
+  - [Laraval YOURLS](https://github.com/orumad/laravel-yourls)
 - Perl
-  * [WWW::Shorten::Yourls](https://github.com/pjain/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
-  * [AmazonAffiliatesToYourls](https://github.com/acaranta/AmazonAffiliatesToYourls) - Amazon affiliate management.
+  - [WWW::Shorten::Yourls](https://github.com/pjain/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
+  - [AmazonAffiliatesToYourls](https://github.com/acaranta/AmazonAffiliatesToYourls) - Amazon affiliate management.
 - [Ruby](https://github.com/threestage/yourls) - A Ruby wrapper for the YOURLS API.
 - [Python 3](https://pypi.org/project/pyourls3/) - A Python client for YOURLS, built for Python 3.
 - [Python 2](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS.
@@ -367,24 +367,24 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### Applications [⇡](#integrations-)
 
 - Android
-  * [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete)).
-  * [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener) - Supports various shortener, including YOURLS.
-  * [iC-YOURLS](https://play.google.com/store/apps/details?id=net.inscomers.yourls) - A simple YOURLS app for Android, supports receiving links from other apps.
-  * [AutoAffiliate](https://play.google.com/store/apps/details?id=com.autoaffiliate) - Automatically convert someone's affiliate link to your affiliate link.
+  - [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete)).
+  - [URL Shortener](https://play.google.com/store/apps/details?id=de.keineantwort.android.urlshortener) - Supports various shortener, including YOURLS.
+  - [iC-YOURLS](https://play.google.com/store/apps/details?id=net.inscomers.yourls) - A simple YOURLS app for Android, supports receiving links from other apps.
+  - [AutoAffiliate](https://play.google.com/store/apps/details?id=com.autoaffiliate) - Automatically convert someone's affiliate link to your affiliate link.
 - iOS
-  * [ShortTail](https://www.adamdehaven.com/blog/shorttail-for-yourls-an-elegant-yourls-client-for-iphone/) - An elegant YOURLS client for iPhone.
-  * [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
-  * [Clicklytics](http://itunes.apple.com/us/app/clicklytics-track-clicks-on/id444008024?mt=8)
-  * [myYOURLS](https://itunes.apple.com/us/app/myyourls/id661934890?mt=8)
-  * [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
+  - [ShortTail](https://www.adamdehaven.com/blog/shorttail-for-yourls-an-elegant-yourls-client-for-iphone/) - An elegant YOURLS client for iPhone.
+  - [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
+  - [Clicklytics](http://itunes.apple.com/us/app/clicklytics-track-clicks-on/id444008024?mt=8)
+  - [myYOURLS](https://itunes.apple.com/us/app/myyourls/id661934890?mt=8)
+  - [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 - Chrome
-  * [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
+  - [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
 - Firefox
-  * [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
+  - [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
 - Mac
-  * [Short Menu](https://shortmenu.com/mac/) - Available for $6 from the App Store or directly from the developer (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
+  - [Short Menu](https://shortmenu.com/mac/) - Available for $6 from the App Store or directly from the developer (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 - Windows
-  * [YOURLS on Windows](https://appsonwindows.com/apk/127308/) - Run YOURLS as a Windows program.
+  - [YOURLS on Windows](https://appsonwindows.com/apk/127308/) - Run YOURLS as a Windows program.
 
 
 ## Guides & Tutorials [⇪](#readme)
@@ -396,17 +396,17 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [How to Install YOURLS on a VPS or shared hosting](https://thishosting.rocks/how-to-shorten-your-links-with-your-own-domain/)
 - [YOURLS on Azure](https://www.juharyhanen.com/technology/create-personal-url-shortener-in-5-simple-steps/)
 - CentOS
-  * [How to Install YOURLS on CentOS 7](https://www.vultr.com/docs/how-to-install-yourls-on-centos-7)
-  * [How to install YOURLS on Centos 7](https://www.linuxcloudvps.com/blog/how-to-install-yourls-on-centos-7/)
-  * [How to Install YOURLS on CentOS 8](https://www.howtoforge.com/how-to-install-yourls-on-centos-8/)
+  - [How to Install YOURLS on CentOS 7](https://www.vultr.com/docs/how-to-install-yourls-on-centos-7)
+  - [How to install YOURLS on Centos 7](https://www.linuxcloudvps.com/blog/how-to-install-yourls-on-centos-7/)
+  - [How to Install YOURLS on CentOS 8](https://www.howtoforge.com/how-to-install-yourls-on-centos-8/)
 - [YOURLS on Cloudron](https://www.cloudron.io/store/org.yourls.cloudronapp.html)
 - [YOURLS on Installatron](https://installatron.com/yourls)
 - [YOURLS on Fedora](https://fedoraproject.org/wiki/Install_and_configure_YOURLS_for_AutoQA)
 - Guides for Ubuntu :
-  * [How to install YOURLS on Ubuntu 14.04](https://www.rosehosting.com/blog/how-to-install-yourls-on-ubuntu-14-04/)
-  * [How to install YOURLS on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux//)
-  * [How to install YOURLS on Ubuntu 20.04](https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04)
-  * [How to Install YOURLS on Ubuntu with Nginx and Let’s Encrypt](https://linuxstans.com/how-to-install-yourls/)
+  - [How to install YOURLS on Ubuntu 14.04](https://www.rosehosting.com/blog/how-to-install-yourls-on-ubuntu-14-04/)
+  - [How to install YOURLS on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux//)
+  - [How to install YOURLS on Ubuntu 20.04](https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04)
+  - [How to Install YOURLS on Ubuntu with Nginx and Let’s Encrypt](https://linuxstans.com/how-to-install-yourls/)
 
 ### Installation guides in other languages [⇡](#guides--tutorials-)
 
@@ -424,19 +424,19 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 ### Sites running YOURLS with a unique design or concept  [⇡](#showcases-)
 
-* http://oe.cd/ - Europe OECD's internal URL shortener with a neat interface and private features.
-* https://kiwi.gg/ - A sexy shortener home page with stats and details.
-* https://u.nu/ - Very neat public interface and their own command line tool.
-* http://yourwish.es/ -  Easily share an Amazon wishlist.
-* http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/2010/10/06/vbly-domain-seizure/?europe=true)).
+- http://oe.cd/ - Europe OECD's internal URL shortener with a neat interface and private features.
+- https://kiwi.gg/ - A sexy shortener home page with stats and details.
+- https://u.nu/ - Very neat public interface and their own command line tool.
+- http://yourwish.es/ -  Easily share an Amazon wishlist.
+- http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/2010/10/06/vbly-domain-seizure/?europe=true)).
 
 ### Celebrity endorsements (sort of) [⇡](#showcases-)
 
-* Early review on [Lifehacker](https://lifehacker.com/make-your-own-url-shortening-service-5335216).
-* http://mclrn.co/ by [McLaren Cars](http://www.mclaren.com/).
-* http://smashed.by/ by [Smashing Magazine](http://smashingmagazine.com/).
-* http://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
-* http://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
+- Early review on [Lifehacker](https://lifehacker.com/make-your-own-url-shortening-service-5335216).
+- http://mclrn.co/ by [McLaren Cars](http://www.mclaren.com/).
+- http://smashed.by/ by [Smashing Magazine](http://smashingmagazine.com/).
+- http://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
+- http://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
 
 YOURLS has also been used by the NASA, Virgin and Epic Games. Sweet :)
 
