@@ -1,0 +1,26 @@
+name: Check links
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 12 */7 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7.2
+    - name: Install Awesome Bot
+      run: gem install awesome_bot
+    - name: Run Awesome Bot
+      run: awesome_bot README.md --request-delay 1 --allow-timeout -t 5 --allow-dupe --white-list sho.rt,your.site,long.url,awesome.re
+    - uses: actions/upload-artifact@v1
+      if: failure()
+      with:
+        name: ab-results
+        path: ab-results-README.md-filtered.json
