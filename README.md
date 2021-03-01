@@ -413,6 +413,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [宝塔面板搭建短链接服务 YOURLS](https://lza59.com/archives/yourls.html)
 - [Cómo instalar YOURLS](https://www.websitehostingrating.com/es/how-to-install-yourls-using-softaculous/)
 - [Installer YOURLS, un système d'URL raccourcies](https://www.justegeek.fr/tuto-installer-yourls-un-systeme-durl-raccourcies/)
+- [Трекер Yourls ваш собственный сокращатель ссылок (URL)](https://wiki.dieg.info/yourls)
 
 ### Other tutorials [⇡](#guides--tutorials-)
 
