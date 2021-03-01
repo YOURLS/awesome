@@ -315,7 +315,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Farsi](https://github.com/saahmadnejad/YOURLS-fa_FA) (`fa_FA`)
 - [Finnish](https://github.com/re2man/YOURLS-fi_FI) (`fi_FI`)
 - [French](https://github.com/ozh/YOURLS-fr_FR) (`fr_FR`)
-- [German](https://github.com/Jules81/YOURLS-de_DE) (`de_DE`)
+- [German](https://github.com/DerSev/YOURLS-de_DE) (`de_DE`)
 - [Hindi](https://github.com/itsKV/YOURLS-Hindi-translation) (`hi-IN`)
 - [Indonesian](https://github.com/tigefa4u/YOURLS-1.6-id_ID) (`id_ID`)
 - [Italian](https://github.com/ggardin/YOURLS-it_IT) (`it_IT`)
