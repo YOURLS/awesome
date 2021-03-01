@@ -21,10 +21,10 @@ Official material from the YOURLS team
 - [Official Readme](https://yourls.org)
 - [GitHub Repo](https://github.com/YOURLS/YOURLS)
 - [Release Notes](https://github.com/YOURLS/YOURLS/releases)
-- [YOURLS News](http://blog.yourls.org/)
+- [YOURLS News](https://blog.yourls.org/)
 - [Official Forum](https://discourse.yourls.org/)
 - [YOURLS using Docker](https://hub.docker.com/_/yourls/)
-- [YOURLS using Helm for Kubernetes](https://hub.helm.sh/charts/yourls/yourls)
+- [YOURLS using Helm for Kubernetes](https://artifacthub.io/packages/helm/yourls/yourls)
 
 ## Plugins [⇪](#readme)
 
@@ -55,7 +55,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Amazon Affiliate With Notice](https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate-With-Redirect-Notice) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection with a notice of Amazon Affiliate link usage.
 - [Anonymise](https://github.com/wlabarron/yourls-anonymise) - Anonymise the log data that YOURLS captures.
 - [Antispam](https://github.com/YOURLS/antispam)☑️ - Merciless antispam plugin using the 3 major domain blacklists.
-- [YOURLS APC Cache](http://blog.yourls.org/2011/06/yourls-apc-cache-plugin/) - Add support for APC to reduce MySQL queries.
+- [YOURLS APC Cache](https://blog.yourls.org/2011/06/yourls-apc-cache-plugin/) - Add support for APC to reduce MySQL queries.
 - [API Action](https://github.com/YOURLS/API-action)☑️ - Example plugin for YOURLS 1.6+ to show how to implement custom API actions.
 - [API Delete](https://github.com/claytondaley/yourls-api-delete) - Add a "delete" action to the API.
 - [API Edit URL](https://github.com/timcrockford/yourls-api-edit-url) - Add an "update" action to the API to edit a URL, and a "geturl" action to get the long URL of a short URL.
@@ -82,12 +82,11 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Change Password](https://github.com/ozh/yourls-change-password)☑️ - Change your password from within YOURLS instead of editing the config file.
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
 - [Check URL](https://github.com/adigitalife/yourls-check-url) - Check if a long URL is reachable before creating a short URL.
-- [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) - A plugin to resolve concurrency issues with the API as described in Issue 765.
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
-- [Conditional Toolbar](http://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/)☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
+- [Conditional Toolbar](https://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/)☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
 - [Conditional Advertisements](https://github.com/HeroCC/yourls-conditional-urlads) - A plugin to conditionally send links through various link monetizing services: `http://your.site/short` is normal, `http://your.site/a/short` redirects through AdFly.
-- [Custom Header & Footer](https://github.com/scriptgeni/yourls-custom-header-footer) - A plugin administration page to add custom header and footer style and content.
-- [Custom Javascript](https://github.com/scriptgeni/yourls-custom-javascript) - Add custom javascript to admin pages.
+- [Custom Header & Footer](https://github.com/mediageni/yourls-custom-header-footer) - A plugin administration page to add custom header and footer style and content.
+- [Custom Javascript](https://github.com/mediageni/yourls-custom-javascript) - Add custom javascript to admin pages.
 - [Custom Protocol](https://github.com/YOURLS/custom-protocol)☑️ - If the user is known, this plugin adds custom protocol (eg `blah://`) to authorized protocols, otherwise restricts to `http|s`.
 
 ### D [⇡](#plugins-)
@@ -121,13 +120,13 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 
 ### G [⇡](#plugins-)
 
-- [GA MP](https://github.com/powerthazan/YOURS-GA-MP-Tracking) - Track YOURLS link clicks with Google Analytics Measurement protocol in Real Time.
+- [GA MP](https://github.com/powerthazan/YOURLS-GA-MP-Tracking) - Track YOURLS link clicks with Google Analytics Measurement protocol in Real Time.
 - [Git Version](https://github.com/chtaube/YOURLS-plugin-gitversion) - Add version information from the git repository into the footer of the admin page.
 - [Geo API](https://github.com/boxedfish/yourls-Geo-API-plugin) - Plugin to look up country code from another 3rd party API (geoiplookup.net).
 - [GeoShortURL](https://github.com/tobozo/YOURLS-GeoShortURL) - Plugin to add per-country support to existing short URLs (use it with [302-Instead](https://github.com/timcrockford/302-instead)).
 - [Google Analytics Link Tagging](https://katz.co/2300/) - Add GA tags (utm_source and others) to your shortened links.
 - [Google Auth](https://github.com/8thwall/google-auth-yourls) - Enables Google Authentication for YOURLS.
-- [Google Analytics YOURLS Plugin](http://www.matbra.com/en/code/google-analytics-yourls-plugin/) - Add your Google Analytics tags to admin and stat pages.
+- [Google Analytics YOURLS Plugin](https://www.matbra.com/en/code/google-analytics-yourls-plugin/) - Add your Google Analytics tags to admin and stat pages.
 - [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing)☑️ - Check every new URL against Google's Safe Browsing Lookup service.
 - [GTM for YOURLS](https://github.com/dorks-delivered/GTM-for-YOURLS) - Google Tag Manager for every single click.
 
@@ -138,12 +137,11 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Hide Version String](https://github.com/YOURLS/YOURLS/issues/1878#issuecomment-88450475) - Hide the version string in the footer.
 - [HTTP:BL](https://github.com/joshp23/YOURLS-httpBL) - Prevent spam using the black list from Project Honeypot.
 - [HTTP Proxy](https://github.com/adigitalife/yourls-http-proxy) - Get remote content using an HTTP proxy, for instance when YOURLS is running behind a firewall (e.g. corporate intranet).
-- [HTTP status per link](https://github.com/Jelle-S/YOURLS-http-status-per-link) - Plugin to allow you to select `3XX` Status Code to return per keyword.
 - [HTTP status per link](https://github.com/digipolisgent/yourls_plugin_http-status-per-link) - Select `3XX` Status Code to return per keyword.
 
 ### I [⇡](#plugins-)
 
-- [Identi.ca for YOURLS](http://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/) - Share YOURLS links via identi.ca.
+- [Identi.ca for YOURLS](https://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/) - Share YOURLS links via identi.ca.
 - [YOURLS IDN](https://github.com/YOURLS/YOURLS-IDN)☑️ - Add IDN support to YOURLS.
 - [Image Placeholder](https://github.com/LeoColomb/yourls-image-placeholder)☑️ -  Simple image placeholder service for YOURLS.
 - [YOURLS Import Export](https://github.com/GautamGupta/YOURLS-Import-Export) - A plugin to import and export YOURLS URL.
@@ -183,7 +181,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Mass Update](https://github.com/Binarypark/yourls-api-mass-update) - Adds an API action to mass update links from `old_domain` to `new_domain`.
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS.
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
-- [Multi User](http://www.matbra.com/en/code/multi-user-yourls-plugin/) - Add support for multiple users.
+- [Multi User](https://www.matbra.com/en/code/multi-user-yourls-plugin/) - Add support for multiple users.
 - [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Add ability to redirect by user device OS.
 
 ### N [⇡](#plugins-)
@@ -200,7 +198,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 ### P [⇡](#plugins-)
 
 - [Password Protection](https://github.com/MatthewC/yourls-password-protection) - Password protect any Short URL you want so that users are prompted for a password before redirection.
-- [Phishtank](http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - Prevent spam links using Phishtank's API.
+- [Phishtank](https://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - Prevent spam links using Phishtank's API.
 - [Phishtank 2.0](https://github.com/joshp23/YOURLS-Phishtank-2.0) - Functional rewrite of the old Phishtank plugin with more features.
 - [Piwik-YOURLS](https://github.com/interfasys/piwik-yourls) - Piwik and a few other features.
 - [Popular Clicks](https://github.com/miconda/yourls/tree/master/plugins/popular-clicks) - Display the top of the most clicked links during past days.
@@ -217,10 +215,10 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 
 - [QRCode](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-QRCode-ShortURL)☑️ - Add ".qr" to short URLs to display the shorturl's QR code.
 - [QRCode](http://techlister.com/plugins-2/qrcode-plugin-for-yourls/354/) - Creates and displays QR Codes within YOURLS.
-- [QR Google Charts](http://aiaraldea.github.com/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
+- [QR Google Charts](http://aiaraldea.github.io/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
 - [QRCode](https://github.com/seandrickson/YOURLS-QRCode-Plugin) - Another QR Code plugin. Get the QR code by simply clicking on a button in the Admin area (or by adding ".qr" to the end of the keyword).
-- [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://very.long.url/somepage/?a=1`).
-- [Query String Keeper](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://longurl/bleh/?hey`).
+- [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
+- [Query String Keeper](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://long.url/bleh/?hey`).
 
 ### R [⇡](#plugins-)
 
@@ -238,7 +236,6 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Semantic Scuttle](https://github.com/jonrandoem/yourls-semanticscuttle) - Allows the sharing of the URL to a Semantic Scuttle installation.
 - [Separate Users](https://github.com/ianbarber/Yourls-Separate-Users) - Adds a username to each created URL, and filters the admin interface.
 - [Shaarli](https://github.com/miwasp/yourls-shaarli) - Allows the sharing of the URL to a Shaarli installation.
-- [Share G+](https://github.com/ChrTang/yourls-share-gplus) - Adds Google+ to the Quick Share Box.
 - [Share LinkedIn](https://github.com/popnt/yourls-linkedin-share) - Adds LinkedIn to the Quick Share Box.
 - [Share with Tumblr](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Share-Tumblr)☑️ - In the Quick Share box, add a one-click share to Tumblr link.
 - [Shibboleth](https://github.com/fuero/yourls-shibboleth) - Enable authentication with Shibboleth.
@@ -253,11 +250,11 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [YOURLS SQLite](https://github.com/Flameborn/yourls-sqlite) - A fork of the original SQLite driver for YOURLS, actively maintained.
 - [Static Titles](https://github.com/softius/yourls-static-titles) - Provide two options to avoid the network traffic when retrieving URL titles.
 - [SSL for SSL](https://github.com/tipichris/ssl4ssl) - Generates SSL short links if the original link was SSL.
-- [Swap Short URL](https://github.com/ggwarpig/Yourls-Swap-Short-Url) - A plugin to have `http://sho.rt/blah` while having YOURLS installed in `http://sho.rt/yourls/`
+- [Swap Short URL](https://github.com/gerbz/Yourls-Swap-Short-Url) - A plugin to have `http://sho.rt/blah` while having YOURLS installed in `http://sho.rt/yourls/`
 
 ### T [⇡](#plugins-)
 
-- [Telegram Quickshare](https://github.com/ColinTheShark/YOURLS_tg-quickshare) - Quickly share a shortened URL via Telegram Messenger.
+- [Telegram Quickshare](https://github.com/ColinShark/YOURLS_tg-quickshare) - Quickly share a shortened URL via Telegram Messenger.
 - [Title Refetch](https://github.com/joshp23/YOURLS-title-refetch) - Refetch page titles.
 - [Timezones](https://github.com/YOURLS/timezones)☑️ - Tell YOURLS your time zone and how you'd like times and dates displayed.
 - [Thumbnail URL image](https://github.com/stevecohenfr/yourls-thumbnail-url) - Get the Thumbnail URL image (long URL) by adding `.i` to the end of the keyword.
@@ -276,7 +273,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 ### W [⇡](#plugins-)
 
 - [wallabag](https://github.com/jonrandoem/yourls-wallabag) - Allows the sharing of the URL to a Wallabag installation (previously named Poche).
-- [Whatsapp quickshare](https://github.com/WisseHesNL/Whatsapp-quickshare) - Allows you to share your short URL via whatsapp.
+- [Whatsapp quickshare](https://github.com/TheChicken14/Whatsapp-quickshare) - Allows you to share your short URL via whatsapp.
 - [Word Based Short URLs](https://github.com/ozh/yourls-word-based-short-urls)☑️ - Generate short URLs with adjectives and nouns, like `http://sho.rt/FluffyArrogantUnicorn`.
 
 ### X [⇡](#plugins-)
@@ -317,20 +314,20 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [French](https://github.com/ozh/YOURLS-fr_FR) (`fr_FR`)
 - [German](https://github.com/DerSev/YOURLS-de_DE) (`de_DE`)
 - [Hindi](https://github.com/itsKV/YOURLS-Hindi-translation) (`hi-IN`)
-- [Indonesian](https://github.com/tigefa4u/YOURLS-1.6-id_ID) (`id_ID`)
+- [Indonesian](https://github.com/tigefa4u/YOURLS-id_ID-Translations) (`id_ID`)
 - [Italian](https://github.com/ggardin/YOURLS-it_IT) (`it_IT`)
 - [Japanese](https://github.com/havill/YOURLS-ja_JP) (`ja_JP`)
 - [Korean](https://github.com/at4am/YOURLS-ko_KR) (`ko_KR`)
-- [Norwegian (bokmål)](https://github.com/armandg/YOURLS-nb_NO) (`nb_NO`)
+- [Norwegian (bokmål)](https://github.com/geirawsm/YOURLS-nb_NO) (`nb_NO`)
 - [Polish](https://github.com/tomslominski/YOURLS-pl_PL) (`pl_PL`)
 - [Portuguese](https://github.com/oscarmarcelo/YOURLS-pt_PT) (`pt_PT`)
 - [Russian](https://github.com/nsauk/YOURLS-ru_RU) (`ru_RU`)
 - [Simplified Chinese](https://github.com/ZvonimirSun/YOURLS-zh_CN) (`zh_CN`)
-- [Slovak](https://github.com/RunGroup/YOURLS-sk_SK) (`sk_SK`)
+- [Slovak](https://github.com/filyph/YOURLS-sk_SK) (`sk_SK`)
 - [Spanish](https://github.com/kralizeck/YOURLS-es_ES) (`es_ES`)
 - [Telugu](https://github.com/kalyan4786/YOURLS_Telugu_Translation) (`te_IN`)
 - [Turkish](https://github.com/mugurcagdas/YOURLS_TR) (`tr_TR`)
-- [Traditional Chinese](https://github.com/aee1027/YOURLS-zh_TW) (`zh_TW`)
+- [Traditional Chinese](https://github.com/AlexisKerib/YOURLS-zh_TW) (`zh_TW`)
 - [Viet Nam](https://github.com/tmtung144/YOURLS) (`vi_VN`)
 
 
@@ -341,24 +338,24 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### 3rd party Integrations and Frameworks  [⇡](#integrations-)
 
 - WordPress
-  - [YOURLS Link Creator](http://wordpress.org/extend/plugins/yourls-link-creator/)
+  - [YOURLS Link Creator](https://wordpress.org/extend/plugins/yourls-link-creator/)
   - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
-  - There are numerous [WordPress plugins](http://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support.
-- [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal. Requires the [title-refetch](https://github.com/joshp23/YOURLS-title-refetch) and [API Concurrency Fix](https://bitbucket.org/laceous/yourls-concurrency-fix) plugins to be installed in YOURLS. See [this](https://www.drupal.org/project/shorten/issues/2889342) Drupal issue for details.
-- [CakePHP](https://github.com/driflash/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS
-- [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package
+  - There are numerous [WordPress plugins](https://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support.
+- [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal.
+- [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
+- [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package.
 - Laravel
   - [Laravel YOURLS Plugin](https://github.com/phpsa/laravel-yourls-plugin)
   - [Laraval YOURLS](https://github.com/orumad/laravel-yourls)
 - Perl
-  - [WWW::Shorten::Yourls](https://github.com/pjain/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
+  - [WWW::Shorten::Yourls](https://github.com/p5-shorten/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
   - [AmazonAffiliatesToYourls](https://github.com/acaranta/AmazonAffiliatesToYourls) - Amazon affiliate management.
 - [Ruby](https://github.com/threestage/yourls) - A Ruby wrapper for the YOURLS API.
 - [Python 3](https://pypi.org/project/pyourls3/) - A Python client for YOURLS, built for Python 3.
 - [Python 2](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS.
 - [status.net](https://github.com/rthees/yourls-status-net) - Plugin for status.net to use YOURLS.
-- [VB .Net](http://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API.
-- [Javascript](http://neocotic.com/yourls-api/) - JavaScript bindings for the YOURLS API to leverage JSONP support.
+- [VB .Net](https://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API.
+- [Javascript](https://neocotic.com/yourls-api/) - JavaScript bindings for the YOURLS API to leverage JSONP support.
 - [YOURLS API for nodejs](https://www.npmjs.com/package/yourls)
 - [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard.
 - [Telegram bot](https://simon-eller.at/en/projects/lets-short) - A [Telegram bot](https://t.me/LetsShortBot) to shorten links.
@@ -374,13 +371,13 @@ Make YOURLS work with other platforms, programming languages or tools.
 - iOS
   - [ShortTail](https://www.adamdehaven.com/blog/shorttail-for-yourls-an-elegant-yourls-client-for-iphone/) - An elegant YOURLS client for iPhone.
   - [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
-  - [Clicklytics](http://itunes.apple.com/us/app/clicklytics-track-clicks-on/id444008024?mt=8)
-  - [myYOURLS](https://itunes.apple.com/us/app/myyourls/id661934890?mt=8)
+  - [Clicklytics](https://apps.apple.com/us/app/clicklytics-track-clicks-on/id444008024)
+  - [myYOURLS](https://apps.apple.com/us/app/myyourls/id661934890)
   - [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 - Chrome
   - [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
 - Firefox
-  - [YOURLS shortener](https://addons.mozilla.org/en-us/firefox/addon/yourls-shortener/)
+  - [YOURLS shortener](https://addons.mozilla.org/en-US/firefox/addon/yourls-shortener/)
 - Mac
   - [Short Menu](https://shortmenu.com/mac/) - Available for $6 from the App Store or directly from the developer (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 - Windows
@@ -404,7 +401,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [YOURLS on Fedora](https://fedoraproject.org/wiki/Install_and_configure_YOURLS_for_AutoQA)
 - Guides for Ubuntu :
   - [How to install YOURLS on Ubuntu 14.04](https://www.rosehosting.com/blog/how-to-install-yourls-on-ubuntu-14-04/)
-  - [How to install YOURLS on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux//)
+  - [How to install YOURLS on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux/)
   - [How to install YOURLS on Ubuntu 20.04](https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04)
   - [How to Install YOURLS on Ubuntu with Nginx and Let’s Encrypt](https://linuxstans.com/how-to-install-yourls/)
 
@@ -418,14 +415,14 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### Other tutorials [⇡](#guides--tutorials-)
 
 - [YOURLS with Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html)
-- [YOURLS with Tweetbot](http://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
+- [YOURLS with Tweetbot](https://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
 
 
 ## Showcases [⇪](#readme)
 
 ### Sites running YOURLS with a unique design or concept  [⇡](#showcases-)
 
-- http://oe.cd/ - Europe OECD's internal URL shortener with a neat interface and private features.
+- https://oe.cd/ - Europe OECD's internal URL shortener with a neat interface and private features.
 - https://kiwi.gg/ - A sexy shortener home page with stats and details.
 - https://u.nu/ - Very neat public interface and their own command line tool.
 - http://yourwish.es/ -  Easily share an Amazon wishlist.
@@ -434,10 +431,10 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### Celebrity endorsements (sort of) [⇡](#showcases-)
 
 - Early review on [Lifehacker](https://lifehacker.com/make-your-own-url-shortening-service-5335216).
-- http://mclrn.co/ by [McLaren Cars](http://www.mclaren.com/).
-- http://smashed.by/ by [Smashing Magazine](http://smashingmagazine.com/).
-- http://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
-- http://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
+- http://mclrn.co/ by [McLaren Cars](https://www.mclaren.com/).
+- https://smashed.by/ by [Smashing Magazine](https://smashingmagazine.com/).
+- https://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
+- http://www.dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
 
 YOURLS has also been used by the NASA, Virgin and Epic Games. Sweet :)
 
@@ -448,5 +445,5 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 ## License [⇪](#readme)
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
