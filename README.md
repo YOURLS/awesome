@@ -359,6 +359,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [YOURLS API for nodejs](https://www.npmjs.com/package/yourls)
 - [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard.
 - [Telegram bot](https://simon-eller.at/en/projects/lets-short) - A [Telegram bot](https://t.me/LetsShortBot) to shorten links.
+- [YOURLS Bot](https://gitlab.com/HirschHeissIch/yourls-bot) - Open source code base for hosting your own Telegram bot to shorten links via your own YOURLS instance. Includes access control by default, so suitable for non-public YOURLS instances.
 
 
 ### Applications [⇡](#integrations-)
