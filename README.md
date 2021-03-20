@@ -22,7 +22,7 @@ Official material from the YOURLS team
 - [GitHub Repo](https://github.com/YOURLS/YOURLS)
 - [Release Notes](https://github.com/YOURLS/YOURLS/releases)
 - [YOURLS News](https://blog.yourls.org/)
-- [Official Forum](https://discourse.yourls.org/)
+- [Community Discussions](https://github.com/YOURLS/YOURLS/discussions)
 - [YOURLS using Docker](https://hub.docker.com/_/yourls/)
 - [YOURLS using Helm for Kubernetes](https://artifacthub.io/packages/helm/yourls/yourls)
 
