@@ -127,7 +127,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [GeoShortURL](https://github.com/tobozo/YOURLS-GeoShortURL) - Plugin to add per-country support to existing short URLs (use it with [302-Instead](https://github.com/timcrockford/302-instead)).
 - [Google Analytics Link Tagging](https://katz.co/2300/) - Add GA tags (utm_source and others) to your shortened links.
 - [Google Auth](https://github.com/8thwall/google-auth-yourls) - Enables Google Authentication for YOURLS.
-- [Google Analytics YOURLS Plugin](https://www.matbra.com/en/code/google-analytics-yourls-plugin/) - Add your Google Analytics tags to admin and stat pages.
+- [Google Analytics YOURLS Plugin](https://wordpress.matbra.com/en/code/google-analytics-yourls-plugin/) - Add your Google Analytics tags to admin and stat pages.
 - [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing)☑️ - Check every new URL against Google's Safe Browsing Lookup service.
 - [GTM for YOURLS](https://github.com/dorks-delivered/GTM-for-YOURLS) - Google Tag Manager for every single click.
 
@@ -166,7 +166,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 
 - [LDAP](https://github.com/k3a/yourls-ldap-plugin) - Enables use of LDAP for user authentication.
 - [Link Anonymizer](https://github.com/katzwebservices/YOURLS-Link-Anonymizer) - Generate a link that will take you to an anonymizer service.
-- [Link List](https://github.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page.
+- [Link List](https://gitlab.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page.
 - [Limit keyword length](https://github.com/adigitalife/yourls-limit-keyword-length) - This plugin limits the number of characters allowed for the custom keyword.
 - [Limited Links](https://github.com/LeoColomb/yourls-limited-links)☑️ -limit the number of redirections of a specific link.
 - [log-login](https://github.com/SweBarre/log-login) - Logs login atempts to YOURLS. To be used with fail2ban.
@@ -244,7 +244,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [ShortShort](https://github.com/abaumg/yourls-shortshort) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
 - [Show Git Branch](https://github.com/ozh/show-git-branch)☑️ - Using YOURLS on a dev box under Git? Show the current branch in page footer.
 - [SimpleDB Clickqueue](https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue) - Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
-- [Skimlinks](http://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes.
+- [Skimlinks](https://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes.
 - [Skip Click Count](https://github.com/vipwangtian/yourls-skip-click-count) - Don't count clicks on short URLs.
 - [SMTP Contact](https://github.com/joshp23/YOURLS-SMTP-contact) - Provides a public contact page using PHPMailer for outbound mail delivery.
 - [Snapshot](https://github.com/joshp23/YOURLS-Snapshot) - Visual preview plugin with image caching powered by PhantomJS.
@@ -340,9 +340,9 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### 3rd party Integrations and Frameworks  [⇡](#integrations-)
 
 - WordPress
-  - [YOURLS Link Creator](https://wordpress.org/extend/plugins/yourls-link-creator/)
+  - [YOURLS Link Creator](https://wordpress.org/plugins/yourls-link-creator/)
   - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
-  - There are numerous [WordPress plugins](https://wordpress.org/extend/plugins/search.php?q=yourls) with YOURLS support.
+  - There are numerous [WordPress plugins](https://wordpress.org/plugins/search.php?q=yourls) with YOURLS support.
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal.
 - [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
 - [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package.
@@ -357,7 +357,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [Python 2](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS.
 - [status.net](https://github.com/rthees/yourls-status-net) - Plugin for status.net to use YOURLS.
 - [VB .Net](https://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API.
-- [Javascript](https://neocotic.com/yourls-api/) - JavaScript bindings for the YOURLS API to leverage JSONP support.
+- [Javascript](https://github.com/neocotic/yourls-api) - JavaScript bindings for the YOURLS API to leverage JSONP support.
 - [YOURLS API for nodejs](https://www.npmjs.com/package/yourls)
 - [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard.
 - [Telegram bot](https://simon-eller.at/en/projects/lets-short) - A [Telegram bot](https://t.me/LetsShortBot) to shorten links.
