@@ -112,7 +112,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 
 ### F [⇡](#plugins-)
 
-- [Fallback URL](https://github.com/ozh/yourls-fallback-url/)☑️ - Redirect to a custom URL when the short URL does not exist.
+- [Fallback URL](https://github.com/ozh/yourls-fallback-url/) - Redirect to a custom URL when the short URL does not exist.
 - [Favicon](https://github.com/YOURLS/yourls-favicon/)☑️ - Properly displayed favicon in all cases (home screen on iOS, Android, Chrome, Safari...).
 - [Filter Code](https://github.com/ShredCode/YOURLS-filter-code) - Allow to select 3XX Status Code to return per keyword.
 - [Fix long URLs](https://github.com/adigitalife/yourls-fix-long-url) - Fix long URLs that contain %20 and other similar encodings.
