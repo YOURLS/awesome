@@ -183,7 +183,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Mass Update](https://github.com/Binarypark/yourls-api-mass-update) - Adds an API action to mass update links from `old_domain` to `new_domain`.
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS.
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
-- [Multi User](https://www.matbra.com/en/code/multi-user-yourls-plugin/) - Add support for multiple users.
+- [Multi User](https://wordpress.matbra.com/en/code/multi-user-yourls-plugin/) - Add support for multiple users.
 - [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Add ability to redirect by user device OS.
 
 ### N [⇡](#plugins-)
@@ -209,7 +209,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Preview URL](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Preview-URL)☑️ - Add the character '~' to a short URL to display a preview screen before redirection.
 - [Preview URL with QR Code](https://github.com/dennydai/yourls-preview-url-with-qrcode) - Add the character '~' to a short URL to display a preview screen & QR code before redirection.
 - [Preview URL with QR Code And Thumbnail](https://github.com/prog-it/yourls-preview-url-with-qrcode-thumbnail) - Add the character '~' to a short URL to display a QR code and Thumbnail image before redirection.
-- [Public "Prefix n' Shorten"](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Public-Prefix-'n'-Shorten)☑️ - Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area.
+- [Public "Prefix n' Shorten"](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Public-Prefix-And-Shorten)☑️ - Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area.
 - [YOURLS Pseudonymize](https://github.com/ubicoo/yourls-pseudonymize) - This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed).
 - [PUNS](https://github.com/joshp23/YOURLS-PUNS) - A Plugin Update Notification System: provides a report-generating page and an API with optional email notifications.
 
@@ -245,7 +245,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [ShortShort](https://github.com/abaumg/yourls-shortshort) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
 - [Show Git Branch](https://github.com/ozh/show-git-branch)☑️ - Using YOURLS on a dev box under Git? Show the current branch in page footer.
 - [SimpleDB Clickqueue](https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue) - Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
-- [Skimlinks](https://www.mattytemple.com/2010/12/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes.
+- [Skimlinks](https://mattytemple.com/plugin/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes.
 - [Skip Click Count](https://github.com/vipwangtian/yourls-skip-click-count) - Don't count clicks on short URLs.
 - [SMTP Contact](https://github.com/joshp23/YOURLS-SMTP-contact) - Provides a public contact page using PHPMailer for outbound mail delivery.
 - [Snapshot](https://github.com/joshp23/YOURLS-Snapshot) - Visual preview plugin with image caching powered by PhantomJS.
@@ -343,7 +343,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - WordPress
   - [YOURLS Link Creator](https://wordpress.org/plugins/yourls-link-creator/)
   - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
-  - There are numerous [WordPress plugins](https://wordpress.org/plugins/search.php?q=yourls) with YOURLS support.
+  - There are numerous [WordPress plugins](https://wordpress.org/plugins/search/yourls/) with YOURLS support.
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal.
 - [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
 - [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package.
@@ -436,9 +436,9 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 - Early review on [Lifehacker](https://lifehacker.com/make-your-own-url-shortening-service-5335216).
 - http://mclrn.co/ by [McLaren Cars](https://www.mclaren.com/).
-- https://smashed.by/ by [Smashing Magazine](https://smashingmagazine.com/).
+- https://smashed.by/ by [Smashing Magazine](https://www.smashingmagazine.com/).
 - https://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
-- http://www.dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
+- https://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
 
 YOURLS has also been used by the NASA, Virgin and Epic Games. Sweet :)
 
