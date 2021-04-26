@@ -18,9 +18,14 @@ jobs:
     - name: Install Awesome Bot
       run: gem install awesome_bot
     - name: Run Awesome Bot
-      run: awesome_bot README.md --request-delay 1 --allow-timeout -t 5 --allow-dupe --white-list sho.rt,your.site,long.url,awesome.re
-    - uses: actions/upload-artifact@v2.2.3
-      if: failure()
-      with:
-        name: ab-results
-        path: ab-results-README.md-filtered.json
+      run: >
+        awesome_bot README.md
+          --request-delay 1
+          --allow-ssl
+          --allow-timeout
+          -t 5
+          --allow-dupe
+          --allow 501,502
+          --allow-redirect
+          --white-list sho.rt,your.site,long.url,awesome.re,apps.apple.com,mclrn.co
+    
