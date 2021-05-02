@@ -2,6 +2,7 @@ name: Check links
 
 on:
   push:
+  pull_request:
   workflow_dispatch:
   schedule:
     - cron:  '0 12 */7 * *'
@@ -18,5 +19,5 @@ jobs:
     - name: Install Awesome Bot
       run: gem install awesome_bot
     - name: Run Awesome Bot
-      run: awesome_bot README.md --request-delay 1 --allow-ssl --allow-timeout -t 5 --allow-dupe --allow 501,502 --allow-redirect --white-list sho.rt,your.site,long.url,awesome.re,apps.apple.com,mclrn.co
+      run: awesome_bot README.md --request-delay 1 --allow-ssl --allow-timeout -t 5 --allow-dupe --allow 501,502 --allow-redirect --white-list sho.rt,your.site,long.url,awesome.re
     
