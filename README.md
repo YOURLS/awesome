@@ -376,8 +376,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 - iOS
   - [ShortTail](https://www.adamdehaven.com/blog/shorttail-for-yourls-an-elegant-yourls-client-for-iphone/) - An elegant YOURLS client for iPhone.
   - [ShortFox2](https://apps.apple.com/us/app/shortfox2/id1465812791?ls=1&t=8)
-  - [Clicklytics](https://apps.apple.com/us/app/clicklytics-track-clicks-on/id444008024)
-  - [myYOURLS](https://apps.apple.com/us/app/myyourls/id661934890)
   - [Short Menu](https://shortmenu.com/ios/) - YOURLS support requires a one-time in-app purchase of about $2 USD (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 - Chrome
   - [YOURLS](https://chrome.google.com/webstore/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken)
