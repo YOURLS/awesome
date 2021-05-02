@@ -354,9 +354,11 @@ Make YOURLS work with other platforms, programming languages or tools.
 - Perl
   - [WWW::Shorten::Yourls](https://github.com/p5-shorten/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
   - [AmazonAffiliatesToYourls](https://github.com/acaranta/AmazonAffiliatesToYourls) - Amazon affiliate management.
+- Python
+  - [pyourls3](https://pypi.org/project/pyourls3/) - A Python client for YOURLS, built for Python 3.
+  - [python-yourls](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS.
+  - [yourls-python](https://github.com/razerm/yourls-python) - `pip install yourls` for Python 2 or 3
 - [Ruby](https://github.com/threestage/yourls) - A Ruby wrapper for the YOURLS API.
-- [Python 3](https://pypi.org/project/pyourls3/) - A Python client for YOURLS, built for Python 3.
-- [Python 2](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS.
 - [status.net](https://github.com/rthees/yourls-status-net) - Plugin for status.net to use YOURLS.
 - [VB .Net](https://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API.
 - [Javascript](https://github.com/neocotic/yourls-api) - JavaScript bindings for the YOURLS API to leverage JSONP support.
@@ -407,6 +409,7 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [How to install YOURLS on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux/)
   - [How to install YOURLS on Ubuntu 20.04](https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04)
   - [How to Install YOURLS on Ubuntu with Nginx and Let’s Encrypt](https://linuxstans.com/how-to-install-yourls/)
+- [How to install YOURLS, reverse proxy and letsencrypt on Unraid](https://technicalramblings.com/blog/how-to-install-yourls-and-reverse-proxy-it-using-linuxserver-letsencrypt-on-unraid/)
 
 ### Installation guides in other languages [⇡](#guides--tutorials-)
 
