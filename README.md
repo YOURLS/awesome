@@ -101,6 +101,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Don't Log Crawlers](https://github.com/luixxiul/dont-log-crawlers/) - A fork of the `Don't Log Bots`, with more bots filtered out.
 - [Don't Log Health Checker](https://github.com/guessi/yourls-dont-log-health-checker) - A fork of `Don't Log Bots`, with more bots filtered out.
 - [Don't Track Admin Clicks](https://github.com/dgw/yourls-dont-track-admins) - Don't count clicks on short URL if user is logged in.
+- [Download Plugin](https://github.com/krissss/yourls-download-plugin) - Download yourls plugind quickly in admin panel.
 
 ### E [⇡](#plugins-)
 
