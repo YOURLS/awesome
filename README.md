@@ -332,7 +332,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Spanish](https://github.com/kralizeck/YOURLS-es_ES) (`es_ES`)
 - [Telugu](https://github.com/kalyan4786/YOURLS_Telugu_Translation) (`te_IN`)
 - [Turkish](https://github.com/mugurcagdas/YOURLS_TR) (`tr_TR`)
-- [Traditional Chinese](https://github.com/AlexisKerib/YOURLS-zh_TW) (`zh_TW`)
+- [Traditional Chinese](https://github.com/alexclassroom/YOURLS-zh_TW) (`zh_TW`)
 - [Viet Nam](https://github.com/tmtung144/YOURLS) (`vi_VN`)
 
 
