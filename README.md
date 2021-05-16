@@ -1,11 +1,12 @@
-# Awesome YOURLS [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [<img src="https://github.com/YOURLS/YOURLS/raw/master/images/yourls-logo.svg" alt="YOURLS Logo" align="right" height="120">](https://github.com/YOURLS/awesome-yourls/)
+# Awesome YOURLS [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [<img src="https://github.com/YOURLS/YOURLS/raw/master/images/yourls-logo.svg" alt="YOURLS Logo" align="right" height="120">](https://github.com/YOURLS/awesome-yourls/) [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
 
 > A curated list of **awesome things** related to **[YOURLS](https://github.com/YOURLS/YOURLS)**
 
 ## Contents
 
 - [Official Links](#official-links-) - Official guides and tools
-- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful
+- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful.
+  Currently: **<!--plugin_count-->185<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 - [Themes](#themes-) - to customize how YOURLS looks
 - [Translations](#translations-) - YOURLS in your language
 - [Integrations](#integrations-) - Third-party integrations and frameworks
@@ -29,6 +30,11 @@ Official material from the YOURLS team
 ## Plugins [⇪](#readme)
 
 All known plugins - either from the community, or from the YOURLS team, marked with a ☑️
+
+Currently we have **<!--plugin_count-->185<!--/plugin_count-->** plugins listed.
+<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
+
+Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
 
 Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F](#f-) | [G](#g-) | [H](#h-) | [I](#i-) | [J](#j-) | [K](#k-) | [L](#l-) | [M](#m-) | [N](#n-) | [O](#o-) | [P](#p-) | [Q](#q-) | [R](#r-) | [S](#s-) | [T](#t-) | [U](#u-) | [V](#v-) | [W](#w-) | [X](#x-) | [Y](#y-) | [Z](#z-)
 
