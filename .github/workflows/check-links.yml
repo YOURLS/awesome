@@ -1,13 +1,12 @@
 name: Check links
 
 on:
-  push:
   workflow_dispatch:
   schedule:
     - cron:  '0 12 */7 * *'
 
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.3.4
@@ -18,7 +17,7 @@ jobs:
     - name: Install Awesome Bot
       run: gem install awesome_bot
     - name: Run Awesome Bot
-      run: awesome_bot README.md --request-delay 1 --allow-timeout -t 5 --allow-dupe --white-list sho.rt,your.site,long.url,awesome.re
+      run: awesome_bot README.md --request-delay 1 --allow-ssl --allow-timeout -t 5 --allow-dupe --white-list sho.rt,your.site,long.url,awesome.re
     - uses: actions/upload-artifact@v2.2.3
       if: failure()
       with:
