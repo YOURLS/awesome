@@ -191,7 +191,6 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [Mass Update](https://github.com/Binarypark/yourls-api-mass-update) - Adds an API action to mass update links from `old_domain` to `new_domain`.
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS.
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
-- [Multi User](https://wordpress.matbra.com/en/code/multi-user-yourls-plugin/) - Add support for multiple users.
 - [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Add ability to redirect by user device OS.
 
 ### N [⇡](#plugins-)
