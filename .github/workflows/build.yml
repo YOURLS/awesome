@@ -19,7 +19,7 @@ jobs:
       with:
         ruby-version: 3.0
     - name: Update README
-      run: ruby ./github/scripts/parse.rb
+      run: ruby .github/scripts/parse.rb
     - name: Commit and push if README changed
       run: |-
         git diff
