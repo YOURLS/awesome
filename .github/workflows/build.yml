@@ -1,6 +1,7 @@
 name: Update plugin count
 
 on:
+  pull_request:
   push:
     branches:
     - main
@@ -27,4 +28,4 @@ jobs:
         git add -A
         git commit -m "Update plugin count" || exit 0
         git push      
-    
+
