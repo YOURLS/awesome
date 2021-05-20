@@ -87,6 +87,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [YOURLS GWall Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
 - [Change Password](https://github.com/ozh/yourls-change-password)☑️ - Change your password from within YOURLS instead of editing the config file.
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
+- [Change Title](http://happier.allowed.org/change-title) - Change the html `<title>` tag of your admin interface.
 - [Check URL](https://github.com/adigitalife/yourls-check-url) - Check if a long URL is reachable before creating a short URL.
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
 - [Conditional Toolbar](https://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/)☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
