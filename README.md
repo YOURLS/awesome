@@ -348,16 +348,18 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 ### 3rd party Integrations and Frameworks  [⇡](#integrations-)
 
-- WordPress
-  - [YOURLS Link Creator](https://wordpress.org/plugins/yourls-link-creator/)
-  - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
-  - There are numerous [WordPress plugins](https://wordpress.org/plugins/search/yourls/) with YOURLS support.
-- [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal.
+- Bash
+  - [YOURLS BASH](https://github.com/ozh/yourls-bash) - a simple BASH script to shorten URLs with YOURLS
 - [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
+- [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal.
 - [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package.
+- [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard.
 - Laravel
   - [Laravel YOURLS Plugin](https://github.com/phpsa/laravel-yourls-plugin)
   - [Laraval YOURLS](https://github.com/orumad/laravel-yourls)
+- NodeJS
+  - [JavaScript bindings for the YOURLS API](https://github.com/neocotic/yourls-api) - JavaScript bindings to leverage JSONP support.
+  - [YOURLS API for nodejs](https://www.npmjs.com/package/yourls)
 - Perl
   - [WWW::Shorten::Yourls](https://github.com/p5-shorten/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
   - [AmazonAffiliatesToYourls](https://github.com/acaranta/AmazonAffiliatesToYourls) - Amazon affiliate management.
@@ -367,12 +369,14 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [yourls-python](https://github.com/razerm/yourls-python) - `pip install yourls` for Python 2 or 3
 - [Ruby](https://github.com/threestage/yourls) - A Ruby wrapper for the YOURLS API.
 - [status.net](https://github.com/rthees/yourls-status-net) - Plugin for status.net to use YOURLS.
+- Telegram
+  - [Telegram bot](https://simon-eller.at/en/projects/lets-short) - A [Telegram bot](https://t.me/LetsShortBot) to shorten links.
+  - [YOURLS Bot](https://gitlab.com/HirschHeissIch/yourls-bot) - Open source code base for hosting your own Telegram bot to shorten links via your own YOURLS instance. Includes access control by default, so suitable for non-public YOURLS instances.
 - [VB .Net](https://www.nugardt.com/open-source/yourls-api/) - A VB .Net 4.0 wrapper for the YOURLS API.
-- [Javascript](https://github.com/neocotic/yourls-api) - JavaScript bindings for the YOURLS API to leverage JSONP support.
-- [YOURLS API for nodejs](https://www.npmjs.com/package/yourls)
-- [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard.
-- [Telegram bot](https://simon-eller.at/en/projects/lets-short) - A [Telegram bot](https://t.me/LetsShortBot) to shorten links.
-- [YOURLS Bot](https://gitlab.com/HirschHeissIch/yourls-bot) - Open source code base for hosting your own Telegram bot to shorten links via your own YOURLS instance. Includes access control by default, so suitable for non-public YOURLS instances.
+- WordPress
+  - [YOURLS Link Creator](https://wordpress.org/plugins/yourls-link-creator/)
+  - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
+  - There are numerous [WordPress plugins](https://wordpress.org/plugins/search/yourls/) with YOURLS support.
 
 
 ### Applications [⇡](#integrations-)
