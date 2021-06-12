@@ -87,7 +87,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [YOURLS GWall Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
 - [Change Password](https://github.com/ozh/yourls-change-password)☑️ - Change your password from within YOURLS instead of editing the config file.
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
-- [Change Title](http://happier.allowed.org/change-title) - Change the html `<title>` tag of your admin interface.
+- [Change Title](https://happier.allowed.org/change-title) - Change the html `<title>` tag of your admin interface.
 - [Check URL](https://github.com/adigitalife/yourls-check-url) - Check if a long URL is reachable before creating a short URL.
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
 - [Conditional Toolbar](https://blog.yourls.org/2011/03/yourls-plugin-example-conditional-toolbar/)☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
@@ -443,7 +443,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - https://oe.cd/ - Europe OECD's internal URL shortener with a neat interface and private features.
 - https://kiwi.gg/ - A sexy shortener home page with stats and details.
 - https://u.nu/ - Very neat public interface and their own command line tool.
-- http://yourwish.es/ -  Easily share an Amazon wishlist.
+- https://yourwish.es/ -  Easily share an Amazon wishlist.
 - http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/2010/10/06/vbly-domain-seizure/?europe=true)).
 
 ### Celebrity endorsements (sort of) [⇡](#showcases-)
