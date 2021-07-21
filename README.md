@@ -256,6 +256,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [SimpleDB Clickqueue](https://github.com/ianbarber/Yourls-SimpleDB-Clickqueue) - Queue clicks to Amazon SimpleDB before processing. This allows using a regular MySQL store even in the face of a high frequency of writes, without concern of connection limit overflow. Clicks are inserted later into the database via an import job.
 - [Skimlinks](https://mattytemple.com/plugin/yourls-plugin-skimlinks/) - Push all links through Skimlinks to automatically embed affiliate codes.
 - [Skip Click Count](https://github.com/vipwangtian/yourls-skip-click-count) - Don't count clicks on short URLs.
+- [Slack Notifier](https://github.com/jfix/yourls-plugin-slack-notifier) - Send a notification to a Slack channel whenever a new short URL is created.
 - [SMTP Contact](https://github.com/joshp23/YOURLS-SMTP-contact) - Provides a public contact page using PHPMailer for outbound mail delivery.
 - [Snapshot](https://github.com/joshp23/YOURLS-Snapshot) - Visual preview plugin with image caching powered by PhantomJS.
 - [YOURLS SQLite](https://github.com/ozh/yourls-sqlite)☑️ - SQLite driver for YOURLS. It is now considered outdated.
