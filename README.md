@@ -65,6 +65,7 @@ Jump to [0-9](#0-9-) | [A](#a-) | [B](#b-) | [C](#c-) | [D](#d-) | [E](#e-) | [F
 - [API Action](https://github.com/YOURLS/API-action)☑️ - Example plugin for YOURLS 1.6+ to show how to implement custom API actions.
 - [API Delete](https://github.com/claytondaley/yourls-api-delete) - Add a "delete" action to the API.
 - [API Edit URL](https://github.com/timcrockford/yourls-api-edit-url) - Add an "update" action to the API to edit a URL, and a "geturl" action to get the long URL of a short URL.
+- [API List All](https://github.com/rosano/yourls-api-action-list) - Add a "list" action to the API to show all keywords.
 - [Append Query String](https://github.com/drockney/append-qs) - Appends the query string to a long URL.
 - [Auth Manager](https://github.com/nicwaller/yourls-authmgr-plugin) - Assign users to roles like "Editor" and "Contributor" to limit the changes they are permitted to make (edit URLs, manage plugins...).
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
