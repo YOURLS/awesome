@@ -434,9 +434,9 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 ### Other tutorials [⇡](#guides--tutorials-)
 
+- [Getting Started with YOURLS](https://youtu.be/9L8HtB6vZdQ) - a video presentation that includes API examples with Keyboard Maestro
 - [YOURLS with Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html)
 - [YOURLS with Tweetbot](https://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
-
 
 ## Showcases [⇪](#readme)
 
