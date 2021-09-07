@@ -320,6 +320,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 
 - Brazilian: [here](https://github.com/didi3d/YOURLS-pt_BR) and [here](https://github.com/henriquecrang/YOURLS-pt_BR)  (`pt_BR`)
 - [Bulgarian ](https://github.com/VoodooServ/YOURLS-bg_BG) (`bg_BG`)
+- [Catalan](https://github.com/kuratowsky/YOURLS-ca_ES) (`ca_ES`)
 - [Czech](https://github.com/KubaCZ721/YOURLS-cs_CZ) (`cs_CZ`)
 - [Danish](https://github.com/jensz12/YOURLSDK) (`da_DK`)
 - [Dutch](https://github.com/Beun/YOURLS-nl_NL) (`nl_NL`)
