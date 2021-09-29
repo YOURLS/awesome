@@ -50,14 +50,14 @@ Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
 Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) 
 
 ### 0-9
-[⬆️ Go to section](#plugins)
 
 - [302-Instead](https://github.com/EpicPilgrim/302-instead) - Send a 302 (temporary) redirect instead of 301 (permanent), for sites where shortlinks may change.
 - [302-Instead](https://github.com/timcrockford/302-instead) - A fork of previous plugin, with some more options.
 - [404 If Not Found](https://github.com/YOURLS/404-if-not-found) ☑️ - Give a 404 Not Found if the short URL is not found.
 
-### A
 [⬆️ Go to section](#plugins)
+
+### A
 
 - [AAF Rapid Connect auth](https://github.com/clmcavaney/aaf-rapidconnect-auth-yourls) - AAF Rapid Connect authentication plugin for YOURLS.
 - [Abuse Desk for YOURLS](http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - A Google Safe Browsing implementation for YOURLS to avoid spam links.
@@ -83,16 +83,18 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Auth Manager](https://github.com/nicwaller/yourls-authmgr-plugin) - Assign users to roles like "Editor" and "Contributor" to limit the changes they are permitted to make (edit URLs, manage plugins...).
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
 - [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs)
-### B
 [⬆️ Go to section](#plugins)
+
+### B
 
 - [Blacklist Domains](https://github.com/apelly/YourlsBlacklistDomains) - A simple plugin to blacklist domains from shortening URLs.
 - [Blacklist IPs](https://github.com/LudoBoggio/YourlsBlacklistIPs) - A simple plugin to blacklist IPs from shortening URLs.
 - [Bulk Import and Shorten](https://github.com/vaughany/yourls-bulk-import-and-shorten) - Import links from a CSV file.
 - [Bulk URL Shortening](https://github.com/tdakanalis/bulk_api_bulkshortener) - Shortening of multiple URLs with one API request.
 
-### C
 [⬆️ Go to section](#plugins)
+
+### C
 
 - [cAuth](https://github.com/joshp23/YOURLS-cAuth) - Client side SSL certificate authentication for admin pages.
 - [Cache Stat Pages](https://github.com/YOURLS/cache-stats-pages) ☑️ - Serve stat pages (`http://sho.rt/blah+`) from cache.
@@ -113,8 +115,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Custom Number of Displayed Links](https://github.com/YOURLS/YOURLS/issues/2339#issuecomment-352127623) ☑️ - Change the default number of links per page, if 15 isn't your taste.
 - [Custom Protocol](https://github.com/YOURLS/custom-protocol) ☑️ - If the user is known, this plugin adds custom protocol (eg `blah://`) to authorized protocols, otherwise restricts to `http|s`.
 
-### D
 [⬆️ Go to section](#plugins)
+
+### D
 
 - [Disable JSONP](https://github.com/seandrickson/YOURLS-Disable-JSONP) - Disables JSONP access for the YOURLS API.
 - [DNSBL](https://github.com/Diftraku/yourls_dnsbl/) - Uses various DNSBLs to check the submitter's IP and prevent shortening URLs if any malicious activity has been detected.
@@ -127,8 +130,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Don't Track Admin Clicks](https://github.com/dgw/yourls-dont-track-admins) - Don't count clicks on short URL if user is logged in.
 - [Download Plugin](https://github.com/krissss/yourls-download-plugin) - Download and install YOURLS plugins from the admin panel.
 
-### E
 [⬆️ Go to section](#plugins)
+
+### E
 
 - [Edition Logger](https://github.com/esuarezsantana/yourls-edition-logger) - Logs to a file every url insertion, deletion, or modification, to provide traceability of users' actions allowing an open edition policy.
 - [Email Notify](https://github.com/s22-tech/Yourls-Email-Notify) - Sends you an email with identifying information whenever someone clicks the link they were sent.
@@ -137,8 +141,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Every Click Counts](https://github.com/BstName/every-click-counts) - Click count include multiple clicks for the same client (ie there will be no browser caching of the redirection).
 - [Expiry](https://github.com/joshp23/YOURLS-Expiry) -  Defines optional conditions under which links will expire, able to set time and click limited links globally or per individual links.
 
-### F
 [⬆️ Go to section](#plugins)
+
+### F
 
 - [Fallback URL](https://github.com/ozh/yourls-fallback-url/) - Redirect to a custom URL when the short URL does not exist.
 - [Favicon](https://github.com/YOURLS/yourls-favicon/) ☑️ - Properly displayed favicon in all cases (home screen on iOS, Android, Chrome, Safari...).
@@ -147,8 +152,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Force Lowercase](https://github.com/YOURLS/force-lowercase) ☑️ - Force lowercase so `http://sho.rt/ABC` → `http://sho.rt/abc`.
 - [Fuzzy Keyword Suggestions](https://github.com/philhagen/ltc-fuzzy-keyword-suggestions) - Handles typos and other "near-misses" for any shortened link (eg if you have `sho.rt/dh1ik` but someone types `sho.rt/dhlik`, the 404 page will show suggestions for similar short URLs).
 
-### G
 [⬆️ Go to section](#plugins)
+
+### G
 
 - [GA MP](https://github.com/powerthazan/YOURLS-GA-MP-Tracking) - Track YOURLS link clicks with Google Analytics Measurement protocol in Real Time.
 - [Git Version](https://github.com/chtaube/YOURLS-plugin-gitversion) - Add version information from the git repository into the footer of the admin page.
@@ -159,8 +165,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing) ☑️ - Check every new URL against Google's Safe Browsing Lookup service.
 - [GTM for YOURLS](https://github.com/dorks-delivered/GTM-for-YOURLS) - Google Tag Manager for every single click.
 
-### H
 [⬆️ Go to section](#plugins)
+
+### H
 
 - [hexdec](https://github.com/plttn/yourls-hexdec) - Changes the sequential keywords from base36 to base16 (ie `[0-9a-f]`).
 - [Hide Referrer](https://github.com/Sire/yourls-hide-referrer) - Hide referrer on all or some short links.
@@ -169,8 +176,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [HTTP Proxy](https://github.com/adigitalife/yourls-http-proxy) - Get remote content using an HTTP proxy, for instance when YOURLS is running behind a firewall (e.g. corporate intranet).
 - [HTTP status per link](https://github.com/digipolisgent/yourls_plugin_http-status-per-link) - Select `3XX` Status Code to return per keyword.
 
-### I
 [⬆️ Go to section](#plugins)
+
+### I
 
 - [Identi.ca for YOURLS](https://blog.yourls.org/2011/04/yourls-identi-ca-and-tumblr-plugins/) - Share YOURLS links via identi.ca.
 - [YOURLS IDN](https://github.com/YOURLS/YOURLS-IDN) ☑️ - Add IDN support to YOURLS.
@@ -181,22 +189,25 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [iOS URL](https://github.com/suculent/yourls-ios-url-schemes-plugin) - Adds support for URLs starting with `itms-apps://` and `itms-services://`.
 - [iTunes-Affiliate](https://github.com/floschliep/YOURLS-iTunes-Affiliate) - Adds your iTunes Affiliate-Token to all iTunes URLs before redirection.
 
-### J
 [⬆️ Go to section](#plugins)
+
+### J
 
 - [Jappix](https://github.com/jonrandoem/yourls-jappix) - Adds a JappixMini chat on your YOURLS admin pages.
 - [JSON Response](https://github.com/tessus/yourls-json-response) - Add `.json` (or a custom string/character) to the short URL to get info about it as a JSON response.
 
-### K
 [⬆️ Go to section](#plugins)
+
+### K
 
 - [Keep Query String](https://github.com/rinogo/yourls-keep-query-string) - Adds the short URL's query string (if any) to the long URL.
 - [Keywords, Charset & Length](https://github.com/peterberbec/yourls-keyword_charset_length) - Custom charset, custom link length and random short urls, all in one plugin, with an admin panel.
 - [Keyword not found](https://github.com/8thwall/keyword-not-found-set-field-yourls) - If keyword isn't found in the database, redirect to admin page and pre-populate the short URL field.
 - [Keyword Prefix](https://github.com/jangrewe/yourls-keyword-prefix) - Adds a defined prefix to your short URLs.
 
-### L
 [⬆️ Go to section](#plugins)
+
+### L
 
 - [LDAP](https://github.com/k3a/yourls-ldap-plugin) - Enables use of LDAP for user authentication.
 - [Link Anonymizer](https://github.com/katzwebservices/YOURLS-Link-Anonymizer) - Generate a link that will take you to an anonymizer service.
@@ -208,8 +219,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Lookup keywords by long URL substring](https://github.com/bryzgaloff/yourls-api-lookup-keywords-by-url-substr) - Add a "lookup-url-substr" action to YOURLS API which searches keywords by long URL substring (implements `url LIKE %substr%` SQL operation).
 - [lowercase username](https://github.com/Virinum/yourls-lowercase-username) - Makes the username lowercase when logging in.
 
-### M
 [⬆️ Go to section](#plugins)
+
+### M
 
 - [Mailto](https://github.com/peterberbec/yourls-mailto) - Adds a "mailto:" sharing option, next to Twitter and Facebook.
 - [Mailto Bookmarklet](https://github.com/peterberbec/yourls-mailto-bookmarklet) - Adds a bookmarklet to share links by mail.
@@ -219,21 +231,24 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
 - [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Add ability to redirect by user device OS.
 
-### N
 [⬆️ Go to section](#plugins)
+
+### N
 
 - [No Traking Admins](https://github.com/joshp23/YOURLS-No-Tracking-Admins) - No loggin clicks for authenticated users (compatible with OIDC).
 - [No Version Check](https://github.com/YOURLS/YOURLS/issues/2851) ☑️ - Stop YOURLS from checking if a new release is available.
 
-### O
 [⬆️ Go to section](#plugins)
+
+### O
 
 - [OAuth Sign In](https://github.com/LouisSung/YOURLS-OAuth_Sign_In) - Enable OAuth sign in support (using GitLab as an example).
 - [OIDC](https://github.com/joshp23/YOURLS-OIDC) - OpenID Connect authentication against a generic OpenID Connect server.
 - [Open Graph Meta Scraper](https://github.com/LK608/OG-Scraper) - Get Open Graph (OG) information for your shortened links.
 
-### P
 [⬆️ Go to section](#plugins)
+
+### P
 
 - [Password Protection](https://github.com/MatthewC/yourls-password-protection) - Password protect any Short URL you want so that users are prompted for a password before redirection.
 - [Phishtank](https://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - Prevent spam links using Phishtank's API.
@@ -249,8 +264,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [YOURLS Pseudonymize](https://github.com/ubicoo/yourls-pseudonymize) - This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed).
 - [PUNS](https://github.com/joshp23/YOURLS-PUNS) - A Plugin Update Notification System: provides a report-generating page and an API with optional email notifications.
 
-### Q
 [⬆️ Go to section](#plugins)
+
+### Q
 
 - [QRCode](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-QRCode-ShortURL) ☑️ - Add ".qr" to short URLs to display the shorturl's QR code.
 - [QRCode](http://techlister.com/plugins-2/qrcode-plugin-for-yourls/354/) - Creates and displays QR Codes within YOURLS.
@@ -259,8 +275,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
 - [Query String Keeper](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://long.url/bleh/?hey`).
 
-### R
 [⬆️ Go to section](#plugins)
+
+### R
 
 - [reCaptcha](https://github.com/spbriggs/recaptcha-plugin) - YOURLS plugin implementing reCaptcha for unauthenticated users in your public interface.
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation.
@@ -272,8 +289,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Reverse Proxy](https://github.com/Diftraku/yourls_reverseproxy) - Fixes the user IPs to point to the actual user instead of your cloud provider’s infrastructure IPs (Cloudflare, Heroku...).
 - [rscrub](https://github.com/joshp23/YOURLS-rscrub) - An "HTTP referrer scrubbing swiss army knife for YOURLS" (evolution of the Hide Referrer plugin).
 
-### S
 [⬆️ Go to section](#plugins)
+
+### S
 
 - [SAML Authentication](https://github.com/wlabarron/yourls-saml) - Sign in via SAML-based single sign-on.
 - [Save By Keyword](https://github.com/vitorccs/yourls-api-save-by-keyword) - API action to update the long URL of an existing keyword, or creates a new short URL.
@@ -297,8 +315,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [SSL for SSL](https://github.com/tipichris/ssl4ssl) - Generates SSL short links if the original link was SSL.
 - [Swap Short URL](https://github.com/gerbz/Yourls-Swap-Short-Url) - A plugin to have `http://sho.rt/blah` while having YOURLS installed in `http://sho.rt/yourls/`
 
-### T
 [⬆️ Go to section](#plugins)
+
+### T
 
 - [Telegram Quickshare](https://github.com/ColinShark/YOURLS_tg-quickshare) - Quickly share a shortened URL via Telegram Messenger.
 - [Title Refetch](https://github.com/joshp23/YOURLS-title-refetch) - Refetch page titles.
@@ -309,8 +328,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Track Custom Keyword](https://github.com/timcrockford/track-custom-keywords) - Add a new field to YOURLS designed to track if a keyword was randomly assigned or manually specified.
 - [Typer, a yourls prank plugin](https://github.com/koma5/typer) - Add an underscore * to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
 
-### U
 [⬆️ Go to section](#plugins)
+
+### U
 
 - [Upload and Shorten](https://github.com/fredl99/YOURLS-Upload-and-Shorten) - Upload and share files with YOURLS.
 - [U-SRV](https://github.com/joshp23/YOURLS-U-SRV) - Provides secure links to files while obfuscating filesystem paths, allowing easy, secure access to files between plugins or from 3rd party scripts. Manual uploading of files is supported.
@@ -318,28 +338,33 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [URL Health Check](https://github.com/joshp23/YOURLS-URL-Health-Check) - Checks submitted URLs for validity, reachability, and redirection. In the case of redirection, the final destination URL will be stored avoiding nested redirects.
 - [Users in Database](https://gist.github.com/njbair/d951fb8b9c1f44d0e8bcd405645bbde1) - Reads users from a database table instead of a config file. Currently does not provide an interface for adding/editing users though.
 
-### W
 [⬆️ Go to section](#plugins)
+
+### W
 
 - [wallabag](https://github.com/jonrandoem/yourls-wallabag) - Allows the sharing of the URL to a Wallabag installation (previously named Poche).
 - [Whatsapp quickshare](https://github.com/TheChicken14/Whatsapp-quickshare) - Allows you to share your short URL via whatsapp.
 - [Word Based Short URLs](https://github.com/ozh/yourls-word-based-short-urls) ☑️ - Generate short URLs with adjectives and nouns, like `http://sho.rt/FluffyArrogantUnicorn`.
 
-### X
 [⬆️ Go to section](#plugins)
 
+### X
 
+
+
+[⬆️ Go to section](#plugins)
 
 ### Y
-[⬆️ Go to section](#plugins)
 
 - [YAPCache](https://github.com/tipichris/YAPCache) - YAPCache is an APC based cache designed to reduce the database load of YOURLS and increase performance.
 - [YOURS-TN](https://github.com/sgiovagnoli/YOURLS-TN) - Display thumbnails on YOURLS admin page and stats page, using thumbnail.ws.
 - [YouTube Title Fix](https://github.com/joshp23/YOURLS-YouTube-title-fix) - Fetch YouTube page titles via Google API.
 
-### Z
 [⬆️ Go to section](#plugins)
 
+### Z
+
+[⬆️ Go to section](#plugins)
 
 
 ## Themes
@@ -392,7 +417,6 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 Make YOURLS work with other platforms, programming languages or tools.
 
 ### 3rd party Integrations and Frameworks
-[⬆️ Go to section](#integrations)
 
 - Bash
   - [YOURLS BASH](https://github.com/ozh/yourls-bash) - a simple BASH script to shorten URLs with YOURLS
@@ -426,7 +450,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 
 ### Applications
-[⬆️ Go to section](#integrations)
 
 - Android
   - [aYourls](https://gitlab.com/matecode/ayourls/-/tree/develop) - A dedicated app for YOURLS supporting server-side deletion (needs [API Delete](https://github.com/claytondaley/yourls-api-delete)).
@@ -451,7 +474,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 [🔼 Go to top](#readme)
 
 ### Installation guides
-[⬆️ Go to section](#guides--tutorials)
 
 - [Installing YOURLS on a Plesk-Hosted Domain](https://www.danhendricks.com/2018/10/installing-yourls-on-plesk-shared-hosting-domain/) 
 - [How to Install YOURLS using Softaculous](https://www.websitehostingrating.com/how-to-install-yourls-using-softaculous/)
@@ -472,7 +494,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [How to install YOURLS, reverse proxy and letsencrypt on Unraid](https://technicalramblings.com/blog/how-to-install-yourls-and-reverse-proxy-it-using-linuxserver-letsencrypt-on-unraid/)
 
 ### Installation guides in other languages
-[⬆️ Go to section](#guides--tutorials)
 
 - [宝塔面板搭建短链接服务 YOURLS](https://lza59.com/archives/yourls.html)
 - [Cómo instalar YOURLS](https://www.websitehostingrating.com/es/how-to-install-yourls-using-softaculous/)
@@ -480,7 +501,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [Трекер Yourls ваш собственный сокращатель ссылок (URL)](https://wiki.dieg.info/yourls)
 
 ### Other tutorials
-[⬆️ Go to section](#guides--tutorials)
 
 - [Getting Started with YOURLS](https://youtu.be/9L8HtB6vZdQ) - a video presentation that includes API examples with Keyboard Maestro
 - [YOURLS with Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html)
@@ -490,7 +510,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 [🔼 Go to top](#readme)
 
 ### Sites running YOURLS with a unique design or concept
-[⬆️ Go to section](#showcases)
 
 - https://oe.cd/ - Europe OECD's internal URL shortener with a neat interface and private features.
 - https://kiwi.gg/ - A sexy shortener home page with stats and details.
@@ -499,7 +518,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 - http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/2010/10/06/vbly-domain-seizure/?europe=true)).
 
 ### Celebrity endorsements (sort of)
-[⬆️ Go to section](#showcases)
 
 - Early review on [Lifehacker](https://lifehacker.com/make-your-own-url-shortening-service-5335216).
 - http://mclrn.co/ by [McLaren Cars](https://www.mclaren.com/).
