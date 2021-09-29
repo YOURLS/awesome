@@ -82,7 +82,8 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Append Query String](https://github.com/drockney/append-qs) - Appends the query string to a long URL.
 - [Auth Manager](https://github.com/nicwaller/yourls-authmgr-plugin) - Assign users to roles like "Editor" and "Contributor" to limit the changes they are permitted to make (edit URLs, manage plugins...).
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
-- [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs)
+- [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs).
+
 [⬆️ Go to section](#plugins)
 
 ### B
@@ -364,6 +365,8 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### Z
 
+
+
 [⬆️ Go to section](#plugins)
 
 
@@ -375,7 +378,6 @@ This will be the next big thing when YOURLS fully support theming
 - [∞²](https://github.com/tomslominski/infinity-squared) - Infinity Squared, a beautiful public page theme for YOURLS.
 - [Air 66](https://github.com/air66design/air66-yourls-admin-theme) - A responsive admin theme for YOURLS.
 - [Sleeky](https://github.com/Flynntes/Sleeky) - A sleek and simple frontend & backend theme for YOURLS with light and dark modes.
-
 
 
 ## Translations
