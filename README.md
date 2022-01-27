@@ -420,6 +420,10 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 
 Make YOURLS work with other platforms, programming languages or tools.
 
+### 3rd party platforms
+
+- [Integromat](https://www.integromat.com/en/integrations/yourls) - Automate actions with YOURLS (eg new blog post -> shorten link -> share on Discord)
+
 ### 3rd party Integrations and Frameworks
 
 - Bash
