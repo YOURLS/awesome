@@ -47,7 +47,7 @@ Currently we have **<!--plugin_count-->190<!--/plugin_count-->** plugins listed.
 
 Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
 
-Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) 
+Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
 ### 0-9
 
@@ -441,6 +441,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - Perl
   - [WWW::Shorten::Yourls](https://github.com/p5-shorten/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
   - [AmazonAffiliatesToYourls](https://github.com/acaranta/AmazonAffiliatesToYourls) - Amazon affiliate management.
+- [Prometheus exporter](https://github.com/just1not2/prometheus-exporter-yourls) - A Prometheus exporter to monitor a YOURLS instance.
 - Python
   - [pyourls3](https://pypi.org/project/pyourls3/) - A Python client for YOURLS, built for Python 3.
   - [python-yourls](https://github.com/tflink/python-yourls/) - Alternative Python 2 client for YOURLS.
@@ -483,7 +484,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 ### Installation guides
 
-- [Installing YOURLS on a Plesk-Hosted Domain](https://www.danhendricks.com/2018/10/installing-yourls-on-plesk-shared-hosting-domain/) 
+- [Installing YOURLS on a Plesk-Hosted Domain](https://www.danhendricks.com/2018/10/installing-yourls-on-plesk-shared-hosting-domain/)
 - [How to Install YOURLS using Softaculous](https://www.websitehostingrating.com/how-to-install-yourls-using-softaculous/)
 - [How to Install YOURLS on a VPS or shared hosting](https://thishosting.rocks/how-to-shorten-your-links-with-your-own-domain/)
 - [YOURLS on Azure](https://www.juharyhanen.com/technology/create-personal-url-shortener-in-5-simple-steps/)
