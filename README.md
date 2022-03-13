@@ -60,7 +60,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 ### A
 
 - [AAF Rapid Connect auth](https://github.com/clmcavaney/aaf-rapidconnect-auth-yourls) - AAF Rapid Connect authentication plugin for YOURLS.
-- [Abuse Desk for YOURLS](http://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - A Google Safe Browsing implementation for YOURLS to avoid spam links.
+- [Abuse Desk for YOURLS](https://blog.yourls.org/2011/04/yourls-abuse-anti-spam-plugins/) - A Google Safe Browsing implementation for YOURLS to avoid spam links.
 - [Access Control Allow Origin](https://github.com/TEODE/yourls-access-control-allow-origin) - Prevents CORS issue with domain CNAMES and aliases for admin actions.
 - [Additional Charsets](https://github.com/josheby/yourls-additional-charsets) - Define additional character sets for short URLs.
 - [Admin Issue Diagnostic - A.I.D.](https://github.com/PopVeKind/admin_issue_diagnostic) - Collects YOURLS environmentals and formats a template to copy/paste into a YOURLS issue.
@@ -175,7 +175,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Hide Version String](https://github.com/YOURLS/YOURLS/issues/1878#issuecomment-88450475) - Hide the version string in the footer.
 - [HTTP:BL](https://github.com/joshp23/YOURLS-httpBL) - Prevent spam using the black list from Project Honeypot.
 - [HTTP Proxy](https://github.com/adigitalife/yourls-http-proxy) - Get remote content using an HTTP proxy, for instance when YOURLS is running behind a firewall (e.g. corporate intranet).
-- [HTTP status per link](https://github.com/digipolisgent/yourls_plugin_http-status-per-link) - Select `3XX` Status Code to return per keyword.
+- [HTTP status per link](https://github.com/district09/yourls_plugin_http-status-per-link) - Select `3XX` Status Code to return per keyword.
 
 [⬆️ Go to section](#plugins)
 
@@ -219,7 +219,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [log-login](https://github.com/SweBarre/log-login) - Logs login atempts to YOURLS. To be used with fail2ban.
 - [Login Timeout](https://github.com/reanimus/yourls-login-timeout) - Adds a timeout after a certain number of failed logins to mitigate brute force logins.
 - [Lookup keywords by long URL substring](https://github.com/bryzgaloff/yourls-api-lookup-keywords-by-url-substr) - Add a "lookup-url-substr" action to YOURLS API which searches keywords by long URL substring (implements `url LIKE %substr%` SQL operation).
-- [lowercase username](https://github.com/Virinum/yourls-lowercase-username) - Makes the username lowercase when logging in.
+- [lowercase username](https://github.com/JensSpanier/yourls-lowercase-username) - Makes the username lowercase when logging in.
 
 [⬆️ Go to section](#plugins)
 
@@ -272,8 +272,8 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 ### Q
 
 - [QRCode](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-QRCode-ShortURL) ☑️ - Add ".qr" to short URLs to display the shorturl's QR code.
-- [QRCode](http://techlister.com/plugins-2/qrcode-plugin-for-yourls/354/) - Creates and displays QR Codes within YOURLS.
-- [QR Google Charts](http://aiaraldea.github.io/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
+- [QRCode](https://techlister.com/plugins-2/qrcode-plugin-for-yourls/354/) - Creates and displays QR Codes within YOURLS.
+- [QR Google Charts](https://aiaraldea.github.io/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
 - [QRCode](https://github.com/seandrickson/YOURLS-QRCode-Plugin) - Another QR Code plugin. Get the QR code by simply clicking on a button in the Admin area (or by adding ".qr" to the end of the keyword).
 - [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
 - [Query String Keeper](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://long.url/bleh/?hey`).
@@ -412,7 +412,6 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Telugu](https://github.com/kalyan4786/YOURLS_Telugu_Translation) (`te_IN`)
 - [Turkish](https://github.com/mugurcagdas/YOURLS_TR) (`tr_TR`)
 - [Traditional Chinese](https://github.com/alexclassroom/YOURLS-zh_TW) (`zh_TW`)
-- [Viet Nam](https://github.com/tmtung144/YOURLS) (`vi_VN`)
 
 
 ## Integrations
@@ -485,7 +484,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### Installation guides
 
 - [Installing YOURLS on a Plesk-Hosted Domain](https://www.danhendricks.com/2018/10/installing-yourls-on-plesk-shared-hosting-domain/)
-- [How to Install YOURLS using Softaculous](https://www.websitehostingrating.com/how-to-install-yourls-using-softaculous/)
+- [How to Install YOURLS using Softaculous](https://www.websiterating.com/how-to-install-yourls-using-softaculous/)
 - [How to Install YOURLS on a VPS or shared hosting](https://thishosting.rocks/how-to-shorten-your-links-with-your-own-domain/)
 - [YOURLS on Azure](https://www.juharyhanen.com/technology/create-personal-url-shortener-in-5-simple-steps/)
 - CentOS
@@ -500,19 +499,17 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [How to install YOURLS on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-yourls-your-own-url-shortener-on-ubuntu-18-04-bionic-beaver-linux/)
   - [How to install YOURLS on Ubuntu 20.04](https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04)
   - [How to Install YOURLS on Ubuntu with Nginx and Let’s Encrypt](https://linuxstans.com/how-to-install-yourls/)
-- [How to install YOURLS, reverse proxy and letsencrypt on Unraid](https://technicalramblings.com/blog/how-to-install-yourls-and-reverse-proxy-it-using-linuxserver-letsencrypt-on-unraid/)
 
 ### Installation guides in other languages
 
 - [宝塔面板搭建短链接服务 YOURLS](https://lza59.com/archives/yourls.html)
-- [Cómo instalar YOURLS](https://www.websitehostingrating.com/es/how-to-install-yourls-using-softaculous/)
+- [Cómo instalar YOURLS](https://www.websiterating.com/es/how-to-install-yourls-using-softaculous/)
 - [Installer YOURLS, un système d'URL raccourcies](https://www.justegeek.fr/tuto-installer-yourls-un-systeme-durl-raccourcies/)
 - [Трекер Yourls ваш собственный сокращатель ссылок (URL)](https://wiki.dieg.info/yourls)
 
 ### Other tutorials
 
-- [Getting Started with YOURLS](https://youtu.be/9L8HtB6vZdQ) - a video presentation that includes API examples with Keyboard Maestro
-- [YOURLS with Tweetie 2](http://www.eugenegordin.com/etc/how-to-use-your-custom-yourls-shortener-with-tweetie-2.html)
+- [Getting Started with YOURLS](https://www.youtube.com/watch?v=9L8HtB6vZdQ) - a video presentation that includes API examples with Keyboard Maestro
 - [YOURLS with Tweetbot](https://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
 
 ## Showcases
@@ -524,12 +521,12 @@ Make YOURLS work with other platforms, programming languages or tools.
 - https://kiwi.gg/ - A sexy shortener home page with stats and details.
 - https://u.nu/ - Very neat public interface and their own command line tool.
 - https://yourwish.es/ -  Easily share an Amazon wishlist.
-- http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/2010/10/06/vbly-domain-seizure/?europe=true)).
+- http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/archive/vbly-domain-seizure)).
 
 ### Celebrity endorsements (sort of)
 
 - Early review on [Lifehacker](https://lifehacker.com/make-your-own-url-shortening-service-5335216).
-- http://mclrn.co/ by [McLaren Cars](https://www.mclaren.com/).
+- https://mclrn.co/ by [McLaren Cars](https://www.mclaren.com/).
 - https://smashed.by/ by [Smashing Magazine](https://www.smashingmagazine.com/).
 - https://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
 - https://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
