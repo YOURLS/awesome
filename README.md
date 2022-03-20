@@ -160,6 +160,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [GA MP](https://github.com/powerthazan/YOURLS-GA-MP-Tracking) - Track YOURLS link clicks with Google Analytics Measurement protocol in Real Time.
 - [Git Version](https://github.com/chtaube/YOURLS-plugin-gitversion) - Add version information from the git repository into the footer of the admin page.
 - [Geo API](https://github.com/ssecurelabs/yourls-Geo-API-plugin) - Plugin to look up country code from another 3rd party API (geoiplookup.net).
+- [GeoIP Update](https://github.com/ozh/yourls-geoip-update) ☑️ - Update the GeoIP database
 - [GeoShortURL](https://github.com/tobozo/YOURLS-GeoShortURL) - Plugin to add per-country support to existing short URLs (use it with [302-Instead](https://github.com/timcrockford/302-instead)).
 - [Google Analytics Link Tagging](https://katz.co/2300/) - Add GA tags (utm_source and others) to your shortened links.
 - [Google Auth](https://github.com/8thwall/google-auth-yourls) - Enables Google Authentication for YOURLS.
