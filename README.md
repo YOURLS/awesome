@@ -493,8 +493,10 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [How to Install YOURLS on CentOS 7](https://www.vultr.com/docs/how-to-install-yourls-on-centos-7)
   - [How to install YOURLS on Centos 7](https://www.linuxcloudvps.com/blog/how-to-install-yourls-on-centos-7/)
   - [How to Install YOURLS on CentOS 8](https://www.howtoforge.com/how-to-install-yourls-on-centos-8/)
+- [YOURLS on Cherokee](https://github.com/lylebrown/YOURLS-Cherokee)
 - [YOURLS on Cloudron](https://www.cloudron.io/store/org.yourls.cloudronapp.html)
 - [YOURLS on Installatron](https://installatron.com/yourls)
+- [YOURLS on IIS](https://gist.github.com/ozh/714d23228235becba14fea925fc77e2c)
 - [YOURLS on Fedora](https://fedoraproject.org/wiki/Install_and_configure_YOURLS_for_AutoQA)
 - Guides for Ubuntu:
   - [How to install YOURLS on Ubuntu 14.04](https://www.rosehosting.com/blog/how-to-install-yourls-on-ubuntu-14-04/)
@@ -505,7 +507,8 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### Installation guides in other languages
 
 - [宝塔面板搭建短链接服务 YOURLS](https://lza59.com/archives/yourls.html)
-- [Cómo instalar YOURLS](https://www.websiterating.com/es/how-to-install-yourls-using-softaculous/)
+- [Cómo instalar YOURLS, usando Softaculous](https://www.websiterating.com/es/how-to-install-yourls-using-softaculous/)
+- [Cómo instalar YOURLS en Ubuntu 20.04](https://linuxyunnovato.wordpress.com/2022/04/12/como-instalar-yourls-en-ubuntu-20-04/)
 - [Installer YOURLS, un système d'URL raccourcies](https://www.justegeek.fr/tuto-installer-yourls-un-systeme-durl-raccourcies/)
 - [Трекер Yourls ваш собственный сокращатель ссылок (URL)](https://wiki.dieg.info/yourls)
 
