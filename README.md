@@ -83,6 +83,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Auth Manager](https://github.com/nicwaller/yourls-authmgr-plugin) - Assign users to roles like "Editor" and "Contributor" to limit the changes they are permitted to make (edit URLs, manage plugins...).
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
 - [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs).
+- [Allow Full Stops in Short URLs](https://github.com/SophiaAtkinson/YOURLS-full-stop-in-short-urls) - This plugin will allow full stops `.` in keywords when shortening URLS.
 
 [⬆️ Go to section](#plugins)
 
