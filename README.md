@@ -229,7 +229,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [Mailto](https://github.com/peterberbec/yourls-mailto) - Adds a "mailto:" sharing option, next to Twitter and Facebook.
 - [Mailto Bookmarklet](https://github.com/peterberbec/yourls-mailto-bookmarklet) - Adds a bookmarklet to share links by mail.
-- [Mass Remove Link](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Mass-Remove-Link) ⭐ - Remove several links at once. Select by date, date range, IP or URL matching.
+- [Mass Remove Link](https://github.com/YOURLS/mass-remove-links/) ⭐ - Remove several links at once. Select by date, date range, IP or URL matching.
 - [Mass Update](https://github.com/Binarypark/yourls-api-mass-update) - Adds an API action to mass update links from `old_domain` to `new_domain`.
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS.
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
@@ -262,10 +262,10 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Popular Clicks](https://github.com/miconda/yourls/tree/master/plugins/popular-clicks) - Display the top of the most clicked links during past days.
 - [Popular Clicks Extended](https://github.com/vaughany/yourls-popular-clicks-extended) - Shows which short links get clicked the most during a specific time frame.
 - [Popular Links](https://github.com/laaabaseball/Yourls-Popular-Links) - Adds an admin page that displays your shortener's most popular links.
-- [Preview URL](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Preview-URL) ☑️ - Add the character '~' to a short URL to display a preview screen before redirection.
+- [Preview URL](https://docs.yourls.org/development/examples/preview.html) ☑️ - Add the character '~' to a short URL to display a preview screen before redirection.
 - [Preview URL with QR Code](https://github.com/dennydai/yourls-preview-url-with-qrcode) - Add the character '~' to a short URL to display a preview screen & QR code before redirection.
 - [Preview URL with QR Code And Thumbnail](https://github.com/prog-it/yourls-preview-url-with-qrcode-thumbnail) - Add the character '~' to a short URL to display a QR code and Thumbnail image before redirection.
-- [Public "Prefix n' Shorten"](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Public-Prefix-And-Shorten) ☑️ - Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area.
+- [Public "Prefix n' Shorten"](https://docs.yourls.org/development/examples/public-prefix.html) ☑️ - Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area.
 - [YOURLS Pseudonymize](https://github.com/ubicoo/yourls-pseudonymize) - This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed).
 - [PUNS](https://github.com/joshp23/YOURLS-PUNS) - A Plugin Update Notification System: provides a report-generating page and an API with optional email notifications.
 
@@ -273,7 +273,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### Q
 
-- [QRCode](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-QRCode-ShortURL) ☑️ - Add ".qr" to short URLs to display the shorturl's QR code.
+- [QRCode](https://docs.yourls.org/development/examples/qrcode.html) ☑️ - Add ".qr" to short URLs to display the shorturl's QR code.
 - [QRCode](https://techlister.com/plugins-2/qrcode-plugin-for-yourls/354/) - Creates and displays QR Codes within YOURLS.
 - [QR Google Charts](https://aiaraldea.github.io/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
 - [QRCode](https://github.com/seandrickson/YOURLS-QRCode-Plugin) - Another QR Code plugin. Get the QR code by simply clicking on a button in the Admin area (or by adding ".qr" to the end of the keyword).
@@ -304,7 +304,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Separate Users](https://github.com/ianbarber/Yourls-Separate-Users) - Adds a username to each created URL, and filters the admin interface.
 - [Shaarli](https://github.com/miwasp/yourls-shaarli) - Allows the sharing of the URL to a Shaarli installation.
 - [Share LinkedIn](https://github.com/popnt/yourls-linkedin-share) - Adds LinkedIn to the Quick Share Box.
-- [Share with Tumblr](https://github.com/YOURLS/YOURLS/wiki/Plugin-=-Share-Tumblr) ☑️ - In the Quick Share box, add a one-click share to Tumblr link.
+- [Share with Tumblr](https://gist.github.com/ozh/25b2074dd275ed091aa1869200894c4d) ☑️ - In the Quick Share box, add a one-click share to Tumblr link.
 - [Shibboleth](https://github.com/fuero/yourls-shibboleth) - Enable authentication with Shibboleth.
 - [ShortShort](https://github.com/abaumg/yourls-shortshort) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
 - [Show Git Branch](https://github.com/ozh/show-git-branch) ☑️ - Using YOURLS on a dev box under Git? Show the current branch in page footer.
