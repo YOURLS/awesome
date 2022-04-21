@@ -27,15 +27,21 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Official Links
 [🔼 Go to top](#readme)
 
-Official material from the YOURLS team
+Official material from the YOURLS team :
 
 - [Official Readme](https://yourls.org)
 - [Source Code](https://github.com/YOURLS/YOURLS)
+- [Documentation](https://docs.yourls.org/)
 - [Release Notes](https://github.com/YOURLS/YOURLS/releases)
 - [YOURLS News](https://blog.yourls.org/)
 - [Community Discussions](https://github.com/YOURLS/YOURLS/discussions)
+
+Official tools from the YOURLS team :
+
 - [YOURLS using Docker](https://hub.docker.com/_/yourls/)
 - [YOURLS using Helm for Kubernetes](https://artifacthub.io/packages/helm/yourls/yourls)
+- [YOURLS plugins using Composer](https://github.com/YOURLS/composer-installer)
+- [YOURLS test suite for plugins](https://github.com/YOURLS/YOURLS-test-suite-for-plugins)
 
 ## Plugins
 [🔼 Go to top](#readme)
