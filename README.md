@@ -83,6 +83,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Antispam](https://github.com/YOURLS/antispam) ☑️ - Merciless antispam plugin using the 3 major domain blacklists.
 - [YOURLS APC Cache](https://blog.yourls.org/2011/06/yourls-apc-cache-plugin/) - Add support for APC to reduce MySQL queries.
 - [API Action](https://github.com/YOURLS/API-action) ☑️ - Example plugin for YOURLS 1.6+ to show how to implement custom API actions.
+- [API Contract](https://github.com/brookestevens/yourls-api-contract) - API action opposite to "expand": check if a URL has been shortened before
 - [API Delete](https://github.com/claytondaley/yourls-api-delete) - Add a "delete" action to the API.
 - [API Edit URL](https://github.com/timcrockford/yourls-api-edit-url) - Add an "update" action to the API to edit a URL, and a "geturl" action to get the long URL of a short URL.
 - [API List All](https://github.com/rosano/yourls-api-action-list) - Add a "list" action to the API to show all keywords.
