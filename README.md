@@ -40,13 +40,14 @@ Official tools from the YOURLS team :
 
 - [YOURLS using Docker](https://hub.docker.com/_/yourls/)
 - [YOURLS using Helm for Kubernetes](https://artifacthub.io/packages/helm/yourls/yourls)
+- [Sample YOURLS plugin](https://github.com/YOURLS/plugin-sample)
 - [YOURLS plugins using Composer](https://github.com/YOURLS/composer-installer)
 - [YOURLS test suite for plugins](https://github.com/YOURLS/YOURLS-test-suite-for-plugins)
 
 ## Plugins
 [🔼 Go to top](#readme)
 
-All known plugins - either from the community, or from the YOURLS team, marked with a ☑️
+All known plugins: they are either from the community, or from the YOURLS team (marked with a ☑️). Plugins featuring there own unit tests have the :test_tube: icon.
 
 Currently we have **<!--plugin_count-->193<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
@@ -136,7 +137,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Don't Log Bots](https://github.com/YOURLS/dont-log-bots) ☑️ - Ignore bot hits in your stats (both click count as seen in the main admin page and in detailed stats).
 - [Don't Log Crawlers](https://github.com/luixxiul/dont-log-crawlers/) - A fork of the `Don't Log Bots`, with more bots filtered out.
 - [Don't Log Health Checker](https://github.com/guessi/yourls-dont-log-health-checker) - A fork of `Don't Log Bots`, with more bots filtered out.
-- [Don't Track Admin Clicks](https://github.com/dgw/yourls-dont-track-admins) - Don't count clicks on short URL if user is logged in.
+- [Don't Track Admin Clicks](https://github.com/dgw/yourls-dont-track-admins) ☑️🧪 - Don't count clicks on short URL if user is logged in.
 - [Download Plugin](https://github.com/krissss/yourls-download-plugin) - Download and install YOURLS plugins from the admin panel.
 
 [⬆️ Go to section](#plugins)
