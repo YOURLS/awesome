@@ -47,7 +47,11 @@ Official tools from the YOURLS team :
 ## Plugins
 [🔼 Go to top](#readme)
 
-All known plugins: they are either from the community, or from the YOURLS team (marked with a ☑️). Plugins featuring there own unit tests have the :test_tube: icon.
+All known plugins, from the community or the YOURLS team
+
+_Legend:_
+- ☑️ : plugin authored by a member of the YOURLS teams
+- :test_tube: : plugins featuring there own unit tests to ensure expected functionning as well as present and future compatibility with YOURLS
 
 Currently we have **<!--plugin_count-->194<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
@@ -174,7 +178,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [GeoShortURL](https://github.com/tobozo/YOURLS-GeoShortURL) - Plugin to add per-country support to existing short URLs (use it with [302-Instead](https://github.com/timcrockford/302-instead)).
 - [Google Analytics Link Tagging](https://katz.co/2300/) - Add GA tags (utm_source and others) to your shortened links.
 - [Google Auth](https://github.com/8thwall/google-auth-yourls) - Enables Google Authentication for YOURLS.
-- [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing) ☑️ - Check every new URL against Google's Safe Browsing Lookup service.
+- [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing) ☑️:test_tube: - Check every new URL against Google's Safe Browsing Lookup service.
 - [GTM for YOURLS](https://github.com/dorks-delivered/GTM-for-YOURLS) - Google Tag Manager for every single click.
 
 [⬆️ Go to section](#plugins)
