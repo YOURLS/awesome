@@ -85,7 +85,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Amazon Affiliate](https://github.com/floschliep/YOURLS-Amazon-Affiliate) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection.
 - [Amazon Affiliate With Notice](https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate-With-Redirect-Notice) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection with a notice of Amazon Affiliate link usage.
 - [Anonymise](https://github.com/wlabarron/yourls-anonymise) - Anonymise the log data that YOURLS captures.
-- [Antispam](https://github.com/YOURLS/antispam) ☑️ - Merciless antispam plugin using the 3 major domain blacklists.
+- [Antispam](https://github.com/YOURLS/antispam) ☑️ - Antispam plugin using the major DNS blacklists.
 - [YOURLS APC Cache](https://blog.yourls.org/2011/06/yourls-apc-cache-plugin/) - Add support for APC to reduce MySQL queries.
 - [API Action](https://github.com/YOURLS/API-action) ☑️ - Example plugin for YOURLS 1.6+ to show how to implement custom API actions.
 - [API Contract](https://github.com/brookestevens/yourls-api-contract) - API action opposite to "expand": check if a URL has been shortened before
