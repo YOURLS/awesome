@@ -115,6 +115,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [CAS Plugin](https://github.com/nicwaller/yourls-cas-plugin) - Enable authentication through a CAS server.
 - [Case Insensitive](https://github.com/seandrickson/YOURLS-Case-Insensitive/) - Makes all keywords case insensitive (creates and calls all keywords lowercase).
 - [Case Insensitive](https://github.com/adigitalife/yourls-case-insensitive) - Make YOURLS case insensitive: if you create `http://sho.rt/MyLink`, then variations like `mylink` or `MYLINK` will redirect to the same URL.
+- [Case Insensitive YOURLS](https://github.com/IMExperts/yourls-case-insensitive) - Makes YOURLS case insensitive, for 1.9+.
 - [Change Error Messages](https://github.com/adigitalife/yourls-change-error-messages) - Changes the error message when a keyword or URL already exists and displays the long URL.
 - [YOURLS GWall Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
 - [Change Password](https://github.com/ozh/yourls-change-password) ☑️ - Change your password from within YOURLS instead of editing the config file.
@@ -242,7 +243,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [Mailto](https://github.com/peterberbec/yourls-mailto) - Adds a "mailto:" sharing option, next to Twitter and Facebook.
 - [Mailto Bookmarklet](https://github.com/peterberbec/yourls-mailto-bookmarklet) - Adds a bookmarklet to share links by mail.
-- [Mass Remove Link](https://github.com/YOURLS/mass-remove-links/) ⭐ - Remove several links at once. Select by date, date range, IP or URL matching.
+- [Mass Remove Link](https://github.com/YOURLS/mass-remove-links/) ☑️ - Remove several links at once. Select by date, date range, IP or URL matching.
 - [Mass Update](https://github.com/Binarypark/yourls-api-mass-update) - Adds an API action to mass update links from `old_domain` to `new_domain`.
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS.
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
