@@ -430,6 +430,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Telugu](https://github.com/kalyan4786/YOURLS_Telugu_Translation) (`te_IN`)
 - [Turkish](https://github.com/mugurcagdas/YOURLS_TR) (`tr_TR`)
 - [Traditional Chinese](https://github.com/alexclassroom/YOURLS-zh_TW) (`zh_TW`)
+- [English (Australian)](https://github.com/bakkbone/yourls-en_AU) (`en_AU`)
 
 
 ## Integrations
