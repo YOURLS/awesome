@@ -61,7 +61,7 @@ Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
 Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
 ### 0-9
-
+- [2fa Support](https://github.com/MatthewC/yourls-2fa-support) - Adds 2FA support to YOURLS.
 - [302-Instead](https://github.com/EpicPilgrim/302-instead) - Send a 302 (temporary) redirect instead of 301 (permanent), for sites where shortlinks may change.
 - [302-Instead](https://github.com/timcrockford/302-instead) - A fork of previous plugin, with some more options.
 - [404 If Not Found](https://github.com/YOURLS/404-if-not-found) ☑️ - Give a 404 Not Found if the short URL is not found.
