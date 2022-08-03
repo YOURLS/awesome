@@ -411,6 +411,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Czech](https://github.com/KubaCZ721/YOURLS-cs_CZ) (`cs_CZ`)
 - [Danish](https://github.com/jensz12/YOURLSDK) (`da_DK`)
 - [Dutch](https://github.com/Beun/YOURLS-nl_NL) (`nl_NL`)
+- [English (Australian)](https://github.com/bakkbone/yourls-en_AU) (`en_AU`)
 - [Farsi](https://github.com/saahmadnejad/YOURLS-fa_FA) (`fa_FA`)
 - [Finnish](https://github.com/re2man/YOURLS-fi_FI) (`fi_FI`)
 - [French](https://github.com/ozh/YOURLS-fr_FR) (`fr_FR`)
