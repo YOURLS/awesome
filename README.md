@@ -118,6 +118,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Case Insensitive YOURLS](https://github.com/IMExperts/yourls-case-insensitive) - Makes YOURLS case insensitive, for 1.9+.
 - [Change Error Messages](https://github.com/adigitalife/yourls-change-error-messages) - Changes the error message when a keyword or URL already exists and displays the long URL.
 - [YOURLS GWall Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
+- [YOURLS GWall Change Title](https://github.com/gioxx/YOURLS-GWallChangeTitle) - Allows you to change the title of the YOURLS website (the html `<title>` tag).
 - [Change Password](https://github.com/ozh/yourls-change-password) ☑️ - Change your password from within YOURLS instead of editing the config file.
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
 - [Change Title](https://happier.allowed.org/change-title) - Change the html `<title>` tag of your admin interface.
