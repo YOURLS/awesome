@@ -257,6 +257,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 ### N
 
 - [No Traking Admins](https://github.com/joshp23/YOURLS-No-Tracking-Admins) - No loggin clicks for authenticated users (compatible with OIDC).
+- [No URL title](https://github.com/YOURLS/YOURLS/issues/1966#issuecomment-148905749) ☑️ - Don't fetch long URL titles.
 - [No Version Check](https://github.com/YOURLS/YOURLS/issues/2851) ☑️ - Stop YOURLS from checking if a new release is available.
 - [Notifier](https://github.com/SosthenG/yourls-notifier) - Sends notifications when actions occurs, like creating a new shortened url.
 
