@@ -428,7 +428,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [Polish](https://github.com/tomslominski/YOURLS-pl_PL) (`pl_PL`)
 - [Portuguese](https://github.com/oscarmarcelo/YOURLS-pt_PT) (`pt_PT`)
 - [Russian](https://github.com/nsauk/YOURLS-ru_RU) (`ru_RU`)
-- [Simplified Chinese](https://github.com/ZvonimirSun/YOURLS-zh_CN) (`zh_CN`)
+- [Simplified Chinese](https://github.com/taozhiyu/yourls-translation-zh_CN) (`zh_CN`)
 - [Slovak](https://github.com/filyph/YOURLS-sk_SK) (`sk_SK`)
 - [Spanish](https://github.com/kralizeck/YOURLS-es_ES) (`es_ES`)
 - [Telugu](https://github.com/kalyan4786/YOURLS_Telugu_Translation) (`te_IN`)
