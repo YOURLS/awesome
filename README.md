@@ -342,6 +342,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### T
 
+- [Telegram Notifier](https://github.com/XLixl4snSU/yourls-telegram-notifier) - Get a notification via Telegram whenever a new shortlink is created.
 - [Telegram Quickshare](https://github.com/ColinShark/YOURLS_tg-quickshare) - Quickly share a shortened URL via Telegram Messenger.
 - [Title Refetch](https://github.com/joshp23/YOURLS-title-refetch) - Refetch page titles.
 - [Timezones](https://github.com/YOURLS/timezones) ☑️ - Tell YOURLS your time zone and how you'd like times and dates displayed.
