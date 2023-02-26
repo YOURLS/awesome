@@ -375,7 +375,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### X
 
-
+- [X-Robots-Tag header](https://github.com/YOURLS/YOURLS/pull/3517#issuecomment-1427114687) ☑️ - Send `X-Robots-Tag: index` header on redirection, to fine tune your SEO needs.
 
 [⬆️ Go to section](#plugins)
 
