@@ -51,7 +51,7 @@ All known plugins, from the community or the YOURLS team
 
 _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
-- :test_tube: : plugins featuring there own unit tests to ensure expected functionning as well as present and future compatibility with YOURLS
+- :test_tube: : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
 
 Currently we have **<!--plugin_count-->204<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
