@@ -451,8 +451,11 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### 3rd party Integrations and Frameworks
 
 - Bash
-  - [YOURLS BASH](https://github.com/ozh/yourls-bash) - a simple BASH script to shorten URLs with YOURLS
+  - [YOURLS BASH](https://github.com/ozh/yourls-bash) - a simple BASH script to shorten URLs with YOURLS.
 - [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
+- Docker
+  - Official [YOURLS Docker image](https://hub.docker.com/_/yourls).
+  - [Dockerize YOURLS](https://github.com/guessi/docker-yourls) - a YOURLS image with several integrated plugins.
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal.
 - [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package.
 - [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard.
@@ -520,6 +523,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [YOURLS on Installatron](https://installatron.com/yourls)
 - [YOURLS on IIS](https://gist.github.com/ozh/714d23228235becba14fea925fc77e2c)
 - [YOURLS on Fedora](https://fedoraproject.org/wiki/Install_and_configure_YOURLS_for_AutoQA)
+- [YOURLS on Yunohost](https://github.com/YunoHost-Apps/yourls_ynh)
 - Guides for Ubuntu:
   - [How to install YOURLS on Ubuntu](https://computingforgeeks.com/install-yourls-your-own-url-shortener-on-ubuntu/)
   - [How to install YOURLS on Ubuntu 14.04](https://www.rosehosting.com/blog/how-to-install-yourls-on-ubuntu-14-04/)
