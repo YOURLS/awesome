@@ -7,7 +7,7 @@
 # Awesome YOURLS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
+[![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome)
 
 > A curated list of **awesome things** related to **[YOURLS](https://yourls.org)**
 
@@ -27,16 +27,16 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Official Links
 [🔼 Go to top](#readme)
 
-Official material from the YOURLS team :
+#### Official material from the YOURLS team
 
 - [Official Readme](https://yourls.org)
 - [Source Code](https://github.com/YOURLS/YOURLS)
-- [Documentation](https://yourls.org/docs/)
+- [Documentation](https://yourls.org/docs)
 - [Release Notes](https://github.com/YOURLS/YOURLS/releases)
-- [YOURLS News](https://yourls.org/blog/)
-- [Community Discussions](https://github.com/YOURLS/YOURLS/discussions)
+- [YOURLS News](https://yourls.org/blog)
+- [Community Discussions](https://github.com/orgs/YOURLS/discussions)
 
-Official tools from the YOURLS team :
+#### Official tools from the YOURLS team
 
 - [YOURLS using Docker](https://hub.docker.com/_/yourls/)
 - [YOURLS using Helm for Kubernetes](https://artifacthub.io/packages/helm/yourls/yourls)
