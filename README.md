@@ -554,6 +554,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - https://your.ls/ - Very neat public interface using [Sleeky](https://github.com/Flynntes/Sleeky) theme. Also a neat domain hack :)
 - https://yourwish.es/ - Easily share an Amazon wishlist.
 - http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/archive/vbly-domain-seizure)).
+- https://8mi.ink - Minimalist style, short address service for China use
 
 ### Celebrity endorsements (sort of)
 
