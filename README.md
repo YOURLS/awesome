@@ -533,7 +533,7 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [How to install YOURLS on Ubuntu 20.04](https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04)
   - [How to Install YOURLS on Ubuntu with Nginx and Let’s Encrypt](https://linuxstans.com/how-to-install-yourls/)
 - Windows
-- [How to Install YOURLS on WAMP](https://gist.github.com/AlbertoVargasMoreno/fb624a33244b6047bbab1fb95aabc6af)
+  - [How to Install YOURLS on WAMP](https://gist.github.com/AlbertoVargasMoreno/fb624a33244b6047bbab1fb95aabc6af)
 
 ### Installation guides in other languages
 
