@@ -128,7 +128,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
 - [Conditional Toolbar](https://github.com/YOURLS/conditional-toolbar) ☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
 - [Conditional URLAds](https://github.com/HeroCC/yourls-conditional-urlads) - A plugin to conditionally send links through various link monetizing services: `http://your.site/short` is normal, `http://your.site/a/short` redirects through AdFly.
-- [Conditional URLAds (GUI)](https://github.com/8Mi-Tech/yourls-conditional-urlads) - A plugin that forks [Conditional URLAds](https://github.com/HeroCC/yourls-conditional-urlads), but it's more elegant and convenient in terms of setting parameters, For example, directly within a WebPage
+- [Conditional URLAds (WebUI)](https://github.com/8Mi-Tech/yourls-conditional-urlads) - A plugin that forks [Conditional URLAds](https://github.com/HeroCC/yourls-conditional-urlads), but it's more elegant and convenient in terms of setting parameters, For example, directly within a WebPage
 - [Custom Header & Footer](https://github.com/mediageni/yourls-custom-header-footer) - A plugin administration page to add custom header and footer style and content.
 - [Custom Javascript](https://github.com/mediageni/yourls-custom-javascript) - Add custom javascript to admin pages.
 - [Custom Number of Displayed Links](https://github.com/YOURLS/YOURLS/issues/2339#issuecomment-352127623) ☑️ - Change the default number of links per page, if 15 isn't your taste.
