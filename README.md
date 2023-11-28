@@ -413,7 +413,7 @@ This will be the next big thing when YOURLS fully support theming
 [🔼 Go to top](#readme)
 
 YOURLS supports localization: this means if a language file for YOURLS in available in your language, YOURLS will speak your language!
-
+- Auto Detect: [I18N Manager](https://github.com/8Mi-Tech/yourls-i18n-manager)
 - Brazilian: [here](https://github.com/didi3d/YOURLS-pt_BR) and [here](https://github.com/henriquecrang/YOURLS-pt_BR)  (`pt_BR`)
 - [Bulgarian ](https://github.com/VoodooServ/YOURLS-bg_BG) (`bg_BG`)
 - [Catalan](https://github.com/kuratowsky/YOURLS-ca_ES) (`ca_ES`)
