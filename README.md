@@ -209,6 +209,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Integrated QRCodes](https://github.com/joshp23/YOURLS-IQRCodes) - Integrated QRCodes is an updated fork of Inline QRCode, but more compact, configurable, and just as efficient with more features.
 - [Insert Fake Links](https://gist.github.com/ozh/6455d192ac443c2a12379cc94f607b43) ☑️ - Insert fake links (for test installs)
 - [iOS URL](https://github.com/suculent/yourls-ios-url-schemes-plugin) - Adds support for URLs starting with `itms-apps://` and `itms-services://`.
+- [IP Click Detail](https://github.com/tacoded/YOURLS-IP-Click-Detail) - Shows click level IP address detail and User Agent, Referrer
 - [iTunes-Affiliate](https://github.com/floschliep/YOURLS-iTunes-Affiliate) - Adds your iTunes Affiliate-Token to all iTunes URLs before redirection.
 
 [⬆️ Go to section](#plugins)
