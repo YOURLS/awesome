@@ -15,7 +15,7 @@
 
 - [Official Links](#official-links) - Official guides and tools
 - [Plugins](#plugins) - what makes YOURLS so versatile and powerful.
-  Currently: **<!--plugin_count-->208<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
+  Currently: **<!--plugin_count-->210<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 - [Themes](#themes) - to customize how YOURLS looks
 - [Translations](#translations) - YOURLS in your language
 - [Integrations](#integrations) - Third-party integrations and frameworks
@@ -53,7 +53,7 @@ _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
 - :test_tube: : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
 
-Currently we have **<!--plugin_count-->208<!--/plugin_count-->** plugins listed.
+Currently we have **<!--plugin_count-->210<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 
 Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
@@ -210,6 +210,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Integrated QRCodes](https://github.com/joshp23/YOURLS-IQRCodes) - Integrated QRCodes is an updated fork of Inline QRCode, but more compact, configurable, and just as efficient with more features.
 - [Insert Fake Links](https://gist.github.com/ozh/6455d192ac443c2a12379cc94f607b43) ☑️ - Insert fake links (for test installs)
 - [iOS URL](https://github.com/suculent/yourls-ios-url-schemes-plugin) - Adds support for URLs starting with `itms-apps://` and `itms-services://`.
+- [IP Click Detail](https://github.com/tacoded/YOURLS-IP-Click-Detail) - Shows click level IP address detail and User Agent, Referrer
 - [iTunes-Affiliate](https://github.com/floschliep/YOURLS-iTunes-Affiliate) - Adds your iTunes Affiliate-Token to all iTunes URLs before redirection.
 
 [⬆️ Go to section](#plugins)
@@ -302,6 +303,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [QRCode](https://github.com/seandrickson/YOURLS-QRCode-Plugin) - Another QR Code plugin. Get the QR code by simply clicking on a button in the Admin area (or by adding ".qr" to the end of the keyword).
 - [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
 - [Query String Keeper](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://long.url/bleh/?hey`).
+- [Query String Keeper](https://github.com/littleskyfish/query-string-keeper) - Pass the query string from the shortlink to the long URL (tested on YOURLS version 1.8.3 and php version 8.0.12).
 
 [⬆️ Go to section](#plugins)
 
