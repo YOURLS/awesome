@@ -521,6 +521,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [How to Install YOURLS using Softaculous](https://www.websiterating.com/online-marketing/how-to-install-yourls-using-softaculous/)
 - [How to Install YOURLS on a VPS or shared hosting](https://thishosting.rocks/how-to-shorten-your-links-with-your-own-domain/)
 - [YOURLS on Azure](https://www.juharyhanen.com/technology/create-personal-url-shortener-in-5-simple-steps/)
+- [YOURLS on Caddy](https://aka.cy/2023/12/13/How-to-install-YOURLS-with-caddy/)
 - CentOS
   - [How to Install YOURLS on CentOS 7](https://www.vultr.com/docs/how-to-install-yourls-on-centos-7)
   - [How to install YOURLS on Centos 7](https://www.linuxcloudvps.com/blog/how-to-install-yourls-on-centos-7/)
