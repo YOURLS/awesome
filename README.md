@@ -78,6 +78,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Admin Issue Diagnostic - A.I.D.](https://github.com/PopVeKind/admin_issue_diagnostic) - Collects YOURLS environmentals and formats a template to copy/paste into a YOURLS issue.
 - [Admin NoReCAPTCHA](https://github.com/amindeed/YOURLS-Admin-NoReCAPTCHA) - Protect logins with Google's No CAPTCHA reCAPTCHA (Google's ReCAPTCHA v2.0).
 - [Admin reCaptcha](https://github.com/armujahid/Admin-reCaptcha) - Spam protection for private YOURLS admin interface with reCaptcha.
+- [Admin reCaptcha v3](https://github.com/axilaris/admin-yourls-recaptcha-v3) - Protect Admin login with reCaptcha v3.
 - [Advanced Reserved URLs](https://github.com/josheby/yourls-advanced-reserved-urls) - Extends the reserved word functionality, blocking short URLs containing reserved words, even if mixed case or written in leetspeak.
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server.
 - [Allow Forward Slashes in Short URLs](https://github.com/williambargent/YOURLS-Forward-Slash-In-Urls) - Just as the name says.
@@ -563,6 +564,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - https://your.ls/ - Very neat public interface using [Sleeky](https://github.com/Flynntes/Sleeky) theme. Also a neat domain hack :)
 - https://yourwish.es/ - Easily share an Amazon wishlist.
 - http://vbly.us - YOURLS early adopter, once taken down by Libya! ([story](https://mashable.com/archive/vbly-domain-seizure)).
+- https://do.my - multi-domain URL shortener
 
 ### Celebrity endorsements (sort of)
 
