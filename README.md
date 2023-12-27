@@ -173,6 +173,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Fix long URLs](https://github.com/adigitalife/yourls-fix-long-url) - Fix long URLs that contain %20 and other similar encodings.
 - [Fix Youtube titles](https://github.com/ozh/fix-youtube-titles) ☑️ - Get correct video title, not "`Before you continue to YouTube`"
 - [Force Lowercase](https://github.com/YOURLS/force-lowercase) ☑️ - Force lowercase so `http://sho.rt/ABC` → `http://sho.rt/abc`.
+- [Forward Query Strings](https://github.com/hastinbe/yourls-plugin-forward-query-strings) - Forwards query params to the destination URL. Can exclude params by domain.
 - [Fuzzy Keyword Suggestions](https://github.com/philhagen/ltc-fuzzy-keyword-suggestions) - Handles typos and other "near-misses" for any shortened link (eg if you have `sho.rt/dh1ik` but someone types `sho.rt/dhlik`, the 404 page will show suggestions for similar short URLs).
 
 [⬆️ Go to section](#plugins)
