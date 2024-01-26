@@ -239,6 +239,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [LDAP](https://github.com/k3a/yourls-ldap-plugin) - Enables use of LDAP for user authentication.
 - [Link Anonymizer](https://github.com/katzwebservices/YOURLS-Link-Anonymizer) - Generate a link that will take you to an anonymizer service.
 - [Link List](https://gitlab.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page.
+- [Limit Custom Keyword Length (Min & Max Characters)](https://github.com/suryatanjung/yourls-limit-custom-keyword-length) - This plugin limits the minimum and maximum number of characters for custom keyword.
 - [Limit keyword length](https://github.com/adigitalife/yourls-limit-keyword-length) - This plugin limits the number of characters allowed for the custom keyword.
 - [Limit keyword length](https://github.com/gehwissenlos/yourls-limit-keyword-length) - This plugin defines the minimal amount of characters for the custom keyword.
 - [Limited Links](https://github.com/LeoColomb/yourls-limited-links) ☑️ -limit the number of redirections of a specific link.
