@@ -156,7 +156,6 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 ### E
 
 - [Edition Logger](https://github.com/esuarezsantana/yourls-edition-logger) - Logs to a file every url insertion, deletion, or modification, to provide traceability of users' actions allowing an open edition policy.
-- [Email Notify](https://github.com/s22-tech/Yourls-Email-Notify) - Sends you an email with identifying information whenever someone clicks the link they were sent.
 - [Emojis](https://github.com/telepathics/yourls-emojis) - Create an emoji-only short link, like `http://sho.rt/✨` or `http://sho.rt/😎🆒🔗`
 - [Enhanced Auth Cookies](https://github.com/ozh/yourls-enhanced-cookies) ☑️ - Enhances the cookie based authentication, making each auth cookie name unique and time based.
 - [Every Click Counts](https://github.com/BstName/every-click-counts) - Click count include multiple clicks for the same client (ie there will be no browser caching of the redirection).
