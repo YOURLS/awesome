@@ -228,9 +228,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [Keep Query String](https://github.com/rinogo/yourls-keep-query-string) - Adds the short URL's query string (if any) to the long URL.
 - [Keywords, Charset & Length](https://github.com/peterberbec/yourls-keyword_charset_length) - Custom charset, custom link length and random short urls, all in one plugin, with an admin panel.
+- [Keyword Limiter](https://github.com/za22061991/yourls-keyword-limiter) - Add several conditions to check whether submitted keyword is allowed or not.
 - [Keyword not found](https://github.com/8thwall/keyword-not-found-set-field-yourls) - If keyword isn't found in the database, redirect to admin page and pre-populate the short URL field.
 - [Keyword Prefix](https://github.com/jangrewe/yourls-keyword-prefix) - Adds a defined prefix to your short URLs.
-- [Keyword Limiter](https://github.com/za22061991/yourls-keyword-limiter) - Add several conditions to check whether submitted keyword is allowed or not.
 
 [⬆️ Go to section](#plugins)
 
