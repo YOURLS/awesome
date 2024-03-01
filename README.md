@@ -316,9 +316,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation.
 - [Referral Link Checkpoint](https://github.com/telepathics/yourls-ref-checkpoint) - Add a landing page to let visitors know when it is a referral link.
 - [Regenerate URL](https://github.com/TheLeonKing/yourls-api-regenerate-url) - Regenerate a new keyword for a URL that has already been shortened.
-- [Replace Text](https://github.com/takuy/yourls-replacetext) - Replace URL or tokens in URL based on keyword, regex pattern matching, or script.
 - [Remove The Share Function](https://github.com/seandrickson/YOURLS-Remove-the-Share-Function) - Remove the Share button and box that toggles the sharing options on the Admin page.
 - [Remove YouTube Play Indicator](https://github.com/UltraNurd/youtube-play-indicator) - Removes the triangle from the title of Youtube shortened URL.
+- [Replace Text](https://github.com/takuy/yourls-replacetext) - Replace URL or tokens in URL based on keyword, regex pattern matching, or script.
 - [Reset URLs](https://gist.github.com/ozh/a0090f46569b50835520d95f9481d9fd) ☑️ - Deletes all URLs. For your test install needs.
 - [Reverse Proxy](https://github.com/Diftraku/yourls_reverseproxy) - Fixes the user IPs to point to the actual user instead of your cloud provider’s infrastructure IPs (Cloudflare, Heroku...).
 - [rscrub](https://github.com/joshp23/YOURLS-rscrub) - An "HTTP referrer scrubbing swiss army knife for YOURLS" (evolution of the Hide Referrer plugin).
