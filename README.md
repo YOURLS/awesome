@@ -307,6 +307,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [QRCode](https://techlister.com/plugins-2/qrcode-plugin-for-yourls/) - Creates and displays QR Codes within YOURLS.
 - [QR Google Charts](https://aiaraldea.github.io/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
 - [QRCode](https://github.com/seandrickson/YOURLS-QRCode-Plugin) - Another QR Code plugin. Get the QR code by simply clicking on a button in the Admin area (or by adding ".qr" to the end of the keyword).
+- [QRCode Local](https://github.com/alexkolodko/yourls-local-qr-code/) — Add ".qr" to short URLs to display the shorturl's QR code in SVG, PDF? PNG or JPG (local generation with JS).
 - [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
 - [Query String Keeper](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://long.url/bleh/?hey`).
 - [Query String Keeper](https://github.com/littleskyfish/query-string-keeper) - Pass the query string from the shortlink to the long URL (tested on YOURLS version 1.8.3 and php version 8.0.12).
