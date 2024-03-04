@@ -79,6 +79,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Admin NoReCAPTCHA](https://github.com/amindeed/YOURLS-Admin-NoReCAPTCHA) - Protect logins with Google's No CAPTCHA reCAPTCHA (Google's ReCAPTCHA v2.0).
 - [Admin reCaptcha](https://github.com/armujahid/Admin-reCaptcha) - Spam protection for private YOURLS admin interface with reCaptcha.
 - [Admin reCaptcha v3](https://github.com/axilaris/admin-yourls-recaptcha-v3) - Protect Admin login with reCaptcha v3.
+- [Admin Turnstile](https://github.com/SophiaAtkinson/yourls-cf-turnstile) - Protect Admin login with Cloudflare Turnstile!
 - [Advanced Reserved URLs](https://github.com/josheby/yourls-advanced-reserved-urls) - Extends the reserved word functionality, blocking short URLs containing reserved words, even if mixed case or written in leetspeak.
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server.
 - [Allow Forward Slashes in Short URLs](https://github.com/williambargent/YOURLS-Forward-Slash-In-Urls) - Just as the name says.
@@ -295,6 +296,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Public "Prefix n' Shorten"](https://yourls.org/docs/development/examples/public-prefix) ☑️ - Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area.
 - [YOURLS Pseudonymize](https://github.com/ubicoo/yourls-pseudonymize) - This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed).
 - [PUNS](https://github.com/joshp23/YOURLS-PUNS) - A Plugin Update Notification System: provides a report-generating page and an API with optional email notifications.
+- [Purge All Logs](https://github.com/SophiaAtkinson/yourls-purge-all-logs) - A Plugin that allows you to purges all YOURLS logs
 
 [⬆️ Go to section](#plugins)
 
