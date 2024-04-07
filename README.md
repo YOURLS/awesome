@@ -354,6 +354,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Static Titles](https://github.com/softius/yourls-static-titles) - Provide two options to avoid the network traffic when retrieving URL titles.
 - [SSL for SSL](https://github.com/tipichris/ssl4ssl) - Generates SSL short links if the original link was SSL.
 - [Swap Short URL](https://github.com/gerbz/Yourls-Swap-Short-Url) - A plugin to have `http://sho.rt/blah` while having YOURLS installed in `http://sho.rt/yourls/`
+- [Safe Redirect](https://github.com/imydou/yourls-safe-redirect) - A security reminder is displayed before redirecting long links, and custom ads can be inserted on the reminder page.
 
 [⬆️ Go to section](#plugins)
 
