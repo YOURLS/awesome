@@ -332,6 +332,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### S
 
+- [Safe Redirect](https://github.com/imydou/yourls-safe-redirect) - A security reminder is displayed before redirecting long links, and custom ads can be inserted on the reminder page.
 - [SAML Authentication](https://github.com/wlabarron/yourls-saml) - Sign in via SAML-based single sign-on.
 - [Save By Keyword](https://github.com/vitorccs/yourls-api-save-by-keyword) - API action to update the long URL of an existing keyword, or creates a new short URL.
 - [Semantic Scuttle](https://github.com/jonrandoem/yourls-semanticscuttle) - Allows the sharing of the URL to a Semantic Scuttle installation.
