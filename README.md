@@ -84,6 +84,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server.
 - [Allow Forward Slashes in Short URLs](https://github.com/williambargent/YOURLS-Forward-Slash-In-Urls) - Just as the name says.
 - [Allow Full Stops in Short URLs](https://github.com/SophiaAtkinson/YOURLS-full-stop-in-short-urls) - This plugin will allow full stops `.` in keywords when shortening URLS.
+- [Allow Hyphens in Short URLs](https://github.com/k1nsej/YOURLS-Hyphens-In-Urls) - This plugin will allow hyphens `-` in keywords when shortening URLs.
 - [Always-302](https://github.com/tinjaw/Always-302) - A newer alternative to 302-Instead.
 - [Amazon Affiliate](https://github.com/floschliep/YOURLS-Amazon-Affiliate) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection.
 - [Amazon Affiliate With Notice](https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate-With-Redirect-Notice) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection with a notice of Amazon Affiliate link usage.
