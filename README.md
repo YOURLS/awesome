@@ -581,6 +581,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - https://smashed.by/ by [Smashing Magazine](https://www.smashingmagazine.com/).
 - https://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
 - https://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
+- https://rpf.io/ by [the Raspberry Pi Foundation](https://www.raspberrypi.org/).
 
 YOURLS has also been used by the NASA, Virgin and Epic Games. Sweet! 😊
 
