@@ -96,6 +96,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [API Edit URL](https://github.com/timcrockford/yourls-api-edit-url) - Add an "update" action to the API to edit a URL, and a "geturl" action to get the long URL of a short URL.
 - [API List All](https://github.com/rosano/yourls-api-action-list) - Add a "list" action to the API to show all keywords.
 - [API List All + URLs](https://github.com/Le0X8/yourls-api-action-list) - Add a "list" action to the API to show all keywords & URLs. This is a fork of the previous plugin and therefore incompatible with it.
+- [API List Extended](https://github.com/Codeinwp/yourls-api-list-extended?tab=readme-ov-file) - Add a "list" action to the API with advanced options, such as shorting, pagination and field selection.
 - [API ShortUrl Analytics](https://github.com/stefanofranco/yourls-api-shorturl-analytics) - Add a "shorturl_analytics" action to the API to get the statistics of a specific shortURL in a range of dates.
 - [Append Query String](https://github.com/drockney/append-qs) - Appends the query string to a long URL.
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
