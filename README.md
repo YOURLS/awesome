@@ -471,6 +471,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 - Bash
   - [YOURLS BASH](https://github.com/ozh/yourls-bash) - a simple BASH script to shorten URLs with YOURLS.
+  - [BASH YOURLS](https://github.com/masdzub/bash-yourls) - A simple bash script to shorten URLs using the YOURLS API with diffent path config.
 - [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
 - Docker
   - Official [YOURLS Docker image](https://hub.docker.com/_/yourls).
