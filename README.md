@@ -109,6 +109,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [BaseURL Rewrite](https://github.com/christian-krieg/yourls-plugin-base-url-rewrite) - Rewrite short URLs such that they point to alternative (base) URLs.
 - [Blacklist Domains](https://github.com/apelly/YourlsBlacklistDomains) - A simple plugin to blacklist domains from shortening URLs.
+- [Better Blacklist Domains](https://git.oldgate.org/Sophia/better-yourls-blacklist-domains) - A better plugin to blacklist domains from shortening URLs.
 - [Blacklist IPs](https://github.com/LudoBoggio/YourlsBlacklistIPs) - A simple plugin to blacklist IPs from shortening URLs.
 - [BlackList User-Agent](https://github.com/8Mi-Tech/yourls-ban-useragent):test_tube: - A simple plugin to blacklist User-Agent from shortening URLs.
 - [Block details while not login](https://github.com/taozhiyu/block-details-while-not-login) - Blocks access to the details page when not logged in.
@@ -130,6 +131,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [YOURLS GWall Change Title](https://github.com/gioxx/YOURLS-GWallChangeTitle) - Allows you to change the title of the YOURLS website (the html `<title>` tag).
 - [Change Password](https://github.com/ozh/yourls-change-password) ☑️ - Change your password from within YOURLS instead of editing the config file.
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
+- [Change Shortlink User](https://git.oldgate.org/Sophia/yourls-change-shortlink-user) - Allows admin to change the user of a shortlink, including setting it to nothing.
 - [Check URL](https://github.com/adigitalife/yourls-check-url) - Check if a long URL is reachable before creating a short URL.
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
 - [Conditional Toolbar](https://github.com/YOURLS/conditional-toolbar) ☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
@@ -471,6 +473,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 - Bash
   - [YOURLS BASH](https://github.com/ozh/yourls-bash) - a simple BASH script to shorten URLs with YOURLS.
+  - [UPDATED YOURLS BASH](https://github.com/SophiaAtkinson/yourls-bash) - a advanced BASH script to shorten URLs with YOURLS.
 - [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
 - Docker
   - Official [YOURLS Docker image](https://hub.docker.com/_/yourls).
