@@ -109,6 +109,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [BaseURL Rewrite](https://github.com/christian-krieg/yourls-plugin-base-url-rewrite) - Rewrite short URLs such that they point to alternative (base) URLs.
 - [Blacklist Domains](https://github.com/apelly/YourlsBlacklistDomains) - A simple plugin to blacklist domains from shortening URLs.
+- [Better Blacklist Domains](https://git.oldgate.org/Sophia/better-yourls-blacklist-domains) - A better plugin to blacklist domains from shortening URLs.
 - [Blacklist IPs](https://github.com/LudoBoggio/YourlsBlacklistIPs) - A simple plugin to blacklist IPs from shortening URLs.
 - [BlackList User-Agent](https://github.com/8Mi-Tech/yourls-ban-useragent):test_tube: - A simple plugin to blacklist User-Agent from shortening URLs.
 - [Block details while not login](https://github.com/taozhiyu/block-details-while-not-login) - Blocks access to the details page when not logged in.
@@ -471,6 +472,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 - Bash
   - [YOURLS BASH](https://github.com/ozh/yourls-bash) - a simple BASH script to shorten URLs with YOURLS.
+  - [UPDATED YOURLS BASH](https://github.com/SophiaAtkinson/yourls-bash) - a advanced BASH script to shorten URLs with YOURLS.
   - [BASH YOURLS](https://github.com/masdzub/bash-yourls) - A simple bash script to shorten URLs using the YOURLS API with diffent path config.
 - [CakePHP](https://github.com/adrianoluis/CakePHP-YOURLS-Plugin) - Plugin to integrate YOURLS.
 - Docker
