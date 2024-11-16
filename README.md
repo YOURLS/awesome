@@ -113,6 +113,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Blacklist IPs](https://github.com/LudoBoggio/YourlsBlacklistIPs) - A simple plugin to blacklist IPs from shortening URLs.
 - [BlackList User-Agent](https://github.com/8Mi-Tech/yourls-ban-useragent):test_tube: - A simple plugin to blacklist User-Agent from shortening URLs.
 - [Block details while not login](https://github.com/taozhiyu/block-details-while-not-login) - Blocks access to the details page when not logged in.
+- [Broken Banisher](https://github.com/ptrsmk/hp-broken-banisher) - Semi-automatically audits links already in your database and banishes the broken ones.
 - [Bulk Import and Shorten](https://github.com/vaughany/yourls-bulk-import-and-shorten) - Import links from a CSV file.
 - [Bulk URL Shortening](https://github.com/tdakanalis/bulk_api_bulkshortener) - Shortening of multiple URLs with one API request.
 
@@ -381,7 +382,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [Upload and Shorten](https://github.com/fredl99/YOURLS-Upload-and-Shorten) - Upload and share files with YOURLS.
 - [U-SRV](https://github.com/joshp23/YOURLS-U-SRV) - Provides secure links to files while obfuscating filesystem paths, allowing easy, secure access to files between plugins or from 3rd party scripts. Manual uploading of files is supported.
--  [Update 30X](https://github.com/joshp23/YOURLS-Update-30X) - An API plugin to test single, domain based, or all available links and update the URL in YOURLS if redirection occures at the destination.
+- [Update 30X](https://github.com/joshp23/YOURLS-Update-30X) - An API plugin to test single, domain based, or all available links and update the URL in YOURLS if redirection occures at the destination.
 - [URL Health Check](https://github.com/joshp23/YOURLS-URL-Health-Check) - Checks submitted URLs for validity, reachability, and redirection. In the case of redirection, the final destination URL will be stored avoiding nested redirects.
 - [Users in Database](https://gist.github.com/njbair/d951fb8b9c1f44d0e8bcd405645bbde1) - Reads users from a database table instead of a config file. Currently does not provide an interface for adding/editing users though.
 
