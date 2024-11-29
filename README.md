@@ -138,6 +138,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Conditional Toolbar](https://github.com/YOURLS/conditional-toolbar) ☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
 - [Conditional Advertisements](https://github.com/HeroCC/yourls-conditional-urlads) - A plugin to conditionally send links through various link monetizing services: `http://your.site/short` is normal, `http://your.site/a/short` redirects through AdFly.
 - [Custom Header & Footer](https://github.com/mediageni/yourls-custom-header-footer) - A plugin administration page to add custom header and footer style and content.
+- [Custom Header](https://github.com/srivastava07/YOURLS-Custom-Header) - This plugin allows the addition of a custom header to the generated URL, enabling compliance with specific regulatory requirements in certain countries, such as India, for bulk SMS services.
 - [Custom Javascript](https://github.com/mediageni/yourls-custom-javascript) - Add custom javascript to admin pages.
 - [Custom Number of Displayed Links](https://github.com/YOURLS/YOURLS/issues/2339#issuecomment-352127623) ☑️ - Change the default number of links per page, if 15 isn't your taste.
 - [Custom Protocol](https://github.com/YOURLS/custom-protocol) ☑️ - If the user is known, this plugin adds custom protocol (eg `blah://`) to authorized protocols, otherwise restricts to `http|s`.
