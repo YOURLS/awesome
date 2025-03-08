@@ -102,6 +102,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Append Query String](https://github.com/drockney/append-qs) - Appends the query string to a long URL.
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
 - [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs).
+- [Awin Affiliate](https://github.com/lammersbjorn/YOURLS-Awin) - Automatically adds Awin affiliate parameters to URLs from configured merchants.
 
 [⬆️ Go to section](#plugins)
 
@@ -325,6 +326,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### R
 
+- [Random Redirect Manager](https://github.com/lammersbjorn/YOURLS-Random-Redirect-Manager) - Redirects specific keywords to randomly selected URLs from predefined lists with customizable probability weights.
 - [reCaptcha](https://github.com/spbriggs/recaptcha-plugin) - YOURLS plugin implementing reCaptcha for unauthenticated users in your public interface.
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation.
 - [Redirect based on User-Agent](https://github.com/daitj/yourls-redirect-useragent) - Redirect based on User-Agent, all blacklisted user agents won't be redirected to target URL but instead shown a custom page.
