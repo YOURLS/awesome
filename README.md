@@ -439,11 +439,11 @@ This will be the next big thing when YOURLS fully support theming
 YOURLS supports localization: this means if a language file for YOURLS in available in your language, YOURLS will speak your language!
 
 - Brazilian: [here](https://github.com/didi3d/YOURLS-pt_BR) and [here](https://github.com/henriquecrang/YOURLS-pt_BR)  (`pt_BR`)
-- [Bulgarian ](https://github.com/VoodooServ/YOURLS-bg_BG) (`bg_BG`)
+- [Bulgarian](https://github.com/VoodooServ/YOURLS-bg_BG) (`bg_BG`)
 - [Catalan](https://github.com/kuratowsky/YOURLS-ca_ES) (`ca_ES`)
 - [Czech](https://github.com/KubaCZ721/YOURLS-cs_CZ) (`cs_CZ`)
 - [Danish](https://github.com/jensz12/YOURLSDK) (`da_DK`)
-- [Dutch](https://github.com/Beun/YOURLS-nl_NL) (`nl_NL`)
+- [Dutch](https://github.com/toineenzo/YOURLS-nl_NL) (`nl_NL`)
 - [English (Australian)](https://github.com/bakkbone/yourls-en_AU) (`en_AU`)
 - [Farsi](https://github.com/saahmadnejad/YOURLS-fa_FA) (`fa_FA`)
 - [Finnish](https://github.com/re2man/YOURLS-fi_FI) (`fi_FI`)
