@@ -361,7 +361,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [SMTP Contact](https://github.com/joshp23/YOURLS-SMTP-contact) - Provides a public contact page using PHPMailer for outbound mail delivery.
 - [Snapshot](https://github.com/joshp23/YOURLS-Snapshot) - Visual preview plugin with image caching powered by PhantomJS.
 - [YOURLS SQLite](https://github.com/ozh/yourls-sqlite) ☑️ - SQLite driver for YOURLS. It is now considered outdated.
-- [YOURLS SQLite](https://github.com/Flameborn/yourls-sqlite) - A fork of the original SQLite driver for YOURLS, actively maintained.
+- [YOURLS SQLite](https://github.com/Niduroki/yourls-sqlite-driver) - A fork of the original SQLite driver for YOURLS, actively maintained.
 - [Static Titles](https://github.com/softius/yourls-static-titles) - Provide two options to avoid the network traffic when retrieving URL titles.
 - [SSL for SSL](https://github.com/tipichris/ssl4ssl) - Generates SSL short links if the original link was SSL.
 - [Swap Short URL](https://github.com/gerbz/Yourls-Swap-Short-Url) - A plugin to have `http://sho.rt/blah` while having YOURLS installed in `http://sho.rt/yourls/`
