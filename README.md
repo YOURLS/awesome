@@ -574,6 +574,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 - [Getting Started with YOURLS](https://www.youtube.com/watch?v=9L8HtB6vZdQ) - a video presentation that includes API examples with Keyboard Maestro
 - [YOURLS with Tweetbot](https://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/)
+- [Migrating from Bitly to YOURLS](https://github.com/Lazza/BitlyEscape) - a collection of scripts and a how-to guide for migrating your data
 
 ## Showcases
 [🔼 Go to top](#readme)
