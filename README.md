@@ -59,7 +59,7 @@ Currently we have **<!--plugin_count-->230<!--/plugin_count-->** plugins listed.
 
 Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
 
-Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
+跳转到 [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
 ### 0-9
 - [2fa Support](https://github.com/MatthewC/yourls-2fa-support) - Adds 2FA support to YOURLS.
@@ -223,6 +223,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [iOS URL](https://github.com/suculent/yourls-ios-url-schemes-plugin) - Adds support for URLs starting with `itms-apps://` and `itms-services://`.
 - [IP Click Detail](https://github.com/tacoded/YOURLS-IP-Click-Detail) - Shows click level IP address detail and User Agent, Referrer
 - [iTunes-Affiliate](https://github.com/floschliep/YOURLS-iTunes-Affiliate) - Adds your iTunes Affiliate-Token to all iTunes URLs before redirection.
+- [I18N Manager](https://github.com/8Mi-Tech/yourls-i18n-manager) - A simple download language program, and will administrator page to follow the browser request header of the `Accept-Language` of the first language, while supporting the user's front-end interface (need to add their own support), other plugin multi-language support can be referred to [plugin-with-translate](https://github.com/YOURLS/plugin-with-translations)
 
 [⬆️ Go to section](#plugins)
 
@@ -436,7 +437,7 @@ This will be the next big thing when YOURLS fully support theming
 [🔼 Go to top](#readme)
 
 YOURLS supports localization: this means if a language file for YOURLS in available in your language, YOURLS will speak your language!
-- Auto Detect: [I18N Manager:test_tube: ](https://github.com/8Mi-Tech/yourls-i18n-manager)
+
 - Brazilian: [here](https://github.com/didi3d/YOURLS-pt_BR) and [here](https://github.com/henriquecrang/YOURLS-pt_BR)  (`pt_BR`)
 - [Bulgarian](https://github.com/VoodooServ/YOURLS-bg_BG) (`bg_BG`)
 - [Catalan](https://github.com/kuratowsky/YOURLS-ca_ES) (`ca_ES`)
