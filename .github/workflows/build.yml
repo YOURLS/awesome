@@ -4,9 +4,9 @@ on:
   #pull_request:
   push:
     branches:
-    - main
+      - main
     paths:
-    - 'README.md'
+      - 'README.md'
   workflow_dispatch:
 
 jobs:
@@ -15,18 +15,39 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.0
-    - name: Update README
-      run: ruby .github/scripts/parse.rb
-    - name: Commit and push if README changed
-      run: |-
-        git diff
-        git config user.name "Awesome YOURLS Robot"
-        git config user.email "yourls@users.noreply.github.com"
-        git add -A
-        git commit -m "Update plugin count" || exit 0
-        git push      
+      - uses: actions/checkout@v4
+
+      - name: Generate token
+        uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id: ${{ vars.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_PRIVATE_KEY }}
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+
+      - name: Update README
+        run: ruby .github/scripts/parse.rb
+
+      - name: Git diff
+        run: |
+          git diff
+
+      - name: Get GitHub App User ID
+        id: get-user-id
+        run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+
+      - name: Commit and push if README changed
+        run: |
+          git config --global user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
+          git config --global user.email '${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
+
+      - run: |
+          git add -A
+          git commit -m "Update plugin count" || exit 0
+          git push
