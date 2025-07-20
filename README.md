@@ -80,6 +80,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Admin reCaptcha](https://github.com/armujahid/Admin-reCaptcha) - Spam protection for private YOURLS admin interface with reCaptcha.
 - [Admin reCaptcha v3](https://github.com/axilaris/admin-yourls-recaptcha-v3) - Protect Admin login with reCaptcha v3.
 - [Admin Turnstile](https://github.com/SophiaAtkinson/yourls-cf-turnstile) - Protect Admin login with Cloudflare Turnstile!
+- [Admin Turnstile v2 Improved](https://github.com/russdunn/yourls-cf-turnstile-v2) - Implements Cloudflare Turnstile on the admin login form for added protection.
 - [Advanced Reserved URLs](https://github.com/josheby/yourls-advanced-reserved-urls) - Extends the reserved word functionality, blocking short URLs containing reserved words, even if mixed case or written in leetspeak.
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server.
 - [Allow Existing URLs](https://github.com/elder-oss/yourls-allow-existing-urls) - Have YOURLs return success when shortening an existing URL with YOURLS_UNIQUE_URLS=true.
