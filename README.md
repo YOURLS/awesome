@@ -223,7 +223,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [iOS URL](https://github.com/suculent/yourls-ios-url-schemes-plugin) - Adds support for URLs starting with `itms-apps://` and `itms-services://`.
 - [IP Click Detail](https://github.com/tacoded/YOURLS-IP-Click-Detail) - Shows click level IP address detail and User Agent, Referrer
 - [iTunes-Affiliate](https://github.com/floschliep/YOURLS-iTunes-Affiliate) - Adds your iTunes Affiliate-Token to all iTunes URLs before redirection.
-- [I18N Manager](https://github.com/8Mi-Tech/yourls-i18n-manager) - A simple download language program, and will administrator page to follow the browser request header of the `Accept-Language` of the first language, while supporting the user's front-end interface (need to add their own support), other plugin multi-language support can be referred to [plugin-with-translate](https://github.com/YOURLS/plugin-with-translations)
+- [I18N Manager](https://github.com/8Mi-Tech/yourls-i18n-manager) - A multi-language switching system for YOURLS
 
 [⬆️ Go to section](#plugins)
 
