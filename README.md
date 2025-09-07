@@ -400,6 +400,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [wallabag](https://github.com/jonrandoem/yourls-wallabag) - Allows the sharing of the URL to a Wallabag installation (previously named Poche).
 - [Whatsapp quickshare](https://github.com/wissehes/Whatsapp-quickshare) - Allows you to share your short URL via whatsapp.
+- [White label](https://github.com/ResourceInteractive/yourls-white-label) - Allows you to brand YOURLS with your own custom logo, fonts and title.
 - [Word Based Short URLs](https://github.com/ozh/yourls-word-based-short-urls) ☑️ - Generate short URLs with adjectives and nouns, like `http://sho.rt/FluffyArrogantUnicorn`.
 
 [⬆️ Go to section](#plugins)
