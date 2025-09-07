@@ -15,7 +15,7 @@
 
 - [Official Links](#official-links) - Official guides and tools
 - [Plugins](#plugins) - what makes YOURLS so versatile and powerful.
-  Currently: **<!--plugin_count-->234<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
+  Currently: **<!--plugin_count-->235<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 - [Themes](#themes) - to customize how YOURLS looks
 - [Translations](#translations) - YOURLS in your language
 - [Integrations](#integrations) - Third-party integrations and frameworks
@@ -54,7 +54,7 @@ _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
 - :test_tube: : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
 
-Currently we have **<!--plugin_count-->234<!--/plugin_count-->** plugins listed.
+Currently we have **<!--plugin_count-->235<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 
 Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
