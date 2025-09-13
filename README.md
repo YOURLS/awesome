@@ -354,7 +354,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Shaarli](https://github.com/miwasp/yourls-shaarli) - Allows the sharing of the URL to a Shaarli installation.
 - [Share Files](https://github.com/mtttmpl/YOURLS-Plugin--Share-Files) - Upload and share files with YOURLS.
 - [Share LinkedIn](https://github.com/popnt/yourls-linkedin-share) - Adds LinkedIn to the Quick Share Box.
-- [Share to QR Code](https://github.com/Maingron/yourls-shareto-qr) - Adds a QR Code link in the Quick Share Box.
+- [Share to Configurable](https://github.com/Maingron/yourls-shareto-configurable) - Lets you fully customize the Quick Share Box. (Also supports QR Codes, Custom links and disabling the Share Box enitely)
 - [Share with Tumblr](https://gist.github.com/ozh/25b2074dd275ed091aa1869200894c4d) ☑️ - In the Quick Share box, add a one-click share to Tumblr link.
 - [Shibboleth](https://github.com/fuero/yourls-shibboleth) - Enable authentication with Shibboleth.
 - [ShortShort](https://github.com/abaumg/yourls-shortshort) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
@@ -614,4 +614,3 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
