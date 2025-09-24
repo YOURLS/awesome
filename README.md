@@ -287,7 +287,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 ### O
 
 - [OAuth Sign In](https://github.com/LouisSung/YOURLS-OAuth_Sign_In) - Enable OAuth sign in support (using GitLab as an example).
-- [OIDC](https://github.com/joshp23/YOURLS-OIDC) - OpenID Connect authentication against a generic OpenID Connect server.
+- [OIDC](https://github.com/teicee/YOURLS-OIDC) - OpenID Connect authentication against a generic OpenID Connect server.
 - [Open Graph Meta Scraper](https://github.com/LK608/OG-Scraper) - Get Open Graph (OG) information for your shortened links.
 - [Original URL Regex Limiter](https://github.com/uniwue-rz/yourls-original-url-regex-limiter) - Enables to allow and block (original) URLs not just with domain names like related plugins, but with regular expressions for more precise policies.
 
