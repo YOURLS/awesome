@@ -341,6 +341,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Reset URLs](https://gist.github.com/ozh/a0090f46569b50835520d95f9481d9fd) ☑️ - Deletes all URLs. For your test install needs.
 - [Reverse Proxy](https://github.com/Diftraku/yourls_reverseproxy) - Fixes the user IPs to point to the actual user instead of your cloud provider’s infrastructure IPs (Cloudflare, Heroku...).
 - [rscrub](https://github.com/joshp23/YOURLS-rscrub) - An "HTTP referrer scrubbing swiss army knife for YOURLS" (evolution of the Hide Referrer plugin).
+- [Referer Restrict](https://github.com/twsh0305/referer-restrict) - Referer is used to restrict access from which domain names are allowed.
 
 [⬆️ Go to section](#plugins)
 
