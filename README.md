@@ -573,7 +573,8 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 ### Installation guides in other languages
 
-- [宝塔面板搭建短链接服务 YOURLS](https://blog.lza59.com/archives/yourls.html)
+- [宝塔面板搭建短链接服务 YOURLS](https://blog.lza59.com/archives/yourls.html)lose efficacy
+- [在宝塔面板安装一个很受欢迎的短链接网站开源程序YOURLS](https://wxsnote.cn/6633.html)
 - [Cómo instalar YOURLS, usando Softaculous](https://www.websiterating.com/es/online-marketing/how-to-install-yourls-using-softaculous/)
 - [Cómo instalar YOURLS en Ubuntu 20.04](https://linuxyunnovato.wordpress.com/2022/04/12/como-instalar-yourls-en-ubuntu-20-04/)
 - [Installer YOURLS, un système d'URL raccourcies](https://www.justegeek.fr/tuto-installer-yourls-un-systeme-durl-raccourcies/)
