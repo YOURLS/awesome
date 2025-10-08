@@ -333,6 +333,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [reCaptcha](https://github.com/spbriggs/recaptcha-plugin) - YOURLS plugin implementing reCaptcha for unauthenticated users in your public interface.
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation.
 - [Redirect based on User-Agent](https://github.com/daitj/yourls-redirect-useragent) - Redirect based on User-Agent, all blacklisted user agents won't be redirected to target URL but instead shown a custom page.
+- [Referer Restrict](https://github.com/twsh0305/referer-restrict) - Referer is used to restrict access from which domain names are allowed.
 - [Referral Link Checkpoint](https://github.com/telepathics/yourls-ref-checkpoint) - Add a landing page to let visitors know when it is a referral link.
 - [Regenerate URL](https://github.com/TheLeonKing/yourls-api-regenerate-url) - Regenerate a new keyword for a URL that has already been shortened.
 - [Remove The Share Function](https://github.com/seandrickson/YOURLS-Remove-the-Share-Function) - Remove the Share button and box that toggles the sharing options on the Admin page.
@@ -341,7 +342,6 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Reset URLs](https://gist.github.com/ozh/a0090f46569b50835520d95f9481d9fd) ☑️ - Deletes all URLs. For your test install needs.
 - [Reverse Proxy](https://github.com/Diftraku/yourls_reverseproxy) - Fixes the user IPs to point to the actual user instead of your cloud provider’s infrastructure IPs (Cloudflare, Heroku...).
 - [rscrub](https://github.com/joshp23/YOURLS-rscrub) - An "HTTP referrer scrubbing swiss army knife for YOURLS" (evolution of the Hide Referrer plugin).
-- [Referer Restrict](https://github.com/twsh0305/referer-restrict) - Referer is used to restrict access from which domain names are allowed.
 
 [⬆️ Go to section](#plugins)
 
@@ -573,7 +573,6 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 ### Installation guides in other languages
 
-- [宝塔面板搭建短链接服务 YOURLS](https://blog.lza59.com/archives/yourls.html)lose efficacy
 - [在宝塔面板安装一个很受欢迎的短链接网站开源程序YOURLS](https://wxsnote.cn/6633.html)
 - [Cómo instalar YOURLS, usando Softaculous](https://www.websiterating.com/es/online-marketing/how-to-install-yourls-using-softaculous/)
 - [Cómo instalar YOURLS en Ubuntu 20.04](https://linuxyunnovato.wordpress.com/2022/04/12/como-instalar-yourls-en-ubuntu-20-04/)
