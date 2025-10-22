@@ -15,7 +15,7 @@
 
 - [Official Links](#official-links) - Official guides and tools
 - [Plugins](#plugins) - what makes YOURLS so versatile and powerful.
-  Currently: **<!--plugin_count-->235<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
+  Currently: **<!--plugin_count-->238<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 - [Themes](#themes) - to customize how YOURLS looks
 - [Translations](#translations) - YOURLS in your language
 - [Integrations](#integrations) - Third-party integrations and frameworks
@@ -54,7 +54,7 @@ _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
 - :test_tube: : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
 
-Currently we have **<!--plugin_count-->235<!--/plugin_count-->** plugins listed.
+Currently we have **<!--plugin_count-->238<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 
 Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
@@ -287,7 +287,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 ### O
 
 - [OAuth Sign In](https://github.com/LouisSung/YOURLS-OAuth_Sign_In) - Enable OAuth sign in support (using GitLab as an example).
-- [OIDC](https://github.com/joshp23/YOURLS-OIDC) - OpenID Connect authentication against a generic OpenID Connect server.
+- [OIDC](https://github.com/teicee/YOURLS-OIDC) - OpenID Connect authentication against a generic OpenID Connect server.
 - [Open Graph Meta Scraper](https://github.com/LK608/OG-Scraper) - Get Open Graph (OG) information for your shortened links.
 - [Original URL Regex Limiter](https://github.com/uniwue-rz/yourls-original-url-regex-limiter) - Enables to allow and block (original) URLs not just with domain names like related plugins, but with regular expressions for more precise policies.
 
@@ -333,6 +333,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [reCaptcha](https://github.com/spbriggs/recaptcha-plugin) - YOURLS plugin implementing reCaptcha for unauthenticated users in your public interface.
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation.
 - [Redirect based on User-Agent](https://github.com/daitj/yourls-redirect-useragent) - Redirect based on User-Agent, all blacklisted user agents won't be redirected to target URL but instead shown a custom page.
+- [Referer Restrict](https://github.com/twsh0305/referer-restrict) - Referer is used to restrict access from which domain names are allowed.
 - [Referral Link Checkpoint](https://github.com/telepathics/yourls-ref-checkpoint) - Add a landing page to let visitors know when it is a referral link.
 - [Regenerate URL](https://github.com/TheLeonKing/yourls-api-regenerate-url) - Regenerate a new keyword for a URL that has already been shortened.
 - [Remove The Share Function](https://github.com/seandrickson/YOURLS-Remove-the-Share-Function) - Remove the Share button and box that toggles the sharing options on the Admin page.
@@ -354,6 +355,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Shaarli](https://github.com/miwasp/yourls-shaarli) - Allows the sharing of the URL to a Shaarli installation.
 - [Share Files](https://github.com/mtttmpl/YOURLS-Plugin--Share-Files) - Upload and share files with YOURLS.
 - [Share LinkedIn](https://github.com/popnt/yourls-linkedin-share) - Adds LinkedIn to the Quick Share Box.
+- [Share to Configurable](https://github.com/Maingron/yourls-shareto-configurable) - Lets you fully customize the Quick Share Box. (Also supports QR Codes, Custom links and disabling the Share Box enitely)
 - [Share with Tumblr](https://gist.github.com/ozh/25b2074dd275ed091aa1869200894c4d) ☑️ - In the Quick Share box, add a one-click share to Tumblr link.
 - [Shibboleth](https://github.com/fuero/yourls-shibboleth) - Enable authentication with Shibboleth.
 - [ShortShort](https://github.com/abaumg/yourls-shortshort) - Checks if a URL is already shortened (e.g. t.co, bit.ly, youtu.be) to avoid nested shortened links.
@@ -435,7 +437,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 This will be the next big thing when YOURLS fully support theming
 
 - [∞²](https://github.com/tomslominski/infinity-squared) - Infinity Squared, a beautiful public page theme for YOURLS.
-- [Air 66](https://github.com/air66design/air66-yourls-admin-theme) - A responsive admin theme for YOURLS.
+- [Air 66](https://github.com/ksonda/yourls-theme) - A responsive admin theme for YOURLS.
 - [Sleeky](https://github.com/Flynntes/Sleeky) - A sleek and simple frontend & backend theme for YOURLS with light and dark modes.
 
 
@@ -572,7 +574,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 
 ### Installation guides in other languages
 
-- [宝塔面板搭建短链接服务 YOURLS](https://blog.lza59.com/archives/yourls.html)
+- [在宝塔面板安装一个很受欢迎的短链接网站开源程序YOURLS](https://wxsnote.cn/6633.html)
 - [Cómo instalar YOURLS, usando Softaculous](https://www.websiterating.com/es/online-marketing/how-to-install-yourls-using-softaculous/)
 - [Cómo instalar YOURLS en Ubuntu 20.04](https://linuxyunnovato.wordpress.com/2022/04/12/como-instalar-yourls-en-ubuntu-20-04/)
 - [Installer YOURLS, un système d'URL raccourcies](https://www.justegeek.fr/tuto-installer-yourls-un-systeme-durl-raccourcies/)
@@ -614,4 +616,3 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
