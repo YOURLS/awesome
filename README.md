@@ -291,6 +291,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [OIDC](https://github.com/teicee/YOURLS-OIDC) - OpenID Connect authentication against a generic OpenID Connect server.
 - [Open Graph Meta Scraper](https://github.com/LK608/OG-Scraper) - Get Open Graph (OG) information for your shortened links.
 - [Original URL Regex Limiter](https://github.com/uniwue-rz/yourls-original-url-regex-limiter) - Enables to allow and block (original) URLs not just with domain names like related plugins, but with regular expressions for more precise policies.
+- [OTP Protect](https://github.com/Deafoult/yourls-otp-protect) - Protect URL creation on your public interface with a Time-based One-Time Password (TOTP)
 
 [⬆️ Go to section](#plugins)
 
