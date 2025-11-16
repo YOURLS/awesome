@@ -101,7 +101,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [API List Extended](https://github.com/Codeinwp/yourls-api-list-extended?tab=readme-ov-file) - Add a "list" action to the API with advanced options, such as shorting, pagination and field selection.
 - [API ShortUrl Analytics](https://github.com/stefanofranco/yourls-api-shorturl-analytics) - Add a "shorturl_analytics" action to the API to get the statistics of a specific shortURL in a range of dates.
 - [Append Query String](https://github.com/drockney/append-qs) - Appends the query string to a long URL.
-- [Append Query String and Path](https://github.com/highTower/append-qs) - Appends the query string to a long URL (more advanced and also allows to reach subpaths).
+- [Append Query String and Path](https://github.com/highTowerSU/append-qs) - Appends the query string to a long URL (more advanced and also allows to reach subpaths).
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
 - [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs).
 - [Awin Affiliate](https://github.com/lammersbjorn/YOURLS-Awin) - Automatically adds Awin affiliate parameters to URLs from configured merchants.
