@@ -555,7 +555,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [Installing YOURLS on a Plesk-Hosted Domain](https://www.danhendricks.com/2018/10/installing-yourls-on-plesk-shared-hosting-domain/)
 - [How to Install YOURLS using Softaculous](https://www.websiterating.com/online-marketing/how-to-install-yourls-using-softaculous/)
 - [How to Install YOURLS on a VPS or shared hosting](https://thishosting.rocks/how-to-shorten-your-links-with-your-own-domain/)
-- [YOURLS on Azure](https://www.juharyhanen.com/technology/create-personal-url-shortener-in-5-simple-steps/)
+- [YOURLS on Azure](https://philippdubach.com/standalone/yourls-azure-tutorial/)
 - [YOURLS on Caddy](https://aka.cy/2023/12/13/How-to-install-YOURLS-with-caddy/)
 - CentOS
   - [How to Install YOURLS on CentOS 7](https://www.vultr.com/docs/how-to-install-yourls-on-centos-7)
@@ -571,6 +571,7 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [How to install YOURLS on Ubuntu](https://computingforgeeks.com/install-yourls-your-own-url-shortener-on-ubuntu/)
   - [How to install YOURLS on Ubuntu 14.04](https://www.rosehosting.com/blog/how-to-install-yourls-on-ubuntu-14-04/)
   - [How to install YOURLS on Ubuntu 20.04](https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04)
+  - [How to install YOURLS on Ubuntu 22.04](https://philippdubach.com/standalone/yourls-azure-tutorial/)
   - [How to Install YOURLS on Ubuntu with Nginx and Let’s Encrypt](https://linuxstans.com/how-to-install-yourls/)
 - Windows
   - [How to Install YOURLS on WAMP](https://gist.github.com/AlbertoVargasMoreno/fb624a33244b6047bbab1fb95aabc6af)
