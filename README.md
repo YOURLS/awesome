@@ -11,6 +11,8 @@
 
 > A curated list of **awesome things** related to **[YOURLS](https://yourls.org)**
 
+_Something missing or incorrect? Want to get your work listed? See how you can [contribute](CONTRIBUTING.md)!_
+
 ## Contents
 
 - [Official Links](#official-links) - Official guides and tools
@@ -21,8 +23,6 @@
 - [Integrations](#integrations) - Third-party integrations and frameworks
 - [Guides & tutorials](#guides--tutorials) - Community resources
 - [Showcases](#showcases) - Inspiration and celebrity endorsements
-
-_Something missing or incorrect? Want to get your work listed? See how you can [contribute](CONTRIBUTING.md)!_
 
 ## Official Links
 [🔼 Go to top](#readme)
@@ -132,15 +132,16 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Case Insensitive](https://github.com/adigitalife/yourls-case-insensitive) - Make YOURLS case insensitive: if you create `http://sho.rt/MyLink`, then variations like `mylink` or `MYLINK` will redirect to the same URL.
 - [Case Insensitive YOURLS](https://github.com/IMExperts/yourls-case-insensitive) - Makes YOURLS case insensitive, for 1.9+.
 - [Change Error Messages](https://github.com/adigitalife/yourls-change-error-messages) - Changes the error message when a keyword or URL already exists and displays the long URL.
-- [YOURLS GWall Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
-- [YOURLS GWall Change Title](https://github.com/gioxx/YOURLS-GWallChangeTitle) - Allows you to change the title of the YOURLS website (the html `<title>` tag).
+- [Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
 - [Change Password](https://github.com/ozh/yourls-change-password) ☑️ - Change your password from within YOURLS instead of editing the config file.
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
+- [Change Title](https://github.com/gioxx/YOURLS-GWallChangeTitle) - Allows you to change the title of the YOURLS website (the html `<title>` tag).
 - [Check URL](https://github.com/adigitalife/yourls-check-url) - Check if a long URL is reachable before creating a short URL.
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
 - [Conditional Toolbar](https://github.com/YOURLS/conditional-toolbar) ☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
 - [Conditional URLAds](https://github.com/HeroCC/yourls-conditional-urlads) - A plugin to conditionally send links through various link monetizing services: `http://your.site/short` is normal, `http://your.site/a/short` redirects through AdFly.
-- [Conditional URLAds (WebUI)](https://github.com/8Mi-Tech/yourls-conditional-urlads) - A plugin that forks [Conditional URLAds](https://github.com/HeroCC/yourls-conditional-urlads), but it's more elegant and convenient in terms of setting parameters, For example, directly within a WebPage
+- [Conditional URLAds (WebUI)](https://github.com/8Mi-Tech/yourls-conditional-urlads) - A plugin that forks [Conditional URLAds](https://github.com/HeroCC/yourls-conditional-urlads), but it's more elegant and convenient in terms of setting parameters, For example, directly within a WebPage.
+- [Custom Error Page](https://github.com/adigitalife/yourls-custom-error-page/) - Custom error page for unknown short URLs.
 - [Custom Header & Footer](https://github.com/mediageni/yourls-custom-header-footer) - A plugin administration page to add custom header and footer style and content.
 - [Custom Header](https://github.com/srivastava07/YOURLS-Custom-Header) - This plugin allows the addition of a custom header to the generated URL, enabling compliance with specific regulatory requirements in certain countries, such as India, for bulk SMS services.
 - [Custom Javascript](https://github.com/mediageni/yourls-custom-javascript) - Add custom javascript to admin pages.
