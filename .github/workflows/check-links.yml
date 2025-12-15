@@ -18,7 +18,7 @@ jobs:
       run: gem install awesome_bot
     - name: Run Awesome Bot
       run: awesome_bot README.md --request-delay 1 --allow-ssl --allow-timeout -t 5 --allow-dupe --white-list sho.rt,your.site,long.url,awesome.re
-    - uses: actions/upload-artifact@v5
+    - uses: actions/upload-artifact@v6
       if: failure()
       with:
         name: ab-results
