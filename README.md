@@ -65,6 +65,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [2fa Support](https://github.com/MatthewC/yourls-2fa-support) - Adds 2FA support to YOURLS.
 - [302-Instead](https://github.com/EpicPilgrim/302-instead) - Send a 302 (temporary) redirect instead of 301 (permanent), for sites where shortlinks may change.
 - [302-Instead](https://github.com/timcrockford/302-instead) - A fork of previous plugin, with some more options.
+- [308-Instead](https://github.com/SBCV-apegram/308-instead) - Send a 308 (permanent) redirect instead of 301 (permanent) so the HTTP method is preserved (forked from [EpicPilgrim's 302-Instead](https://github.com/EpicPilgrim/302-instead))
 - [404 If Not Found](https://github.com/YOURLS/404-if-not-found) ☑️ - Give a 404 Not Found if the short URL is not found.
 
 [⬆️ Go to section](#plugins)
