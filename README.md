@@ -270,6 +270,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [Mailto](https://github.com/peterberbec/yourls-mailto) - Adds a "mailto:" sharing option, next to Twitter and Facebook.
 - [Mailto Bookmarklet](https://github.com/peterberbec/yourls-mailto-bookmarklet) - Adds a bookmarklet to share links by mail.
+- [Master/Slave DB Setup](https://gist.github.com/ozh/553c2519878984271584939355e91b8e) ☑️ - Uses a Master/Slave DB setup
 - [Mass Remove Link](https://github.com/YOURLS/mass-remove-links/) ☑️ - Remove several links at once. Select by date, date range, IP or URL matching.
 - [Mass Update](https://github.com/Binarypark/yourls-api-mass-update) - Adds an API action to mass update links from `old_domain` to `new_domain`.
 - [md5 salt](https://github.com/ashleykleynhans/yourls-plugin-md5-salt) - Provide backwards compatibility for those still using `md5` in their passwordless API calls.
