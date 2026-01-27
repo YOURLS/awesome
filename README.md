@@ -339,6 +339,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [reCaptcha](https://github.com/spbriggs/recaptcha-plugin) - YOURLS plugin implementing reCaptcha for unauthenticated users in your public interface.
 - [Redirect Index](https://github.com/tomslominski/yourls-redirect-index) - Redirect the user to another site if they go to the base directory of your YOURLS installation.
 - [Redirect based on User-Agent](https://github.com/daitj/yourls-redirect-useragent) - Redirect based on User-Agent, all blacklisted user agents won't be redirected to target URL but instead shown a custom page.
+- [Redirector](https://github.com/matheusbrdev/yourls-redirector) - Redirects to a URL passed as a query parameter.
 - [Referer Restrict](https://github.com/twsh0305/referer-restrict) - Referer is used to restrict access from which domain names are allowed.
 - [Referral Link Checkpoint](https://github.com/telepathics/yourls-ref-checkpoint) - Add a landing page to let visitors know when it is a referral link.
 - [Regenerate URL](https://github.com/TheLeonKing/yourls-api-regenerate-url) - Regenerate a new keyword for a URL that has already been shortened.
