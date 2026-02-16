@@ -190,6 +190,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Force Lowercase](https://github.com/YOURLS/force-lowercase) ☑️ - Force lowercase so `http://sho.rt/ABC` → `http://sho.rt/abc`.
 - [Forward Query Strings](https://github.com/hastinbe/yourls-plugin-forward-query-strings) - Forwards query params to the destination URL. Can exclude params by domain.
 - [Fuzzy Keyword Suggestions](https://github.com/philhagen/ltc-fuzzy-keyword-suggestions) - Handles typos and other "near-misses" for any shortened link (eg if you have `sho.rt/dh1ik` but someone types `sho.rt/dhlik`, the 404 page will show suggestions for similar short URLs).
+- [Frontend Links](https://github.com/nyerou/yourls.frontend-links) - Link-in-bio page served directly by YOURLS. Manage sections, links, profile and custom icons from the admin panel. Includes branded redirect interstitial with OG metadata, custom 404 page, and full subdirectory support.
 
 [⬆️ Go to section](#plugins)
 
