@@ -153,7 +153,8 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### D
 
-- [Database Users for YOURLS](https://github.com/RayHollister/database-users-for-YOURLS) - Manage your YOURLs users in the admin menu instead of the config file! Allows users to set their own password. Create admin users that can reset passwords and create other users. 
+- [Database Users for YOURLS](https://github.com/RayHollister/database-users-for-YOURLS) - Manage your YOURLs users in the admin menu instead of the config file! Allows users to set their own password. Create admin users that can reset passwords and create other users.
+- [DB options viewer](https://github.com/ozh/db_options_viewer) ☑️ - Simple plugin to view all options stored in the DB.
 - [Device Details](https://github.com/SachinSAgrawal/YOURLS-Device-Details) - Display click details, including IP, user-agent, device information, and more.
 - [Device Charts](https://github.com/AlbertoVargasMoreno/YOURLS-Device-Charts) - Display charts showcasing information about browsers, platforms, and devices used by visitors.
 - [Disable JSONP](https://github.com/seandrickson/YOURLS-Disable-JSONP) - Disables JSONP access for the YOURLS API.
