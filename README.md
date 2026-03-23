@@ -105,6 +105,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Append Query String and Path](https://github.com/highTowerSU/append-qs) - Appends the query string to a long URL (more advanced and also allows to reach subpaths).
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
 - [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs).
+- [Auto Prune Expired](https://github.com/rijensky/YOURLS-auto-prune-expired) - Set link expiry and automatically delete expired links.
 - [Awin Affiliate](https://github.com/lammersbjorn/YOURLS-Awin) - Automatically adds Awin affiliate parameters to URLs from configured merchants.
 
 [⬆️ Go to section](#plugins)
