@@ -54,7 +54,7 @@ _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
 - :test_tube: : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
 
-Currently we have **<!--plugin_count-->249<!--/plugin_count-->** plugins listed.
+Currently we have **<!--plugin_count-->250<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 
 Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
