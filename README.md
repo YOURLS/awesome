@@ -17,7 +17,7 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 
 - [Official Links](#official-links) - Official guides and tools
 - [Plugins](#plugins) - what makes YOURLS so versatile and powerful.
-  Currently: **<!--plugin_count-->249<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
+  Currently: **<!--plugin_count-->250<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 - [Themes](#themes) - to customize how YOURLS looks
 - [Translations](#translations) - YOURLS in your language
 - [Integrations](#integrations) - Third-party integrations and frameworks
@@ -148,6 +148,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Custom Header](https://github.com/srivastava07/YOURLS-Custom-Header) - This plugin allows the addition of a custom header to the generated URL, enabling compliance with specific regulatory requirements in certain countries, such as India, for bulk SMS services.
 - [Custom Javascript](https://github.com/mediageni/yourls-custom-javascript) - Add custom javascript to admin pages.
 - [Custom Number of Displayed Links](https://github.com/YOURLS/YOURLS/issues/2339#issuecomment-352127623) ☑️ - Change the default number of links per page, if 15 isn't your taste.
+- [Custom Fields and Notifier](https://github.com/belmontdigitalmarketing/custom-fields-and-notifier) - Add configurable custom fields to short links and receive customisable webhook notifications when clicked.
 - [Custom Protocol](https://github.com/YOURLS/custom-protocol) ☑️ - If the user is known, this plugin adds custom protocol (eg `blah://`) to authorized protocols, otherwise restricts to `http|s`.
 
 [⬆️ Go to section](#plugins)
