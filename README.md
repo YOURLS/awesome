@@ -258,7 +258,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [LDAP](https://github.com/k3a/yourls-ldap-plugin) - Enables use of LDAP for user authentication.
 - [Link Anonymizer](https://github.com/katzwebservices/YOURLS-Link-Anonymizer) - Generate a link that will take you to an anonymizer service.
-- [Link Front Page](https://github.com/toineenzo/YOURLS-Link-Front-Page) - Replace the YOURLS homepage with a Linktree-style landing page: drag-and-drop link list, image grid, About-me with 37 social-button icons, downloadable Personal/Business vCard contact cards, full design controls (Google Fonts, custom uploads, background filters), themed 404 page, and a quick-add button in the YOURLS link table.
+- [Link Front Page](https://github.com/toineenzo/YOURLS-Link-Front-Page) - Generate a personal landing page with a Linktree-style link list, an Instagram-style image grid, and an About-me block with social-media icons.
 - [Link List](https://gitlab.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page.
 - [Limit Custom Keyword Length (Min & Max Characters)](https://github.com/suryatanjung/yourls-limit-custom-keyword-length) - This plugin limits the minimum and maximum number of characters for custom keyword.
 - [Limit keyword length](https://github.com/adigitalife/yourls-limit-keyword-length) - This plugin limits the number of characters allowed for the custom keyword.
