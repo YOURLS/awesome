@@ -116,7 +116,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Blacklist Domains](https://github.com/apelly/YourlsBlacklistDomains) - A simple plugin to blacklist domains from shortening URLs.
 - [Better Blacklist Domains](https://git.oldgate.org/Sophia/better-yourls-blacklist-domains) - A better plugin to blacklist domains from shortening URLs.
 - [Blacklist IPs](https://github.com/LudoBoggio/YourlsBlacklistIPs) - A simple plugin to blacklist IPs from shortening URLs.
-- [BlackList User-Agent](https://github.com/8Mi-Tech/yourls-ban-useragent):test_tube: - A simple plugin to blacklist User-Agent from shortening URLs.
+- [BlackList User-Agent](https://github.com/8Mi-Tech/yourls-ban-useragent) - A simple plugin to blacklist User-Agent from shortening URLs.
 - [Block details while not login](https://github.com/taozhiyu/block-details-while-not-login) - Blocks access to the details page when not logged in.
 - [Broken Banisher](https://github.com/ptrsmk/hp-broken-banisher) - Semi-automatically audits links already in your database and banishes the broken ones.
 - [Bulk Import and Shorten](https://github.com/vaughany/yourls-bulk-import-and-shorten) - Import links from a CSV file.
