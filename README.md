@@ -52,7 +52,7 @@ All known plugins, from the community or the YOURLS team
 
 _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
-- :test_tube: : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
+- 🧪 : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
 
 Currently we have **<!--plugin_count-->251<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
@@ -206,7 +206,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [GeoShortURL](https://github.com/tobozo/YOURLS-GeoShortURL) - Plugin to add per-country support to existing short URLs (use it with [302-Instead](https://github.com/timcrockford/302-instead)).
 - [Google Analytics Link Tagging](https://katz.co/2300/) - Add GA tags (utm_source and others) to your shortened links.
 - [Google Auth](https://github.com/8thwall/google-auth-yourls) - Enables Google Authentication for YOURLS.
-- [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing) ☑️:test_tube: - Check every new URL against Google's Safe Browsing Lookup service.
+- [Google Safe Browsing](https://github.com/YOURLS/google-safe-browsing) ☑️ - Check every new URL against Google's Safe Browsing Lookup service.
 - [GTM for YOURLS](https://github.com/dorks-delivered/GTM-for-YOURLS) - Google Tag Manager for every single click.
 
 [⬆️ Go to section](#plugins)
@@ -315,6 +315,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Popular Clicks](https://github.com/miconda/yourls/tree/master/plugins/popular-clicks) - Display the top of the most clicked links during past days.
 - [Popular Clicks Extended](https://github.com/vaughany/yourls-popular-clicks-extended) - Shows which short links get clicked the most during a specific time frame.
 - [Popular Links](https://github.com/laaabaseball/Yourls-Popular-Links) - Adds an admin page that displays your shortener's most popular links.
+- [PostgreSQL](https://github.com/ozh/yourls-postgresql) ☑️ 🧪 - Add support for PostgreSQL.
 - [Preview URL](https://yourls.org/docs/development/examples/preview) ☑️ - Add the character '~' to a short URL to display a preview screen before redirection.
 - [Preview URL with QR Code](https://github.com/dennydai/yourls-preview-url-with-qrcode) - Add the character '~' to a short URL to display a preview screen & QR code before redirection.
 - [Preview URL with QR Code And Thumbnail](https://github.com/prog-it/yourls-preview-url-with-qrcode-thumbnail) - Add the character '~' to a short URL to display a QR code and Thumbnail image before redirection.
