@@ -511,6 +511,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - [Drupal](https://www.drupal.org/project/shorten) - YOURLS for Drupal.
 - [FreeBSD Freshport](https://www.freshports.org/www/yourls/) - a FreeBSD package.
 - [Gnome Desktop](https://github.com/joshp23/gnome-shell-extension-yourls) - Gnome Shell extension to shorten links in the clipboard.
+- [GitHub action](https://github.com/marketplace/actions/yourls-action) - Populate a YOURLS database via GitHub Actions.
 - Laravel
   - [Laravel YOURLS Plugin](https://github.com/phpsa/laravel-yourls-plugin)
   - [Laraval YOURLS](https://github.com/orumad/laravel-yourls)
