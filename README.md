@@ -112,6 +112,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### B
 
+- [Batch Generation Shorturl](https://github.com/her-cat/batch-generation-shorturl) - Batch generation of short URLs.
 - [BaseURL Rewrite](https://github.com/christian-krieg/yourls-plugin-base-url-rewrite) - Rewrite short URLs such that they point to alternative (base) URLs.
 - [Blacklist Domains](https://github.com/apelly/YourlsBlacklistDomains) - A simple plugin to blacklist domains from shortening URLs.
 - [Better Blacklist Domains](https://git.oldgate.org/Sophia/better-yourls-blacklist-domains) - A better plugin to blacklist domains from shortening URLs.
@@ -497,6 +498,8 @@ Make YOURLS work with other platforms, programming languages or tools.
 ### 3rd party platforms
 
 - [Make](https://www.make.com/en/integrations/yourls) - Automate actions with YOURLS (eg new blog post -> shorten link -> share on Discord)
+- [n8n](https://n8n.io/integrations/yourls/) - Integrate YOURLS in your n8n workflows.
+- [Pipedream](https://pipedream.com/apps/yourls) - Deploy AI agents that connect to YOURLS.
 
 ### 3rd party Integrations and Frameworks
 
@@ -515,12 +518,13 @@ Make YOURLS work with other platforms, programming languages or tools.
 - Laravel
   - [Laravel YOURLS Plugin](https://github.com/phpsa/laravel-yourls-plugin)
   - [Laraval YOURLS](https://github.com/orumad/laravel-yourls)
-- NodeJS
-  - [JavaScript bindings for the YOURLS API](https://github.com/neocotic/yourls-api) - JavaScript bindings to leverage JSONP support.
+- NodeJS and Javascript
+  - [JavaScript bindings for the YOURLS API](https://github.com/airmrcr/yourls-api) - JavaScript bindings to leverage JSONP support.
   - [YOURLS API for nodejs](https://www.npmjs.com/package/yourls)
 - Perl
   - [WWW::Shorten::Yourls](https://github.com/p5-shorten/WWW-Shorten-Yourls) - A Perl module to shorten URLs using YOURLS.
   - [AmazonAffiliatesToYourls](https://github.com/acaranta/AmazonAffiliatesToYourls) - Amazon affiliate management.
+- [Privatebin](https://github.com/ajsap/privatebin-yourls) - Integration of YOURLS with a PrivateBin instance.
 - [Prometheus exporter](https://github.com/just1not2/prometheus-exporter-yourls) - A Prometheus exporter to monitor a YOURLS instance.
 - Python
   - [pyourls3](https://pypi.org/project/pyourls3/) - A Python client for YOURLS, built for Python 3.
@@ -536,6 +540,7 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [YOURLS Link Creator](https://wordpress.org/plugins/yourls-link-creator/)
   - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
   - There are numerous [WordPress plugins](https://wordpress.org/plugins/search/yourls/) with YOURLS support.
+- [YOURLS MCP](https://github.com/kesslerio/yourls-mcp) - Model Control Protocol (MCP) server for YOURLS URL shortening and information.
 
 
 ### Applications
