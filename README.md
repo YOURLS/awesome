@@ -453,6 +453,7 @@ This will be the next big thing when YOURLS fully support theming
 - [∞²](https://github.com/tomslominski/infinity-squared) - Infinity Squared, a beautiful public page theme for YOURLS.
 - [Air 66](https://github.com/ksonda/yourls-theme) - A responsive admin theme for YOURLS.
 - [Sleeky](https://github.com/Flynntes/Sleeky) - A sleek and simple frontend & backend theme for YOURLS with light and dark modes.
+- [YOURLS UI Kit](https://github.com/uglyeoin/yourls-ui-kit) - A UI Kit 3 based restyling of Yourls to bring it a nice modern feel in 2026.
 
 
 ## Translations
