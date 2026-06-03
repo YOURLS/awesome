@@ -216,6 +216,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [hexdec](https://github.com/plttn/yourls-hexdec) - Changes the sequential keywords from base36 to base16 (ie `[0-9a-f]`).
 - [Hide Referrer](https://github.com/Sire/yourls-hide-referrer) - Hide referrer on all or some short links.
 - [Hide Version String](https://github.com/YOURLS/YOURLS/issues/1878#issuecomment-88450475) - Hide the version string in the footer.
+- [High Volume Dashboard Stats](https://gist.github.com/ozh/32b452b877c051d2af6ec5493dcf04cb) ☑️ - Experimental plugin for YOURLS installs with high volume of data (millions of links).
 - [HTTP:BL](https://github.com/joshp23/YOURLS-httpBL) - Prevent spam using the black list from Project Honeypot.
 - [HTTP Proxy](https://github.com/adigitalife/yourls-http-proxy) - Get remote content using an HTTP proxy, for instance when YOURLS is running behind a firewall (e.g. corporate intranet).
 - [HTTP status per link](https://github.com/district09/yourls_plugin_http-status-per-link) - Select `3XX` Status Code to return per keyword.
