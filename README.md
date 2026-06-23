@@ -85,8 +85,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Advanced Reserved URLs](https://github.com/josheby/yourls-advanced-reserved-urls) - Extends the reserved word functionality, blocking short URLs containing reserved words, even if mixed case or written in leetspeak.
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server.
 - [Allow Existing URLs](https://github.com/elder-oss/yourls-allow-existing-urls) - Have YOURLs return success when shortening an existing URL with YOURLS_UNIQUE_URLS=true.
-- [Allow Forward Slashes in Short URLs](https://github.com/williambargent/YOURLS-Forward-Slash-In-Urls) - Just as the name says.
-- [Allow Full Stops in Short URLs](https://github.com/SophiaAtkinson/YOURLS-full-stop-in-short-urls) - This plugin will allow full stops `.` in keywords when shortening URLS.
+- [Allow colon in Short URLs](https://gist.github.com/ozh/ff7c454ce3fa9ce8ffeaba07f8324caa) ☑️ - Allow colon (`:`) in short URLs (`https://sho.rt/abc:def`).
 - [Always-302](https://github.com/tinjaw/Always-302) - A newer alternative to 302-Instead.
 - [Amazon Affiliate](https://github.com/floschliep/YOURLS-Amazon-Affiliate) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection.
 - [Amazon Affiliate With Notice](https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate-With-Redirect-Notice) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection with a notice of Amazon Affiliate link usage.
