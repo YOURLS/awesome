@@ -539,6 +539,7 @@ Make YOURLS work with other platforms, programming languages or tools.
   - [YOURLS Widget](https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1) - Fetch and display YOURLS links and a QR code in a widget.
   - There are numerous [WordPress plugins](https://wordpress.org/plugins/search/yourls/) with YOURLS support.
 - [YOURLS MCP](https://github.com/kesslerio/yourls-mcp) - Model Control Protocol (MCP) server for YOURLS URL shortening and information.
+- [YOURLS-diff](https://github.com/gioxx/YOURLS-diff) - Create a minimal patch package to update your YOURLS installation without downloading and uploading the full release ZIP.
 
 
 ### Applications
