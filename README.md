@@ -86,6 +86,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server.
 - [Allow Existing URLs](https://github.com/elder-oss/yourls-allow-existing-urls) - Have YOURLs return success when shortening an existing URL with YOURLS_UNIQUE_URLS=true.
 - [Allow colon in Short URLs](https://gist.github.com/ozh/ff7c454ce3fa9ce8ffeaba07f8324caa) ☑️ - Allow colon (`:`) in short URLs (`https://sho.rt/abc:def`).
+- [Alternative Index](https://github.com/gioxx/YOURLS-AlternativeIndex) - Transform the unused YOURLS root page into a Linktree-style profile page with social links and custom branding.
 - [Always-302](https://github.com/tinjaw/Always-302) - A newer alternative to 302-Instead.
 - [Amazon Affiliate](https://github.com/floschliep/YOURLS-Amazon-Affiliate) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection.
 - [Amazon Affiliate With Notice](https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate-With-Redirect-Notice) - Adds your Amazon Affiliate Tag to all Amazon URLs before redirection with a notice of Amazon Affiliate link usage.
@@ -133,10 +134,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Case Insensitive](https://github.com/adigitalife/yourls-case-insensitive) - Make YOURLS case insensitive: if you create `http://sho.rt/MyLink`, then variations like `mylink` or `MYLINK` will redirect to the same URL.
 - [Case Insensitive YOURLS](https://github.com/IMExperts/yourls-case-insensitive) - Makes YOURLS case insensitive, for 1.9+.
 - [Change Error Messages](https://github.com/adigitalife/yourls-change-error-messages) - Changes the error message when a keyword or URL already exists and displays the long URL.
-- [Change Logo](https://github.com/gioxx/YOURLS-GWallChangeLogo) - Allows you to change the image of the YOURLS logo and its alt and title tags.
+- [Change Notifier](https://github.com/gioxx/YOURLS-ChangeNotifier) - Stay informed about every change to your YOURLS short URLs with instant email notifications.
 - [Change Password](https://github.com/ozh/yourls-change-password) ☑️ - Change your password from within YOURLS instead of editing the config file.
 - [Change Password](https://github.com/vvanasten/YOURLS-Change-Password) - Allow users to change their password via the administration interface.
-- [Change Title](https://github.com/gioxx/YOURLS-GWallChangeTitle) - Allows you to change the title of the YOURLS website (the html `<title>` tag).
 - [Check URL](https://github.com/adigitalife/yourls-check-url) - Check if a long URL is reachable before creating a short URL.
 - [Compliance](https://github.com/joshp23/YOURLS-Compliance) - Anti-abuse plugin, designed to address link complaints from 3rd parties.
 - [Conditional Toolbar](https://github.com/YOURLS/conditional-toolbar) ☑️ - A plugin to conditionally enable the toolbar: `http://sho.rt/blah` for normal redirect, `http://sho.rt/tb/blah` for a toolbar.
@@ -252,6 +252,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### L
 
+- [Language Switcher](https://github.com/gioxx/YOURLS-LanguageSwitcher) - Switch the YOURLS admin interface language from the Plugins page, without editing config.php.
 - [LDAP](https://github.com/mattv8/yourls-ldap-plugin) - Enables use of LDAP for user authentication.
 - [Link Anonymizer](https://github.com/katzwebservices/YOURLS-Link-Anonymizer) - Generate a link that will take you to an anonymizer service.
 - [Link Front Page](https://github.com/toineenzo/YOURLS-Link-Front-Page) - Generate a personal landing page with a Linktree-style link list, an Instagram-style image grid, and an About-me block with social-media icons.
@@ -261,6 +262,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Limited Links](https://github.com/LeoColomb/yourls-limited-links) ☑️ -limit the number of redirections of a specific link.
 - [log-login](https://github.com/SweBarre/log-login) - Logs login atempts to YOURLS. To be used with fail2ban.
 - [Login Timeout](https://github.com/reanimus/yourls-login-timeout) - Adds a timeout after a certain number of failed logins to mitigate brute force logins.
+- [Logo Suite](https://github.com/gioxx/YOURLS-LogoSuite) - Customize the YOURLS admin panel with your own logo and title.
 - [Lookup keywords by long URL substring](https://github.com/bryzgaloff/yourls-api-lookup-keywords-by-url-substr) - Add a "lookup-url-substr" action to YOURLS API which searches keywords by long URL substring (implements `url LIKE %substr%` SQL operation).
 - [lowercase username](https://github.com/JensSpanier/yourls-lowercase-username) - Makes the username lowercase when logging in.
 
@@ -306,6 +308,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Phishtank](https://yourls.org/blog/2011/04/yourls-abuse-anti-spam-plugins) - Prevent spam links using Phishtank's API.
 - [Phishtank 2.0](https://github.com/joshp23/YOURLS-Phishtank-2.0) - Functional rewrite of the old Phishtank plugin with more features.
 - [Piwik-YOURLS](https://github.com/interfasys/piwik-yourls) - Piwik and a few other features.
+- [Plugin Manager](https://github.com/gioxx/YOURLS-PluginManager) - Install, update and manage YOURLS plugins directly from the admin interface.
 - [Plugin Status API](https://github.com/graham55/yourls-plugin-status-api) - Adds API action to list enabled plugins and their status with filtering and health checks.
 - [Popular Clicks](https://github.com/miconda/yourls/tree/master/plugins/popular-clicks) - Display the top of the most clicked links during past days.
 - [Popular Clicks Extended](https://github.com/vaughany/yourls-popular-clicks-extended) - Shows which short links get clicked the most during a specific time frame.
@@ -402,6 +405,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Upload and Shorten Advanced](https://github.com/master3395/YOURLS-Upload-and-Shorten-Advanced) - Enhanced version with advanced file management, multiple storage locations, expiration settings, frontend uploads, CSRF protection, and comprehensive admin interface.
 - [U-SRV](https://github.com/joshp23/YOURLS-U-SRV) - Provides secure links to files while obfuscating filesystem paths, allowing easy, secure access to files between plugins or from 3rd party scripts. Manual uploading of files is supported.
 - [Update 30X](https://github.com/joshp23/YOURLS-Update-30X) - An API plugin to test single, domain based, or all available links and update the URL in YOURLS if redirection occures at the destination.
+- [URL Fallback](https://github.com/gioxx/YOURLS-URLFallback) - Redirect visitors to a configurable fallback URL when they hit a non-existent short URL or the YOURLS root page.
 - [URL Health Check](https://github.com/joshp23/YOURLS-URL-Health-Check) - Checks submitted URLs for validity, reachability, and redirection. In the case of redirection, the final destination URL will be stored avoiding nested redirects.
 - [Users in Database](https://gist.github.com/njbair/d951fb8b9c1f44d0e8bcd405645bbde1) - Reads users from a database table instead of a config file. Currently does not provide an interface for adding/editing users though.
 
