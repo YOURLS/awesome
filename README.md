@@ -154,7 +154,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [Database Users for YOURLS](https://github.com/RayHollister/database-users-for-YOURLS) - Manage your YOURLs users in the admin menu instead of the config file! Allows users to set their own password. Create admin users that can reset passwords and create other users.
 - [DB options viewer](https://github.com/ozh/db_options_viewer) ☑️ - Simple plugin to view all options stored in the DB.
-- [Device Details](https://github.com/SachinSAgrawal/YOURLS-Device-Details) - Display click details, including IP, user-agent, device information, and more.
+- [Device Details](https://github.com/SachinSAgrawal/YOURLS-Device-Details) - Display click details, including IP/location, device information, user-agent, and more.
 - [Device Charts](https://github.com/AlbertoVargasMoreno/YOURLS-Device-Charts) - Display charts showcasing information about browsers, platforms, and devices used by visitors.
 - [Disable JSONP](https://github.com/seandrickson/YOURLS-Disable-JSONP) - Disables JSONP access for the YOURLS API.
 - [Domain Allowlist + Alerts](https://github.com/seventhsite/yourls-domain-allowlist) - Restrict shortening to an allowlist of domains, with an admin page (one-click-allow rejected domains) and throttled Telegram alerts. No extra DB table, no cron.
@@ -165,6 +165,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Don't Log Health Checker](https://github.com/guessi/yourls-dont-log-health-checker) - A fork of `Don't Log Bots`, with more bots filtered out.
 - [Don't Track Admin Clicks](https://github.com/dgw/yourls-dont-track-admins) ☑️🧪 - Don't count clicks on short URL if user is logged in.
 - [Download Plugin](https://github.com/krissss/yourls-download-plugin) - Download and install YOURLS plugins from the admin panel.
+- [Download Delete](https://github.com/SachinSAgrawal/YOURLS-Download-Delete) - Allows you to directly download or delete other plugins from the admin panel.
 
 [⬆️ Go to section](#plugins)
 
@@ -198,6 +199,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [GA MP](https://github.com/powerthazan/YOURLS-GA-MP-Tracking) - Track YOURLS link clicks with Google Analytics Measurement protocol in Real Time.
 - [Git Version](https://github.com/chtaube/YOURLS-plugin-gitversion) - Add version information from the git repository into the footer of the admin page.
+- [Generate QRCode](https://github.com/SachinSAgrawal/YOURLS-Generate-QRCode) - Shows a customizable QR code generator upon link generation and afterwards.
 - [Geo API](https://github.com/alexakass/yourls-Geo-API-plugin) - Plugin to look up country code from another 3rd party API (geoiplookup.net).
 - [GeoIP Update](https://github.com/ozh/yourls-geoip-update) ☑️ - Update the GeoIP database
 - [GeoShortURL](https://github.com/tobozo/YOURLS-GeoShortURL) - Plugin to add per-country support to existing short URLs (use it with [302-Instead](https://github.com/timcrockford/302-instead)).
