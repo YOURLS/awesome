@@ -129,6 +129,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [cAuth](https://github.com/joshp23/YOURLS-cAuth) - Client side SSL certificate authentication for admin pages.
 - [Cache Stat Pages](https://github.com/YOURLS/cache-stats-pages) ☑️ - Serve stat pages (`http://sho.rt/blah+`) from cache.
 - [Caching Disabled for Redirects](https://github.com/dgw/yourls-shorturl-no-cache) ☑️ - Send no-cache headers with shorturl redirects.
+- [Capital Admin Interface](https://github.com/SachinSAgrawal/YOURLS-Capital-Admin-Int) - Fixes the lowercase "i" in "Admin interface" to avoid inconsistencies.
 - [CAS Plugin](https://github.com/nicwaller/yourls-cas-plugin) - Enable authentication through a CAS server.
 - [Case Insensitive](https://github.com/seandrickson/YOURLS-Case-Insensitive/) - Makes all keywords case insensitive (creates and calls all keywords lowercase).
 - [Case Insensitive](https://github.com/adigitalife/yourls-case-insensitive) - Make YOURLS case insensitive: if you create `http://sho.rt/MyLink`, then variations like `mylink` or `MYLINK` will redirect to the same URL.
@@ -152,6 +153,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### D
 
+- [Database Repair](https://github.com/SachinSAgrawal/YOURLS-Database-Repair) - Contains a one-click utility to reset auto increment and synchronize click counts.
 - [Database Users for YOURLS](https://github.com/RayHollister/database-users-for-YOURLS) - Manage your YOURLs users in the admin menu instead of the config file! Allows users to set their own password. Create admin users that can reset passwords and create other users.
 - [DB options viewer](https://github.com/ozh/db_options_viewer) ☑️ - Simple plugin to view all options stored in the DB.
 - [Device Charts](https://github.com/AlbertoVargasMoreno/YOURLS-Device-Charts) - Display charts showcasing information about browsers, platforms, and devices used by visitors.
