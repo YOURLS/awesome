@@ -276,6 +276,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 - [Mailto](https://github.com/peterberbec/yourls-mailto) - Adds a "mailto:" sharing option, next to Twitter and Facebook.
 - [Mailto Bookmarklet](https://github.com/peterberbec/yourls-mailto-bookmarklet) - Adds a bookmarklet to share links by mail.
+- [Manage Protocols](https://github.com/Bluscream/yourls-manage-protocols-plugin) - Manage allowed URL protocols in the admin panel.
 - [Master/Slave DB Setup](https://gist.github.com/ozh/553c2519878984271584939355e91b8e) ☑️ - Uses a Master/Slave DB setup
 - [Mass Remove Link](https://github.com/YOURLS/mass-remove-links/) ☑️ - Remove several links at once. Select by date, date range, IP or URL matching.
 - [Mass Update](https://github.com/Binarypark/yourls-api-mass-update) - Adds an API action to mass update links from `old_domain` to `new_domain`.
@@ -283,6 +284,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Memcached](https://github.com/alexalouit/Yourls-Memcached) - Memcached plugin for YOURLS.
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
 - [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Add ability to redirect by user device OS.
+- [Modern Clicks Log Viewer](https://github.com/Bluscream/yourls-modern-log-viewer-plugin) - Click log viewer with GeoLite2 and user agent parsing.
 
 [⬆️ Go to section](#plugins)
 
@@ -321,7 +323,9 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Preview URL](https://yourls.org/docs/development/examples/preview) ☑️ - Add the character '~' to a short URL to display a preview screen before redirection.
 - [Preview URL with QR Code](https://github.com/dennydai/yourls-preview-url-with-qrcode) - Add the character '~' to a short URL to display a preview screen & QR code before redirection.
 - [Preview URL with QR Code And Thumbnail](https://github.com/prog-it/yourls-preview-url-with-qrcode-thumbnail) - Add the character '~' to a short URL to display a QR code and Thumbnail image before redirection.
+- [Prune Inactive Links](https://github.com/Bluscream/yourls-prune-inactive-links-plugin) - Automatically delete old links with no recent clicks.
 - [Public "Prefix n' Shorten"](https://yourls.org/docs/development/examples/public-prefix) ☑️ - Redirect `http://sho.rt/http://someurl.com/` to a public interface instead of the admin area.
+- [Public Shortener Front Page](https://github.com/Bluscream/yourls-public-shortener-plugin) - Cloudflare Turnstile protected public shortener homepage.
 - [YOURLS Pseudonymize](https://github.com/simlabs-apps/yourls-pseudonymize) - This plugin "pseudonymizes" the IP addresses so that it is in line with the German privacy laws (the last 2 segments/bytes of a visitor's IP address are removed).
 - [PUNS](https://github.com/joshp23/YOURLS-PUNS) - A Plugin Update Notification System: provides a report-generating page and an API with optional email notifications.
 - [Purge All Logs](https://github.com/SophiaAtkinson/yourls-purge-all-logs) - A Plugin that allows you to purges all YOURLS logs
