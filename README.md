@@ -565,8 +565,10 @@ Make YOURLS work with other platforms, programming languages or tools.
 - Mac
   - [Short Menu](https://shortmenu.com/mac/) - Available for $6 from the App Store or directly from the developer (See also: [Setup instructions](https://shortmenu.com/support/custom-services/yourls/)).
 - Windows
-  - [YOURLS Clipboard Shortener](https://github.com/Bluscream/yourls-tray-app) - Windows system tray app to automatically shorten clipboard links.
+  - [YOURLS Clipboard Shortener](https://github.com/Bluscream/yourls-tray-app) - System tray app to automatically shorten clipboard links for Windows and Linux (x11/Wayland).
   - [YOURLS on Windows](https://appsonwindows.com/apk/127308/) - Run YOURLS as a Windows program.
+- Linux
+  - [YOURLS Clipboard Shortener](https://github.com/Bluscream/yourls-tray-app) - System tray app to automatically shorten clipboard links for Windows and Linux.
 
 
 ## Guides & Tutorials
