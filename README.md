@@ -425,6 +425,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Webhook Notification](https://github.com/Bluscream/yourls-webhook-plugin) - Sends a JSON POST webhook notification when a new link is created.
 - [Whatsapp quickshare](https://github.com/wissehes/Whatsapp-quickshare) - Allows you to share your short URL via whatsapp.
 - [White label](https://github.com/Pacmoney22/yourls-white-label) - Allows you to brand YOURLS with your own custom logo, fonts and title.
+- [Wonder Login for YOURLS](https://github.com/WonderSpaceTech/Wonder-Login-for-YOURLS) - Adds login audit logs, automatic IP and user lockouts, allowlists and blocklists, plus optional per-user TOTP two-factor authentication.
 - [Word Based Short URLs](https://github.com/ozh/yourls-word-based-short-urls) ☑️ - Generate short URLs with adjectives and nouns, like `http://sho.rt/FluffyArrogantUnicorn`.
 
 [⬆️ Go to section](#plugins)
