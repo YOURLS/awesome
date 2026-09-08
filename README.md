@@ -442,6 +442,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [YAPCache](https://github.com/tipichris/YAPCache) - YAPCache is an APC based cache designed to reduce the database load of YOURLS and increase performance.
 - [YOURS-TN](https://github.com/sgiovagnoli/YOURLS-TN) - Display thumbnails on YOURLS admin page and stats page, using thumbnail.ws.
 - [YouTube Title Fix](https://github.com/joshp23/YOURLS-YouTube-title-fix) - Fetch YouTube page titles via Google API.
+- [YOURLS-RBAC](https://github.com/saahmadnejad/YOURLS-RBAC) - Role-Based Access Control: database-backed users, roles and permissions with a full admin UI, replacing the single-user `config.php` login.
 
 [⬆️ Go to section](#plugins)
 
