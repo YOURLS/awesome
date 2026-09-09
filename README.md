@@ -404,6 +404,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Time-Period Clicks](https://github.com/rinogo/yourls-time-period-clicks) - A simple API plugin for reporting URL clicks in a specific time period (e.g. the last week, January 1 - February 1, etc).
 - [Time Limit Link](https://github.com/chesterrush/yourls-Time-Limit-Link) - Set a time limit for links.
 - [Track Custom Keyword](https://github.com/timcrockford/track-custom-keywords) - Add a new field to YOURLS designed to track if a keyword was randomly assigned or manually specified.
+- [Tracking Pro](https://github.com/johnatanmoran/yourls-tracking-pro) - Extended click analytics with device, browser, language and UTM campaign data, bot filtering, and downloadable CSV, JSON and PDF reports. Interface available in Spanish (default) and English.
 - [Typer, a yourls prank plugin](https://github.com/koma5/typer) - Add an underscore * to your shortlink and the user will be shown a page where they have to type the shortlink themselves.
 
 [⬆️ Go to section](#plugins)
