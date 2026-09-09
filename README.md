@@ -472,7 +472,7 @@ This will be the next big thing when YOURLS fully support theming
 
 YOURLS supports localization: this means if a language file for YOURLS in available in your language, YOURLS will speak your language!
 
-- Brazilian: [here](https://github.com/didi3d/YOURLS-pt_BR) and dreamhost "yourls"[here](https://github.com/henriquecrang/YOURLS-pt_BR)  (`pt_BR`)
+- Brazilian: [here](https://github.com/didi3d/YOURLS-pt_BR) and [here](https://github.com/henriquecrang/YOURLS-pt_BR)  (`pt_BR`)
 - [Bulgarian](https://github.com/VoodooServ/YOURLS-bg_BG) (`bg_BG`)
 - [Catalan](https://github.com/kuratowsky/YOURLS-ca_ES) (`ca_ES`)
 - [Czech](https://github.com/KubaCZ721/YOURLS-cs_CZ) (`cs_CZ`)
@@ -484,7 +484,7 @@ YOURLS supports localization: this means if a language file for YOURLS in availa
 - [French](https://github.com/ozh/YOURLS-fr_FR) (`fr_FR`)
 - [German](https://github.com/DerSev/YOURLS-de_DE) (`de_DE`)
 - [German (Switzerland)](https://github.com/phelex/YOURLS-de_CH) (`de_CH`)
-- [Hindi](https://github.com/itsKV/YOURLS-Hindi-translation) (`hi-IN`)
+- [Hindi](https://github.com/itsKV/YOURLS-Hindi-translation) (`hi_IN`)
 - [Indonesian](https://github.com/tigefa4u/YOURLS-id_ID-Translations) (`id_ID`)
 - [Italian](https://github.com/giogardin/YOURLS-it_IT) (`it_IT`)
 - [Japanese](https://github.com/havill/YOURLS-ja_JP) (`ja_JP`)
