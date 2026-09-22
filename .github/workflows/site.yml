@@ -1,0 +1,68 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'hugo/**'
+      - 'hugo.toml'
+      - '.github/workflows/site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time, and never cancel one halfway through
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Hugo version and sha256 of hugo_extended_<HUGO_VERSION>_linux-amd64.deb, taken from https://github.com/gohugoio/hugo/releases/
+      # Both must be updated together when bumping Hugo version. See also .github/workflows/validate.yml for the same values.
+      HUGO_VERSION: 0.166.0
+      HUGO_SHA256: 52b06555f739b1a08e04f5c31296e9bdf166a012e9b7e3137befc889dbc24db8
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Install Hugo
+        run: |
+          curl -sSL -o hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          echo "${HUGO_SHA256}  hugo.deb" | sha256sum --check --strict -
+          sudo dpkg -i hugo.deb
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+
+      # The site reads the same files as the README: a broken data file must stop the deployment
+      - name: Validate the data files
+        run: python3 bin/validate.py --quiet
+
+      - name: Build
+        run: hugo --gc --minify
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: hugo/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

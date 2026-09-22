@@ -1,0 +1,104 @@
+name: Validate data
+
+on:
+  pull_request:
+
+concurrency:
+  group: validate-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+# Read-only: this job runs code coming from a fork's pull request, so it must never be able to write anything.
+# What it builds is attached to the run as artifacts, not deployed anywhere.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      # Hugo version and sha256 of hugo_extended_<HUGO_VERSION>_linux-amd64.deb, taken from https://github.com/gohugoio/hugo/releases/
+      # Both must be updated together when bumping Hugo version. See also .github/workflows/site.yml for the same values.
+      HUGO_VERSION: 0.166.0
+      HUGO_SHA256: 52b06555f739b1a08e04f5c31296e9bdf166a012e9b7e3137befc889dbc24db8
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # Nothing pushed from here, so do not leave a usable token behind in .git/config that a later step could read.
+          persist-credentials: false
+          # Full history, so the step below can diff the merge commit against the base branch.
+          fetch-depth: 0
+
+      # README.md is generated, a pull request must never change it.
+      - name: Check that README.md is untouched
+        run: |
+          if git diff --name-only HEAD^1 HEAD | grep -qx 'README.md'; then
+            echo '::error file=README.md::README.md is generated from data/*.yml and MUST NOT be edited. Revert it, edit the data files instead.'
+            exit 1
+          fi
+          echo 'README.md untouched.'
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml pytest
+
+      # Make sure any change to bin/*py does not break anything.
+      - name: Test the scripts
+        run: pytest bin/tests
+
+      # Parse every data file and validate schema and contents
+      # See bin/validate.py for details
+      - name: Validate the data files
+        run: python3 bin/validate.py
+
+      # Writes the README this pull request would produce. Nothing committed.
+      # Failing here means the data cannot be rendered at all
+      - name: Keep the current README for comparison
+        run: cp README.md "${RUNNER_TEMP}/README.base.md"
+
+      - name: Regenerate README.md
+        run: python3 bin/generate_readme.py
+
+      # Job summary
+      - name: Show what the README would become
+        run: |
+          diff_file="${RUNNER_TEMP}/readme.diff"
+          # --no-index because one side is outside the working tree
+          git diff --no-index --no-color -- "${RUNNER_TEMP}/README.base.md" README.md \
+            | tail -n +5 > "$diff_file" || true
+          {
+            echo '## README preview'
+            echo
+            if [ -s "$diff_file" ]; then
+              echo 'What this pull request changes in the generated `README.md`, once merged and rebuilt:'
+              echo
+              echo '```diff'
+              cat "$diff_file"
+              echo '```'
+            else
+              echo 'This pull request leaves `README.md` unchanged.'
+            fi
+            echo
+            echo '<details><summary>The whole README, as it would then look</summary>'
+            echo
+            cat README.md
+            echo
+            echo '</details>'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Install Hugo
+        run: |
+          curl -sSL -o hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          echo "${HUGO_SHA256}  hugo.deb" | sha256sum --check --strict -
+          sudo dpkg -i hugo.deb
+
+      # Building the site is a check of its own: data that breaks the build fails before the merge.
+      - name: Build the site
+        run: hugo --gc --minify
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: preview
+          path: hugo/public
+          retention-days: 7

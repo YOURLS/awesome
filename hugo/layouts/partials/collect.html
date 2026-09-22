@@ -1,0 +1,127 @@
+{{/* Flattens every data file into one list of comparable entries.
+     Returns a slice of dicts: section, name, url, description, category,
+     categoryLabel, meta, tags, official, tested, plus two section-specific
+     extras: native (translations) and screenshot (themes). */}}
+{{ $out := slice }}
+
+{{ $labels := dict }}
+{{ range hugo.Data.official.categories }}{{ $labels = merge $labels (dict .slug .label) }}{{ end }}
+{{/* No badge on these: every entry in this section is official by
+     definition, and the README does not badge them either. */}}
+{{ range hugo.Data.official.official }}
+  {{ $out = $out | append (dict
+    "section" "official" "name" .name "url" .url "description" .description
+    "category" .category "categoryLabel" (index $labels .category)
+    "meta" "" "tags" slice
+    "official" (default false .official) "tested" (default false .tested)
+    "handle" (partial "handle.html" .url)) }}
+{{ end }}
+
+{{ $labels = dict }}
+{{ range hugo.Data.plugins.categories }}{{ $labels = merge $labels (dict .slug .label) }}{{ end }}
+{{ range hugo.Data.plugins.plugins }}
+  {{ $out = $out | append (dict
+    "section" "plugins" "name" .name "url" .url "description" .description
+    "category" .category "categoryLabel" (index $labels .category)
+    "meta" "" "tags" (default slice .tags)
+    "official" (default false .official) "tested" (default false .tested)
+    "handle" (partial "handle.html" .url)) }}
+{{ end }}
+
+{{ range hugo.Data.themes.themes }}
+  {{ $out = $out | append (dict
+    "section" "themes" "name" .name "url" .url "description" .description
+    "category" "" "categoryLabel" "" "meta" "" "tags" (default slice .tags)
+    "official" (default false .official) "tested" (default false .tested)
+    "screenshot" (default "" .screenshot)
+    "handle" (partial "handle.html" .url)) }}
+{{ end }}
+
+{{/* One entry per language, not per repository: two repositories for the
+     same language must read as one language, the way the README shows it. */}}
+{{ range hugo.Data.translations.translations }}
+  {{ $links := slice }}
+  {{ range .urls }}
+    {{/* Same rule as awesome_data.owner(): an explicit label wins, then
+         @account on a known forge, then the bare host. */}}
+    {{ $label := default "" .label }}
+    {{ if not $label }}
+      {{ $parts := split (replaceRE "^https?://" "" .url) "/" }}
+      {{ $label = index $parts 0 }}
+      {{ $forges := slice "github.com" "gist.github.com" "gitlab.com" "bitbucket.org" "codeberg.org" }}
+      {{ if and (in $forges $label) (gt (len $parts) 1) (index $parts 1) }}
+        {{ $label = printf "@%s" (index $parts 1) }}
+      {{ end }}
+    {{ end }}
+    {{ $links = $links | append (dict "url" .url "label" $label "note" (default "" .note)) }}
+  {{ end }}
+  {{ $first := index .urls 0 }}
+  {{ $out = $out | append (dict
+    "section" "translations" "name" .language "url" $first.url
+    "description" (cond (eq (len .urls) 1) (default "" $first.note) "")
+    "category" "" "categoryLabel" "" "meta" .locale "tags" slice
+    "official" (default false .official) "tested" (default false .tested)
+    "native" (default "" .native) "links" $links
+    "handle" (partial "handle.html" $first.url)) }}
+{{ end }}
+
+{{ $labels = dict }}
+{{ range hugo.Data.integrations.categories }}{{ $labels = merge $labels (dict .slug .label) }}{{ end }}
+{{ range hugo.Data.integrations.integrations }}
+  {{ $platform := .platform }}{{ $category := .category }}
+  {{ range .entries }}
+    {{ $out = $out | append (dict
+      "section" "integrations" "name" .name "url" .url
+      "description" (default "" .description) "category" $category
+      "categoryLabel" (index $labels $category) "meta" ""
+      "tags" (slice $platform)
+      "official" (default false .official) "tested" (default false .tested)
+      "handle" (partial "handle.html" .url)) }}
+  {{ end }}
+{{ end }}
+
+{{ $labels = dict }}
+{{ range hugo.Data.deployments.categories }}{{ $labels = merge $labels (dict .slug .label) }}{{ end }}
+{{ range hugo.Data.deployments.deployments }}
+  {{ $out = $out | append (dict
+    "section" "deploy" "name" .name "url" .url "description" .description
+    "category" .category "categoryLabel" (index $labels .category)
+    "meta" "" "tags" slice
+    "official" (default false .official) "tested" (default false .tested)
+    "handle" (partial "handle.html" .url)) }}
+{{ end }}
+
+{{ $labels = dict }}
+{{ range hugo.Data.guides.categories }}{{ $labels = merge $labels (dict .slug .label) }}{{ end }}
+{{ $languages := dict "en" "English" "fr" "French" "es" "Spanish" "ru" "Russian"
+                      "zh" "Chinese" "de" "German" "it" "Italian" "pt" "Portuguese"
+                      "ja" "Japanese" "nl" "Dutch" "pl" "Polish" }}
+{{ range hugo.Data.guides.guides }}
+  {{ $chips := slice }}
+  {{ with .platform }}{{ $chips = $chips | append . }}{{ end }}
+  {{ with .lang }}
+    {{ $chips = $chips | append (index $languages . | default .) }}
+  {{ end }}
+  {{ $out = $out | append (dict
+    "section" "guides" "name" .title "url" .url "description" (default "" .note)
+    "category" .category "categoryLabel" (index $labels .category)
+    "meta" "" "tags" $chips
+    "official" (default false .official) "tested" (default false .tested)
+    "handle" (partial "handle.html" .url)) }}
+{{ end }}
+
+{{ $labels = dict }}
+{{ range hugo.Data.showcases.categories }}{{ $labels = merge $labels (dict .slug .label) }}{{ end }}
+{{ range hugo.Data.showcases.showcases }}
+  {{ $name := replace (strings.TrimSuffix "/" .url) "https://" "" }}
+  {{ $description := default "" .description }}
+  {{ with .by }}{{ $description = trim (printf "Run by %s. %s" . $description) " " }}{{ end }}
+  {{ $out = $out | append (dict
+    "section" "showcases" "name" $name "url" .url "description" $description
+    "category" .category "categoryLabel" (index $labels .category)
+    "meta" "" "tags" slice
+    "official" (default false .official) "tested" (default false .tested)
+    "handle" "") }}
+{{ end }}
+
+{{ return $out }}
