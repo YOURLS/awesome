@@ -95,7 +95,7 @@ jobs:
 
       # Building the site is a check of its own: data that breaks the build fails before the merge.
       - name: Build the site
-        run: hugo --gc --minify
+        run: hugo --source hugo --gc --minify
 
       - uses: actions/upload-artifact@v7
         with:

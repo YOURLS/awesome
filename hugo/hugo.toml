@@ -6,19 +6,11 @@ baseURL = 'https://awesome.yourls.org/'
 locale = 'en-us'
 title = 'Awesome YOURLS'
 
-# Everything Hugo owns lives under hugo/. Only this file has to sit at the root.
-contentDir   = 'hugo/content'
-layoutDir    = 'hugo/layouts'
-staticDir    = 'hugo/static'
-assetDir     = 'hugo/assets'
-i18nDir      = 'hugo/i18n'
-archetypeDir = 'hugo/archetypes'
-themesDir    = 'hugo/themes'
-publishDir   = 'hugo/public'
-resourceDir  = 'hugo/resources'
+# Everything Hugo needs in this directory, this file included: build with `hugo --source hugo`.
+# No path needed, it's Hugo's defaults
 
-# Source of truth shared with bin/generate_readme.py.
-dataDir = 'data'
+# Except data, at the repository root, shared with bin/generate_readme.py.
+dataDir = '../data'
 
 # Facets come from data/, not from front matter, so Hugo's own taxonomies
 # would only produce empty pages and missing-template warnings.
