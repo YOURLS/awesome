@@ -1,0 +1,40 @@
+################################
+# Awesome YOURLS - Hugo config #
+################################
+
+baseURL = 'https://awesome.yourls.org/'
+locale = 'en-us'
+title = 'Awesome YOURLS'
+
+# Everything Hugo needs in this directory, this file included: build with `hugo --source hugo`.
+# No path needed, it's Hugo's defaults
+
+# Except data, at the repository root, shared with bin/generate_readme.py.
+dataDir = '../data'
+
+# Facets come from data/, not from front matter, so Hugo's own taxonomies
+# would only produce empty pages and missing-template warnings.
+disableKinds = ['taxonomy', 'term', 'rss']
+
+[params]
+  tagline = 'Plugins, themes, translations, guides: type what you need.'
+  repo = 'https://github.com/YOURLS/awesome'
+
+  # How many tags the "Popular:" row shows
+  tagsPopular = 10
+
+[[params.nav]]
+  name = 'yourls.org'
+  url = 'https://yourls.org/'
+[[params.nav]]
+  name = 'Docs'
+  url = 'https://yourls.org/docs'
+[[params.nav]]
+  name = 'Blog'
+  url = 'https://yourls.org/blog'
+[[params.nav]]
+  name = 'Community'
+  url = 'https://github.com/orgs/YOURLS/discussions'
+[[params.nav]]
+  name = 'Contribute'
+  url = 'https://github.com/YOURLS/awesome'

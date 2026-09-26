@@ -1,0 +1,14 @@
+{{/* Returns the account a URL belongs to, as "@name", or the bare host when
+     the URL is not on a known forge. Takes the URL as its context.
+
+     The host fallback matters: without the forge whitelist, the second path
+     segment of https://yourls.org/docs/... would be read as an account. */}}
+{{ $forges := slice "github.com" "gist.github.com" "gitlab.com" "bitbucket.org" "codeberg.org" }}
+{{ $parts := split (replaceRE `^https?://(www\.)?` "" .) "/" }}
+{{ $host := index $parts 0 }}
+{{ $out := $host }}
+{{ if and (in $forges $host) (gt (len $parts) 1) }}
+  {{ $account := index $parts 1 }}
+  {{ if $account }}{{ $out = printf "@%s" (lower $account) }}{{ end }}
+{{ end }}
+{{ return $out }}

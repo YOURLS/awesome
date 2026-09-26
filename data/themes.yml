@@ -1,0 +1,44 @@
+# Themes for YOURLS.
+#
+# Fields:
+#   name         (required) Unique name
+#   url          (required) canonical direct link with https
+#   description  (required) one line, starts with a capital, ends with a period, less than 200 characters.
+#   screenshot   (optional) https URL of a screenshot or logo. Use a raw file URL, not a github.com/.../blob/... page
+#   tags         (optional) free-text keywords, lowercase, at most 5, each being at most 30 chars.
+#                Not rendered in the README, only on https://awesome.yourls.org
+#                Tips:
+#                - Re-use existing rather than making your own: it makes the search more useful and the plugin more discoverable.
+#                - Make them useful to a user searching, it should be what a user would actually type.
+#                - No generic words like "theme", "yourls"
+
+themes:
+
+  - name: ∞²
+    url: https://github.com/tomslominski/infinity-squared
+    description: Infinity Squared, a beautiful public page theme for YOURLS.
+    screenshot: https://raw.githubusercontent.com/tomslominski/infinity-squared/master/public/images/logo.svg
+    tags: [public, landing page, minimal]
+
+  - name: Air 66
+    url: https://github.com/ksonda/yourls-theme
+    description: A responsive admin theme for YOURLS.
+    screenshot: https://raw.githubusercontent.com/ksonda/yourls-theme/master/screenshots/admin.png
+    tags: [admin, responsive]
+
+  - name: Sleeky
+    url: https://github.com/Flynntes/Sleeky
+    description: A sleek and simple frontend and backend theme for YOURLS with light and dark modes.
+    screenshot: https://camo.githubusercontent.com/c98f958134044cc328428e4d9333a732a1adb389c5d0bb2e593daaf4ec41e692/687474703a2f2f736c65656b792e666c796e6e7465732e636f6d2f6173736574732f696d672f736c696465732f6c696768745f696e6465782e706e67
+    tags: [admin, public, dark mode]
+
+  - name: Shorrrrrten
+    url: https://github.com/Codeinwp/shorrrrrten
+    description: A simple React based frontend for YOURLS.
+    tags: [public, react, spa]
+
+  - name: YOURLS UI Kit
+    url: https://github.com/uglyeoin/yourls-ui-kit
+    description: A UI Kit 3 based restyling of YOURLS to bring it a nice modern feel in 2026.
+    screenshot: https://raw.githubusercontent.com/uglyeoin/yourls-ui-kit/main/images/screenshots/dashboard.png
+    tags: [admin, uikit, modern]

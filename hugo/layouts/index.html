@@ -1,0 +1,123 @@
+{{ define "main" }}
+{{ $all := partial "collect.html" . }}
+{{ $sections := slice
+  (dict "id" "official"     "label" "Official"     "cats" hugo.Data.official.categories)
+  (dict "id" "plugins"      "label" "Plugins"      "cats" hugo.Data.plugins.categories)
+  (dict "id" "themes"       "label" "Themes"       "cats" slice)
+  (dict "id" "translations" "label" "Translations" "cats" slice)
+  (dict "id" "integrations" "label" "Integrations" "cats" hugo.Data.integrations.categories)
+  (dict "id" "deploy"       "label" "Install"      "cats" hugo.Data.deployments.categories)
+  (dict "id" "guides"       "label" "Guides"       "cats" hugo.Data.guides.categories)
+  (dict "id" "showcases"    "label" "Showcases"    "cats" hugo.Data.showcases.categories)
+}}
+
+<header class="hero">
+  <div class="hero-in">
+    <div class="hero-top">
+      <div>
+        <h1><em>Everything</em>
+            <b>the community</b> built for <b>YOURLS</b></h1>
+        <p class="sub">{{ site.Params.tagline }}</p>
+      </div>
+      <img class="hero-logo" src="{{ (resources.Get "img/yourls-logo.svg").RelPermalink }}"
+           alt="YOURLS" loading="eager">
+    </div>
+    <label class="field">
+      <span class="host">awesome.yourls.org/</span>
+      <input id="q" type="search" placeholder="spam, #qr, @yourls" autocomplete="off"
+             spellcheck="false" aria-label="Search everything">
+      <button class="clear" id="clear" type="button" aria-label="Clear search">&times;</button>
+      <span class="search-button-keys">
+        <kbd class="search-button-key search-button-key--ctrl">Ctrl</kbd>
+        <kbd class="search-button-key search-button-key--k">K</kbd>
+      </span>
+    </label>
+    <p class="count" id="count" aria-live="polite">
+      <b>{{ len $all }}</b> entries across {{ len $sections }} sections
+    </p>
+
+    {{/* Most used tags, counted across every section at build time. Ties break alphabetically */}}
+    {{ $counts := dict }}
+    {{ range $all }}
+      {{ range .tags }}
+        {{ $counts = merge $counts (dict . (add (default 0 (index $counts .)) 1)) }}
+      {{ end }}
+    {{ end }}
+    {{ $ranked := slice }}
+    {{ range $tag, $n := $counts }}
+      {{ $ranked = $ranked | append (dict "tag" $tag "n" $n) }}
+    {{ end }}
+    {{ with first (default 10 site.Params.tagsPopular) (sort $ranked "n" "desc") }}
+      <p class="popular" id="popular">
+        <span>Popular:</span>
+        {{ range . }}
+          <button class="chip" type="button" data-tag="{{ .tag }}">{{ .tag }}</button>
+        {{ end }}
+      </p>
+    {{ end }}
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="tabs-in" id="tabs" role="tablist" aria-label="Sections">
+    {{/* An empty data-section means "no section filter". */}}
+    <button class="tab" type="button" role="tab" data-section=""
+            aria-selected="true">Everything<i>{{ len $all }}</i></button>
+    {{ range $section := $sections }}
+      {{ $count := len (where $all "section" $section.id) }}
+      <button class="tab" type="button" role="tab" data-section="{{ $section.id }}"
+              aria-selected="false">
+        {{ $section.label }}<i>{{ $count }}</i>
+      </button>
+    {{ end }}
+  </div>
+</nav>
+
+<div class="wrap">
+  <aside class="rail" id="rail">
+    <h2 id="facets-title">Narrow it down</h2>
+    <div class="facets" id="facets" aria-labelledby="facets-title">
+      {{/* While everything is listed, the rail sidebar displays the sections. data-section="" is what makes them visible */}}
+      {{ range $section := $sections }}
+        <button class="facet" type="button" data-section=""
+                data-goto="{{ $section.id }}" aria-pressed="false">
+          <span>{{ $section.label }}</span>
+          <em>{{ len (where $all "section" $section.id) }}</em>
+        </button>
+      {{ end }}
+      {{ range $section := $sections }}
+        {{ range $section.cats }}
+          {{ $count := len (where (where $all "section" $section.id) "category" .slug) }}
+          <button class="facet" type="button" data-section="{{ $section.id }}"
+                  data-category="{{ .slug }}" data-blurb="{{ .description }}"
+                  aria-pressed="false"{{ if ne $section.id "plugins" }} hidden{{ end }}>
+            <span>{{ .label }}</span><em>{{ $count }}</em>
+          </button>
+        {{ end }}
+      {{ end }}
+    </div>
+  </aside>
+  <main>
+    <p class="blurb" id="blurb" hidden></p>
+    <ul class="list" id="list">
+      {{ range $section := $sections }}
+        {{ partial "entries.html" (dict
+          "section" $section.id
+          "label" $section.label
+          "entries" (where $all "section" $section.id)) }}
+      {{ end }}
+    </ul>
+    <p class="note" data-note="translations" hidden>
+      Your language is missing? Translating YOURLS is a Sunday afternoon of work. Check the
+      <a href="https://yourls.org/docs/guide/extend/languages">translation guide</a> and
+      <a href="{{ site.Params.repo }}">tell us when it is ready!</a>
+    </p>
+
+    <p class="empty" id="empty" hidden>
+      <strong>Nothing matches that.</strong>
+      Try a shorter word, or clear the category filter.
+      Built something that belongs here? <a href="{{ site.Params.repo }}">Send a pull request!</a>
+    </p>
+  </main>
+</div>
+{{ end }}

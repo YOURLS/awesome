@@ -3,6 +3,7 @@
 - [ ] I have read the [Contributing Guidelines](https://github.com/YOURLS/awesome/blob/main/CONTRIBUTING.md)
 - [ ] The link(s) I am adding point to my own work
 
+**Do NOT edit README.md**. Everything explained in the link above.
 
 ## Project Description(s)
 <!--- Describe IN YOUR OWN WORDS what your plugin(s) do.

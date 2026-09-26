@@ -1,0 +1,16 @@
+{{/*
+    Content adapter: builds the /plugins/ page and sub pages /plugins/auth/, /plugins/admin/ etc...
+    Unused for the moment, left for future thoughts about alternative ways of presenting the data
+*/}}
+{{ range hugo.Data.plugins.categories }}
+  {{ $count := len (where hugo.Data.plugins.plugins "category" .slug) }}
+  {{ if $count }}
+    {{ $.AddPage (dict
+      "path" .slug
+      "title" .label
+      "description" .description
+      "params" (dict "slug" .slug "blurb" .description "count" $count)
+    ) }}
+  {{ end }}
+{{ end }}
+

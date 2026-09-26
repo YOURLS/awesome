@@ -1,0 +1,18 @@
+{{/* Cloudflare serves this page for any unknown path, see not_found_handling in wrangler.jsonc.
+     GitHub Pages used to supply its own, which is why the site had no 404 layout before. */}}
+{{ define "main" }}
+<header class="hero">
+  <div class="hero-in">
+    <div class="hero-top">
+      <div>
+        <h1><em>404</em> <b>nothing here</b></h1>
+        <p class="sub">This link does not point at anything. Everything lives on the home page,
+          and the search box finds it faster than the address bar.</p>
+      </div>
+      <img class="hero-logo" src="{{ (resources.Get "img/yourls-logo.svg").RelPermalink }}"
+           alt="YOURLS" loading="eager">
+    </div>
+    <p><a href="/">Back to the list</a></p>
+  </div>
+</header>
+{{ end }}
