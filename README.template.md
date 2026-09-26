@@ -10,12 +10,15 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome)
+[![Browse interactively](https://img.shields.io/badge/%F0%9F%94%8E_Browse_interactively-awesome.yourls.org-brightgreen?labelColor=darkgreen)](https://awesome.yourls.org/)
 
 > A curated list of **awesome things** related to **[YOURLS](https://yourls.org)**
 
-_Something missing or incorrect? Want to get your work listed? See how you can [contribute](CONTRIBUTING.md)!_
+> [!TIP]
+> **Browse this list at [awesome.yourls.org](https://awesome.yourls.org/)** - instant search,
+> filters, sorting, previews. Way faster than scrolling and Ctrl-F'ing here!  
 
-**Check the interactive version of this list at [awesome.yourls.org](https://awesome.yourls.org/)!**
+_Something missing or incorrect? Want to get your work listed? See how you can [contribute](CONTRIBUTING.md)!_
 
 ## Contents
 
@@ -35,6 +38,8 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Plugins
 
 All known plugins, from the community or the YOURLS team. Currently **{{ plugins.count }}** of them.
+
+**🔍 [Search and filter these plugins on awesome.yourls.org](https://awesome.yourls.org/#plugins)**
 
 _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
