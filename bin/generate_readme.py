@@ -21,9 +21,7 @@ TEMPLATE = os.path.join(ROOT, 'README.template.md')
 OUTPUT = os.path.join(ROOT, 'README.md')
 
 BANNER = (
-    '<!-- GENERATED FILE - DO NOT EDIT.\n'
-    '     Content comes from data/*.yml and README.template.md.\n'
-    '     Run bin/generate_readme.py after any change. -->\n'
+    '\n\n<!-- GENERATED FILE - DO NOT EDIT. EDIT FILES IN DATA/. SEE CONTRIBUTING.md -->\n\n\n'
 )
 # Navigation markers appended to headings. Change the glyphs here and
 #  - NAV_TO_TOP goes on every "## Section"
@@ -162,7 +160,7 @@ def section(category, suffix='', blurb=True):
     """
     lines = [f'### {category["label"]}{suffix}', '']
     if blurb:
-        lines += [f'> {category["description"].strip()}', '']
+        lines += [f'{category["description"].strip()}', '']
     return lines
 
 
