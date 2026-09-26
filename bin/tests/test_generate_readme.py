@@ -65,14 +65,14 @@ def test_group_by_keeps_order_and_defaults_to_empty():
 
 def test_section_heading():
     category = {'label': 'Links', 'description': ' Blurb. '}
-    assert readme.section(category) == ['### Links', '', '> Blurb.', '']
+    assert readme.section(category) == ['### Links', '', 'Blurb.', '']
     assert readme.section(category, ' in other languages', blurb=False) == ['### Links in other languages', '']
 
 
 def test_render_by_category_skips_empty_categories(documents):
     plugins = documents['plugins.yml']
     block = readme.render_by_category(plugins, 'plugins', readme.bullets)
-    assert block == '### Links\n\n> Blurb.\n\n- [alpha](https://github.com/a/alpha) ☑️🧪 - First.\n- [Beta](https://github.com/a/beta) - Second.'
+    assert block == '### Links\n\nBlurb.\n\n- [alpha](https://github.com/a/alpha) ☑️🧪 - First.\n- [Beta](https://github.com/a/beta) - Second.'
     assert '### Misc' not in block
 
 
@@ -131,9 +131,9 @@ def test_render_guide_entries(documents):
 
 def test_render_guides_splits_other_languages(documents):
     block = readme.render_guides(documents['guides.yml'])
-    assert block.startswith('### Installation guides\n\n> Blurb.\n\n')
+    assert block.startswith('### Installation guides\n\nBlurb.\n\n')
     assert '\n\n### Installation guides in other languages\n\n- [Sans plateforme](https://example.org/fr)' in block
-    assert block.count('> Blurb.') == 1
+    assert block.count('Blurb.') == 1
     assert 'Other tutorials' not in block
 
 
