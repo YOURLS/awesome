@@ -1,0 +1,272 @@
+# Third-party integrations.
+#
+# When YOURLS is integrated into another platform or client library.
+# What does NOT belong here:
+#   - installing or hosting YOURLS -> data/deployments.yml
+#   - writings about YOURLS         -> data/guides.yml
+#
+# Group fields:
+#   platform (required) display name of the platform or language
+#   category (required) one of the slugs in the `categories` block below
+#   note     (optional) free line rendered under the platform entries
+#   entries  (required) list of { name, url, description }, see below
+#
+# Entry fields:
+#   name        (required) display name of the integration
+#   url         (required) link to the integration's home page or repo
+#   description (required) one-line description of the integration
+#   cross_listed (optional) true when the same app is deliberately listed under several platforms
+
+categories:
+  - slug: clients
+    label: API clients & bindings
+    description: Call the YOURLS API from your own code.
+  - slug: plugins-for
+    label: Plugins for other software
+    description: Add YOURLS support to an application you already run.
+  - slug: automation
+    label: Automation & no-code platforms
+    description: Wire YOURLS into a workflow without writing a client.
+  - slug: apps
+    label: Apps & browser extensions
+    description: Ready-made clients for your phone, desktop or browser.
+  - slug: ops
+    label: Monitoring & tooling
+    description: Tools that work on a YOURLS install rather than through it.
+
+integrations:
+
+  - platform: Bash
+    category: clients
+    entries:
+      - name: YOURLS BASH
+        url: https://github.com/ozh/yourls-bash
+        description: A simple BASH script to shorten URLs with YOURLS.
+      - name: UPDATED YOURLS BASH
+        url: https://github.com/SophiaAtkinson/yourls-bash
+        description: An advanced BASH script to shorten URLs with YOURLS.
+      - name: BASH YOURLS
+        url: https://github.com/masdzub/bash-yourls
+        description: A simple bash script to shorten URLs using the YOURLS API with different path config.
+
+  - platform: NodeJS and Javascript
+    category: clients
+    entries:
+      - name: JavaScript bindings for the YOURLS API
+        url: https://github.com/airmrcr/yourls-api
+        description: JavaScript bindings to leverage JSONP support.
+      - name: YOURLS API for nodejs
+        url: https://www.npmjs.com/package/yourls
+        description: A YOURLS API client published on npm.
+
+  - platform: Perl
+    category: clients
+    entries:
+      - name: WWW::Shorten::Yourls
+        url: https://github.com/p5-shorten/WWW-Shorten-Yourls
+        description: A Perl module to shorten URLs using YOURLS.
+      - name: AmazonAffiliatesToYourls
+        url: https://github.com/acaranta/AmazonAffiliatesToYourls
+        description: Amazon affiliate management.
+
+  - platform: Python
+    category: clients
+    entries:
+      - name: pyourls3
+        url: https://pypi.org/project/pyourls3/
+        description: A Python client for YOURLS, built for Python 3.
+      - name: python-yourls
+        url: https://github.com/tflink/python-yourls/
+        description: Alternative Python 2 client for YOURLS.
+      - name: yourls-python
+        url: https://github.com/razerm/yourls-python
+        description: A YOURLS API client for Python 2 or 3.
+
+  - platform: Ruby
+    category: clients
+    entries:
+      - name: Ruby
+        url: https://github.com/threestage/yourls
+        description: A Ruby wrapper for the YOURLS API.
+
+  - platform: VB .Net
+    category: clients
+    entries:
+      - name: VB .Net
+        url: https://www.nugardt.com/open-source/yourls-api/
+        description: A VB .Net 4.0 wrapper for the YOURLS API.
+
+  - platform: CakePHP
+    category: plugins-for
+    entries:
+      - name: CakePHP
+        url: https://github.com/adrianoluis/CakePHP-YOURLS-Plugin
+        description: Plugin to integrate YOURLS.
+
+  - platform: Drupal
+    category: plugins-for
+    entries:
+      - name: Drupal
+        url: https://www.drupal.org/project/shorten
+        description: YOURLS for Drupal.
+
+  - platform: Laravel
+    category: plugins-for
+    entries:
+      - name: Laravel YOURLS Plugin
+        url: https://github.com/phpsa/laravel-yourls-plugin
+        description: Shorten URLs from a Laravel application.
+      - name: Laravel YOURLS
+        url: https://github.com/danielmrdev/laravel-yourls
+        description: Another Laravel wrapper around the YOURLS API.
+
+  - platform: Privatebin
+    category: plugins-for
+    entries:
+      - name: Privatebin
+        url: https://github.com/ajsap/privatebin-yourls
+        description: Integration of YOURLS with a PrivateBin instance.
+
+  - platform: status.net
+    category: plugins-for
+    entries:
+      - name: status.net
+        url: https://github.com/rthees/yourls-status-net
+        description: Plugin for status.net to use YOURLS.
+
+  - platform: WordPress
+    category: plugins-for
+    note: There are numerous [WordPress plugins](https://wordpress.org/plugins/search/yourls/) with YOURLS support.
+    entries:
+      - name: YOURLS Link Creator
+        url: https://wordpress.org/plugins/yourls-link-creator/
+        description: Create YOURLS short links for your WordPress posts and pages.
+      - name: YOURLS Widget
+        url: https://gist.github.com/joshp23/3f990e6ec36e24ba53985968bbfa89f1
+        description: Fetch and display YOURLS links and a QR code in a widget.
+
+  - platform: GitHub Actions
+    category: automation
+    entries:
+      - name: YOURLS action
+        url: https://github.com/marketplace/actions/yourls-action
+        description: Populate a YOURLS database via GitHub Actions.
+
+  - platform: Make
+    category: automation
+    entries:
+      - name: Make
+        url: https://www.make.com/en/integrations/yourls
+        description: Automate actions with YOURLS (eg new blog post, shorten link, share on Discord).
+
+  - platform: n8n
+    category: automation
+    entries:
+      - name: n8n
+        url: https://n8n.io/integrations/yourls/
+        description: Integrate YOURLS in your n8n workflows.
+
+  - platform: Pipedream
+    category: automation
+    entries:
+      - name: Pipedream
+        url: https://pipedream.com/apps/yourls
+        description: Deploy AI agents that connect to YOURLS.
+
+  - platform: Android
+    category: apps
+    entries:
+      - name: aYourls
+        url: https://gitlab.com/matecode/ayourls/-/tree/develop
+        description: A dedicated app for YOURLS supporting server-side deletion (needs the API Delete plugin).
+      - name: iC-YOURLS
+        url: https://play.google.com/store/apps/details?id=net.inscomers.yourls
+        description: A simple YOURLS app for Android, supports receiving links from other apps.
+
+  - platform: Chrome
+    category: apps
+    entries:
+      - name: YOURLS
+        url: https://chromewebstore.google.com/detail/yourls/nddaaiojgkoldnhnmkoldmkeocbooken
+        description: Shorten the current page from the Chrome toolbar.
+
+  - platform: Firefox
+    category: apps
+    entries:
+      - name: YOURLS shortener
+        url: https://addons.mozilla.org/en-US/firefox/addon/yourls-shortener/
+        description: Shorten the current page from the Firefox toolbar.
+
+  - platform: Gnome Desktop
+    category: apps
+    entries:
+      - name: Gnome Shell extension
+        url: https://github.com/joshp23/gnome-shell-extension-yourls
+        description: Gnome Shell extension to shorten links in the clipboard.
+
+  - platform: iOS
+    category: apps
+    entries:
+      - name: ShortTail
+        url: https://www.adamdehaven.com/articles/shorttail-for-yourls-an-elegant-yourls-client-for-iphone
+        description: An elegant YOURLS client for iPhone.
+      - name: Short Menu
+        url: https://shortmenu.com/ios/
+        description: YOURLS support requires a one-time in-app purchase.
+
+  - platform: Mac
+    category: apps
+    entries:
+      - name: Short Menu
+        url: https://shortmenu.com/mac/
+        description: Available from the App Store or directly from the developer.
+
+  - platform: Telegram
+    category: apps
+    entries:
+      - name: Telegram bot
+        url: https://simon-eller.at/en/projects/lets-short
+        description: A Telegram bot to shorten links.
+      - name: YOURLS Bot
+        url: https://gitlab.com/HirschHeissIch/yourls-bot
+        description: Host your own Telegram bot to shorten links via your own YOURLS instance. Includes access control by default, so suitable for non-public YOURLS instances.
+
+  - platform: Linux
+    category: apps
+    entries:
+      - name: YOURLS Clipboard Shortener
+        url: https://github.com/Bluscream/yourls-tray-app/releases/latest
+        description: System tray app to automatically shorten clipboard links (x11/Wayland).
+        cross_listed: true
+
+  - platform: Windows
+    category: apps
+    entries:
+      - name: YOURLS Clipboard Shortener
+        url: https://github.com/Bluscream/yourls-tray-app/releases/latest
+        description: System tray app to automatically shorten clipboard links.
+        cross_listed: true
+      - name: YOURLS on Windows
+        url: https://appsonwindows.com/apk/127308/
+        description: Run YOURLS as a Windows program.
+
+  - platform: Prometheus
+    category: ops
+    entries:
+      - name: Prometheus exporter
+        url: https://github.com/just1not2/prometheus-exporter-yourls
+        description: A Prometheus exporter to monitor a YOURLS instance.
+
+  - platform: YOURLS MCP
+    category: ops
+    entries:
+      - name: YOURLS MCP
+        url: https://github.com/kesslerio/yourls-mcp
+        description: Model Context Protocol (MCP) server for YOURLS URL shortening and information.
+
+  - platform: YOURLS-diff
+    category: ops
+    entries:
+      - name: YOURLS-diff
+        url: https://github.com/gioxx/YOURLS-diff
+        description: Create a minimal patch package to update your YOURLS installation without downloading and uploading the full release ZIP.

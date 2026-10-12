@@ -1,0 +1,76 @@
+
+# Links maintained by the YOURLS team itself.
+#
+# What does not belong here: anything the community maintains, however good.
+# Official plugins are in data/plugins.yml, flagged with `official: true`
+#
+# Fields:
+#   name        (required)
+#   url         (required)
+#   description (required)
+#   category    (required) one of the slugs in the `categories` block below
+
+categories:
+  - slug: material
+    label: Official material
+    description: The project itself, its documentation and its community.
+  - slug: tooling
+    label: Official tooling
+    description: What the YOURLS team provides to build and test a plugin.
+
+official:
+
+  - name: Official Readme
+    url: https://yourls.org
+    description: The project home page.
+    category: material
+
+  - name: Source Code
+    url: https://github.com/YOURLS/YOURLS
+    description: The YOURLS core repository.
+    category: material
+
+  - name: Documentation
+    url: https://yourls.org/docs
+    description: Installation, configuration, API reference and developer guides.
+    category: material
+
+  - name: Release Notes
+    url: https://github.com/YOURLS/YOURLS/releases
+    description: What changed in each version, and what to watch out for when upgrading.
+    category: material
+
+  - name: YOURLS News
+    url: https://yourls.org/blog
+    description: Release announcements, and project news.
+    category: material
+
+  - name: Community Discussions
+    url: https://github.com/orgs/YOURLS/discussions
+    description: Ask a question, or help someone others.
+    category: material
+
+  - name: YOURLS using Docker
+    url: https://hub.docker.com/_/yourls/
+    description: The official Docker image.
+    category: tooling
+
+  - name: YOURLS using Helm for Kubernetes
+    url: https://artifacthub.io/packages/helm/yourls/yourls
+    description: Official Helm chart for deploying YOURLS on Kubernetes.
+    category: tooling
+
+  - name: Sample YOURLS plugin template
+    url: https://github.com/YOURLS/plugin-sample
+    description: A minimal, commented plugin to copy as a starting point.
+    category: tooling
+
+  - name: Sample YOURLS plugin with translations
+    url: https://github.com/YOURLS/plugin-with-translations
+    description: A minimal, commented plugin with translated strings.
+    category: tooling
+
+  - name: YOURLS test suite for plugins
+    url: https://github.com/YOURLS/YOURLS-test-suite-for-plugins
+    description: Run PHPUnit against your plugin to make sure it stays compatible with YOURLS.
+    category: tooling

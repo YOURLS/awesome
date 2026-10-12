@@ -1,0 +1,71 @@
+# Sites running YOURLS worth showing off.
+#
+# This section is heavily curated, so please don't submit your
+# own site here unless it has a unique design, a clever feature, or a notable endorsement.
+#
+# Fields:
+#   url    (required) the site itself, used as the link label too
+#   category (required) one of the slugs in the `categories` block below
+#   description (optional) what makes it worth listing
+#   by     (optional) who runs it, with `by_url` for a link on that name
+
+categories:
+  - slug: design
+    label: Unique designs & concepts
+    description: Sites running YOURLS with a notable interface or a clever idea.
+  - slug: endorsement
+    label: Celebrity endorsements (sort of)
+    description: Names you know, shortening their links with YOURLS.
+
+showcases:
+
+  - url: https://oe.cd/
+    category: design
+    description: The OECD's internal URL shortener with a neat interface and private features.
+
+  - url: https://your.ls/
+    category: design
+    description: Very neat public interface using the Sleeky theme. Also a neat domain hack.
+
+  - url: https://yourwish.es/
+    category: design
+    description: Easily share an Amazon wishlist.
+
+  - url: https://lifehacker.com/make-your-own-url-shortening-service-5335216
+    category: endorsement
+    description: Early review on Lifehacker.
+
+  - url: https://mclrn.co/
+    category: endorsement
+    by: McLaren Cars
+    by_url: https://www.mclaren.com/
+
+  - url: https://smashed.by/
+    category: endorsement
+    by: Smashing Magazine
+    by_url: https://www.smashingmagazine.com/
+
+  - url: https://cuny.is/
+    category: endorsement
+    by: the City University of New York
+    by_url: https://www.cuny.edu/
+
+  - url: https://goto.unm.edu/
+    category: endorsement
+    by: the University of New Mexico
+    by_url: https://www.unm.edu/
+
+  - url: https://www.dhurl.org/
+    category: endorsement
+    by: Dreamhost
+    by_url: https://yourls.org/dreamhost
+
+  - url: https://e.gov.br
+    category: endorsement
+    by: the Brazilian government
+    by_url: https://www.gov.br/
+
+  - url: https://rpf.io/
+    category: endorsement
+    by: the Raspberry Pi Foundation
+    by_url: https://www.raspberrypi.org/

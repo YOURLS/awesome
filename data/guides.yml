@@ -1,0 +1,124 @@
+# Community guides and tutorials.
+#
+# Stuff to read: blog posts, articles, videos.
+# Something you install or run goes in data/deployments.yml, not here.
+#
+# Flat list: the generator does the grouping (see for instance the various "platform: Ubuntu" entries)
+# Entries with a `lang` other than `en` move to their own sub-section.
+#
+# Fields:
+#   title     (required)
+#   url       (required)
+#   category  (required) one of the slugs in the `categories` block below
+#   platform  (optional) OS, panel or host the guide targets
+#   lang      (optional) two letters ISO code, other than `en`
+
+categories:
+  - slug: install
+    label: Installation guides
+    description: Getting YOURLS running by hand, platform by platform.
+  - slug: tutorial
+    label: Other tutorials
+    description: Everything else the community has written about YOURLS.
+
+guides:
+
+  - title: How to Install YOURLS on a VPS or shared hosting
+    url: https://thishosting.rocks/how-to-shorten-your-links-with-your-own-domain/
+    category: install
+
+  - title: YOURLS on Azure
+    url: https://philippdubach.com/standalone/yourls-azure-tutorial/
+    category: install
+    platform: Azure
+
+  - title: YOURLS on Caddy
+    url: https://aka.cy/2023/12/13/How-to-install-YOURLS-with-caddy/
+    category: install
+    platform: Caddy
+
+  - title: How to install YOURLS on Centos 7
+    url: https://www.linuxcloudvps.com/blog/how-to-install-yourls-on-centos-7/
+    category: install
+    platform: CentOS
+
+  - title: How to Install YOURLS on CentOS 8
+    url: https://www.howtoforge.com/how-to-install-yourls-on-centos-8/
+    category: install
+    platform: CentOS
+
+  - title: YOURLS on Cherokee
+    url: https://github.com/lylebrown/YOURLS-Cherokee
+    category: install
+    platform: Cherokee
+
+  - title: YOURLS on IIS
+    url: https://gist.github.com/ozh/714d23228235becba14fea925fc77e2c
+    category: install
+    platform: IIS
+    official: true
+
+  - title: YOURLS on Fedora
+    url: https://fedoraproject.org/wiki/Install_and_configure_YOURLS_for_AutoQA
+    category: install
+    platform: Fedora
+
+  - title: How to install YOURLS on Ubuntu
+    url: https://computingforgeeks.com/install-yourls-your-own-url-shortener-on-ubuntu/
+    category: install
+    platform: Ubuntu
+
+  - title: How to install YOURLS on Ubuntu 14.04
+    url: https://www.rosehosting.com/blog/how-to-install-yourls-on-ubuntu-14-04/
+    category: install
+    platform: Ubuntu
+
+  - title: How to install YOURLS on Ubuntu 20.04
+    url: https://linuxbuz.com/linuxhowto/install-yourls-ubuntu-20-04
+    category: install
+    platform: Ubuntu
+
+  - title: How to Install YOURLS on Ubuntu with Nginx and Let's Encrypt
+    url: https://linuxstans.com/how-to-install-yourls/
+    category: install
+    platform: Ubuntu
+
+  - title: How to Install YOURLS on WAMP
+    url: https://gist.github.com/AlbertoVargasMoreno/fb624a33244b6047bbab1fb95aabc6af
+    category: install
+    platform: Windows
+
+  - title: 在宝塔面板安装一个很受欢迎的短链接网站开源程序YOURLS
+    url: https://wxsnote.cn/6633.html
+    category: install
+    lang: zh
+
+  - title: Cómo instalar YOURLS en Ubuntu 20.04
+    url: https://linuxyunnovato.wordpress.com/2022/04/12/como-instalar-yourls-en-ubuntu-20-04/
+    category: install
+    platform: Ubuntu
+    lang: es
+
+  - title: Installer YOURLS, un système d'URL raccourcies
+    url: https://www.justegeek.fr/tuto-installer-yourls-un-systeme-durl-raccourcies/
+    category: install
+    lang: fr
+
+  - title: Трекер Yourls ваш собственный сокращатель ссылок (URL)
+    url: https://wiki.dieg.info/yourls
+    category: install
+    lang: ru
+
+  - title: Getting Started with YOURLS
+    url: https://www.youtube.com/watch?v=9L8HtB6vZdQ
+    category: tutorial
+    note: A video presentation that includes API examples with Keyboard Maestro.
+
+  - title: YOURLS with Tweetbot
+    url: https://2fatdads.com/2012/02/how-to-make-yourls-org-work-in-tweetbot/
+    category: tutorial
+
+  - title: Migrating from Bitly to YOURLS
+    url: https://github.com/Lazza/BitlyEscape
+    category: tutorial
+    note: A collection of scripts and a how-to guide for migrating your data.

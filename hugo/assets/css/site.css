@@ -1,0 +1,368 @@
+:root {
+    --brand: #1c5a86;
+    --brand-bright: #2a7bb0;
+    --sky: #c3e5fb;
+    --hero-bg: var(--sky);
+    --hero-fg: #17455f;
+    --hero-dim: #3d6a85;
+    --hero-title: #3f4448;
+    --page: #ffffff;
+    --surface: #f5f6f7;
+    --line: #e3e6e8;
+    --text: #1c1e21;
+    --text-dim: #5a6570;
+    --nav-bg: #ffffff;
+    --nav-fg: #1c1e21;
+    --field-bg: #ffffff;
+    --accent: var(--brand-bright);
+    --teal: #2f7d74;
+    --badge-team-bg: #e2eff8;
+    --badge-test-bg: #e2efed;
+}
+[data-theme="dark"] {
+    --brand: #7cb3d6;
+    --brand-bright: #4a9ad4;
+    --hero-bg: #1c5a86;
+    --hero-fg: #eaf4fb;
+    --hero-dim: #a9cfe6;
+    --hero-title: #eaf4fb;
+    --page: #18191a;
+    --surface: #242526;
+    --line: #373a3c;
+    --text: #e3e3e3;
+    --text-dim: #a9aeb3;
+    --nav-bg: #242526;
+    --nav-fg: #e3e3e3;
+    --field-bg: #1b1b1d;
+    --accent: #7cb3d6;
+    --teal: #6fc0b4;
+    --badge-team-bg: #23394a;
+    --badge-test-bg: #23403c;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0; background: var(--page); color: var(--text);
+    font: 400 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+a { color: var(--brand-bright); }
+
+/* --- top navigation, mirroring yourls.org --- */
+.nav {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; align-items: center; gap: 22px;
+    background: var(--nav-bg); color: var(--nav-fg);
+    padding: 10px clamp(16px, 3vw, 32px);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.logo { display: flex; align-items: center; gap: 9px; text-decoration: none; color: inherit; }
+.logo svg { display: block; }
+.logo b { font-size: 17px; font-weight: 700; letter-spacing: .01em; }
+.logo i { font-style: normal; color: var(--brand-bright); font-weight: 600; font-size: 17px; }
+.nav-links { display: flex; gap: 4px; margin-left: auto; align-items: center; }
+.nav-links a {
+    color: inherit; text-decoration: none; font-size: 14.5px; font-weight: 500;
+    padding: 7px 11px; border-radius: 6px;
+}
+.nav-links a:hover { background: var(--surface); }
+.theme {
+    border: 0; background: none; cursor: pointer; color: inherit;
+    padding: 7px; border-radius: 6px; display: flex;
+}
+.theme:hover { background: var(--surface); }
+
+/* --- hero: the short-link field is the page --- */
+.hero { background: var(--hero-bg); padding: 44px clamp(16px, 4vw, 48px) 36px; }
+.hero-in { max-width: 1180px; margin: 0 auto; }
+.hero h1 {
+    margin: 0 0 10px; font-size: clamp(30px, 5.2vw, 60px); line-height: 1.08;
+    letter-spacing: -.02em; color: var(--hero-title); font-weight: 700;
+}
+/* The whole title is bold: only colour and slant separate the parts. */
+.hero h1 b { color: var(--brand); font-weight: inherit; }
+.hero h1 em { font-style: italic; }
+.hero p.sub { margin: 0 0 22px; color: var(--hero-dim); font-size: 16.5px; }
+.field {
+    display: flex; align-items: center;
+    background: var(--field-bg); border-radius: 8px;
+    border: 2px solid transparent; padding: 0 12px 0 16px; max-width: 720px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12);
+}
+.field:focus-within { border-color: var(--brand-bright); }
+.field .host {
+    font: 500 16px/1 "JetBrains Mono", ui-monospace, monospace;
+    color: var(--text-dim); white-space: nowrap;
+}
+#q {
+    flex: 1; min-width: 60px; border: 0; outline: 0; background: transparent;
+    font: 500 16px/1 "JetBrains Mono", ui-monospace, monospace;
+    color: var(--text); padding: 15px 4px;
+}
+#q::placeholder { color: var(--text-dim); opacity: .45; }
+.clear {
+    border: 0; background: none; color: var(--text-dim); cursor: pointer;
+    font-size: 22px; line-height: 1; padding: 4px 6px; border-radius: 6px;
+}
+.clear:hover { color: var(--text); }
+.count { margin: 14px 0 0; color: var(--hero-dim); font-size: 14px; }
+.count b { color: var(--hero-fg); font-weight: 700; }
+
+.search-button-keys kbd { margin: 2px; padding: 2px 4px; border: 1px solid var(--accent); border-radius: 4px; font-size: 70%; }
+
+/* --- section switcher --- */
+.tabs {
+    display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none;
+    background: var(--hero-bg); padding: 0 clamp(16px, 4vw, 48px);
+    border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tabs-in { display: flex; gap: 2px; max-width: 1180px; margin: 0 auto; width: 100%; }
+.tab {
+    border: 0; background: none; cursor: pointer; white-space: nowrap;
+    color: var(--hero-dim); font: 600 14px system-ui, sans-serif;
+    padding: 11px 14px; border-bottom: 3px solid transparent;
+}
+.tab:hover { color: var(--hero-fg); }
+.tab[aria-selected="true"] { color: var(--hero-fg); border-bottom-color: var(--brand-bright); }
+.tab i { font-style: normal; opacity: .7; margin-left: 6px; font-size: 12.5px; font-weight: 500; }
+
+/* --- layout --- */
+.wrap {
+    display: grid; grid-template-columns: 236px minmax(0, 1fr); gap: 40px;
+    max-width: 1180px; margin: 0 auto; padding: 32px clamp(16px, 4vw, 48px) 80px;
+}
+/* Themes and translations have no facets: the content takes the full width. */
+.wrap:has(.rail[hidden]) { grid-template-columns: minmax(0, 1fr); }
+.rail h2 { font-size: 12.5px; font-weight: 700; color: var(--text-dim); margin: 0 0 10px; }
+.facets { display: flex; flex-direction: column; gap: 1px; }
+.facet {
+    display: flex; justify-content: space-between; gap: 10px; align-items: baseline;
+    border: 0; background: none; cursor: pointer; text-align: left;
+    font: 400 14px system-ui, sans-serif; color: var(--text);
+    padding: 7px 10px; border-radius: 6px;
+}
+.facet:hover { background: var(--surface); }
+.facet[aria-pressed="true"] { background: var(--brand); color: #fff; }
+[data-theme="dark"] .facet[aria-pressed="true"] { color: #10232f; }
+.facet em { font-style: normal; color: var(--text-dim); font-size: 12px; }
+.facet[aria-pressed="true"] em { color: inherit; opacity: .75; }
+
+.blurb {
+    margin: 0 0 26px; padding: 0 0 0 14px;
+    border-left: 3px solid var(--brand-bright);
+    color: var(--text-dim); max-width: 62ch;
+}
+
+/* --- results --- */
+.list { list-style: none; margin: 0; padding: 0; }
+.row { padding: 15px 0; border-top: 1px solid var(--line); }
+.row:first-child { border-top: 0; }
+.row h3 { margin: 0; font-size: 16.5px; font-weight: 600; letter-spacing: -.01em; }
+.row h3 a { text-decoration: none; color: var(--text); }
+.row h3 a:hover { color: var(--brand-bright); text-decoration: underline; }
+.row p { margin: 4px 0 0; color: var(--text-dim); max-width: 74ch; font-size: 15px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 8px; }
+.chip {
+    font: 400 12px/1 "JetBrains Mono", ui-monospace, monospace;
+    color: var(--text-dim); background: var(--surface);
+    padding: 5px 8px; border-radius: 5px; border: 0; cursor: pointer;
+}
+.chip:hover { color: var(--text); }
+.badge { font: 600 11.5px/1 system-ui, sans-serif; padding: 5px 8px; border-radius: 5px; }
+.badge.team { background: var(--badge-team-bg); color: var(--brand-bright); }
+.badge.tested { background: var(--badge-test-bg); color: var(--teal); }
+/* Badges keep their colour on hover, so the affordance is an outline. */
+.chip.badge:hover { box-shadow: inset 0 0 0 1px currentColor; }
+/* The category chip is outlined rather than filled: it filters the list,
+   where the others fill the search box. */
+.chip--cat {
+    background: none; border: 1px solid var(--line); color: var(--text-dim);
+    font-family: system-ui, sans-serif; font-weight: 600;
+}
+.chip--cat:hover { border-color: var(--brand-bright); color: var(--brand-bright); }
+
+.empty { padding: 48px 0; max-width: 52ch; }
+.empty h3 { margin: 0 0 6px; font-size: 18px; }
+.empty p { margin: 0; color: var(--text-dim); }
+
+button:focus-visible, a:focus-visible, input:focus-visible {
+    outline: 2px solid var(--brand-bright); outline-offset: 2px;
+}
+@media (max-width: 860px) {
+    .wrap { grid-template-columns: 1fr; gap: 22px; padding-top: 22px; }
+    .rail { order: 2; }
+    .facets { flex-direction: row; flex-wrap: wrap; }
+    .facet { border: 1px solid var(--line); }
+}
+
+/* --- footer --- */
+.foot {
+    border-top: 1px solid var(--line);
+    padding: 28px clamp(16px, 4vw, 48px) 48px;
+    color: var(--text-dim); font-size: 14px;
+}
+.foot p { max-width: 1180px; margin: 0 auto 4px; }
+
+/* --- rows hidden by the client-side filter --- */
+.row[hidden], .facet[hidden] { display: none; }
+
+
+/* --- category page --- */
+.wrap-single { grid-template-columns: minmax(0, 1fr); }
+/* Category and listing pages keep a calmer title than the home page. */
+.hero--plain h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.15; }
+.back { margin: 0 0 20px; font-size: 14px; }
+.herolink { color: var(--hero-fg); }
+.cats { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.cats li { padding: 14px 0; border-top: 1px solid var(--line); }
+.cats h3 { margin: 0; font-size: 16px; font-weight: 600; }
+.cats h3 a { text-decoration: none; color: var(--text); }
+.cats h3 a:hover { color: var(--brand-bright); text-decoration: underline; }
+.cats em { font-style: normal; color: var(--text-dim); font-size: 13px; font-weight: 400; }
+.cats p { margin: 4px 0 0; color: var(--text-dim); font-size: 14.5px; max-width: 60ch; }
+
+/* --- sections laid out in columns: themes and translations --- */
+.list--grid {
+    display: grid; gap: 2px 36px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.list--grid .row { border-top: 1px solid var(--line); }
+.list--grid .row:first-child { border-top: 1px solid var(--line); }
+
+/* translations: name, native name, locale badge on one line */
+.row--translations { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
+.row--translations h3 { font-size: 15.5px; }
+.native { color: var(--text-dim); font-size: 14px; }
+.locale {
+    margin-left: auto;
+    font: 400 12px/1 "JetBrains Mono", ui-monospace, monospace;
+    color: var(--text-dim); background: var(--surface);
+    padding: 5px 7px; border-radius: 5px;
+}
+.row--translations p { flex-basis: 100%; margin: 0; font-size: 13.5px; }
+
+/* themes: screenshot first, then name and description */
+.list--grid { --shot-ratio: 16 / 10; }
+.row--themes { padding-bottom: 22px; }
+.shot {
+    display: block; margin-bottom: 10px; border: 1px solid var(--line);
+    border-radius: 8px; overflow: hidden; background: var(--surface);
+}
+.shot img {
+    display: block; width: 100%; aspect-ratio: var(--shot-ratio);
+    object-fit: cover; object-position: top center;
+}
+.row--themes:not(:has(.shot)) { align-self: start; }
+
+/* per-section footnote */
+.note {
+    margin: 26px 0 0; padding: 14px 16px; border-radius: 8px;
+    background: var(--surface); color: var(--text-dim);
+    font-size: 14.5px; max-width: 62ch;
+}
+.note[hidden] { display: none; }
+
+/* --- brand assets --- */
+.logo img { display: block; width: 30px; height: auto; }
+
+.hero-top {
+    display: grid; grid-template-columns: 1fr auto;
+    align-items: center; gap: 40px; margin-bottom: 24px;
+}
+.hero-top h1, .hero-top .sub { margin-bottom: 0; }
+.hero-logo { width: 100%; max-width: 260px; height: auto; }
+
+/* Moon while the dark theme is on, sun while the light one is. */
+[data-theme="dark"] #icon-sun { display: none; }
+[data-theme="light"] #icon-moon { display: none; }
+
+@media (max-width: 860px) {
+    .hero-top { grid-template-columns: 1fr; gap: 20px; }
+    .hero-logo { max-width: 180px; }
+}
+
+/* --- narrow-screen navigation --- */
+.nav-right { display: flex; align-items: center; gap: 4px; margin-left: auto; }
+.nav-links { display: flex; gap: 4px; align-items: center; }
+.burger { display: none; border: 0; background: none; cursor: pointer;
+    color: inherit; padding: 7px; border-radius: 6px; }
+.burger:hover { background: var(--surface); }
+#burger-close { display: none; }
+
+@media (max-width: 860px) {
+    .burger { display: flex; }
+    .nav--open #burger-open { display: none; }
+    .nav--open #burger-close { display: block; }
+
+    /* The links become a panel dropped under the bar. */
+    .nav-links {
+        position: absolute; top: 100%; right: clamp(16px, 3vw, 32px);
+        flex-direction: column; align-items: stretch; gap: 2px;
+        min-width: 190px; padding: 8px;
+        background: var(--nav-bg); border: 1px solid var(--line);
+        border-radius: 10px; box-shadow: 0 8px 24px rgba(0, 0, 0, .18);
+    }
+    .nav-links { display: none; }
+    .nav--open .nav-links { display: flex; }
+    .nav-links a { padding: 10px 12px; }
+}
+
+/* --- section tabs on a narrow screen --- */
+@media (max-width: 860px) {
+    /* Wrapping beats a horizontal scroller: every section stays visible and
+       one tap away, with no hidden affordance to discover. */
+    .tabs { overflow: visible; padding-bottom: 10px; }
+    .tabs-in { flex-wrap: wrap; gap: 6px; padding-top: 8px; }
+    .tab {
+        padding: 7px 11px; border-bottom: 0; border-radius: 999px;
+        font-size: 13.5px; background: rgba(127, 127, 127, .14);
+    }
+    .tab[aria-selected="true"] { background: var(--hero-fg); color: var(--hero-bg); }
+    .tab[aria-selected="true"] i { opacity: .8; }
+}
+
+/* --- mixed list: the section each entry comes from --- */
+.section-tag {
+    display: inline-block; margin-bottom: 4px;
+    font: 600 11.5px/1 system-ui, sans-serif; letter-spacing: .02em;
+    color: var(--brand-bright); text-transform: uppercase;
+}
+.section-tag[hidden] { display: none; }
+
+/* A theme screenshot must not take the full width outside the grid. */
+.list:not(.list--grid) .shot { max-width: 280px; }
+
+/* --- responsive overrides, kept last so they win on equal specificity --- */
+@media (max-width: 860px) {
+    /* Same breakpoint as the rest of the layout: below it the page is one
+       column, and so are themes and translations. */
+    .list--grid { grid-template-columns: minmax(0, 1fr); }
+    .list--grid .shot { max-width: 320px; }
+}
+
+/* --- a language maintained in several places --- */
+.repos {
+    flex-basis: 100%; list-style: none; margin: 4px 0 0; padding: 0;
+    display: flex; flex-wrap: wrap; gap: 4px 14px;
+}
+.repos a { font-size: 14px; }
+.repos span { color: var(--text-dim); font-size: 13px; }
+
+/* --- who publishes it: an account, or the host when it is not a forge --- */
+.chip--handle { color: var(--brand-bright); }
+.chip--handle:hover { color: var(--brand); }
+.row--translations .chip--handle { align-self: center; }
+
+/* A tab or facet with no match stays in place, dimmed, so the layout does
+   not jump around while typing. */
+.tab.is-empty, .facet.is-empty { opacity: .4; }
+
+/* --- popular tags, under the search field --- */
+.popular {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+    margin: 10px 0 0;
+}
+.popular > span { color: var(--hero-dim); font-size: 13.5px; }
+.popular .chip { background: rgba(127, 127, 127, .16); color: var(--hero-fg); }
+.popular .chip:hover { background: rgba(127, 127, 127, .28); }

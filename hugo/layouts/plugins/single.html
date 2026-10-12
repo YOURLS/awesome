@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ $all := partial "collect.html" . }}
+{{ $entries := where (where $all "section" "plugins") "category" .Params.slug }}
+
+<header class="hero hero--plain">
+  <div class="hero-in">
+    <h1>{{ .Title }}</h1>
+    <p class="sub">{{ .Params.blurb }}</p>
+    <label class="field">
+      <span class="host">awesome.yourls.org/</span>
+      <input id="q" type="search" placeholder="search, or #tag" autocomplete="off"
+             spellcheck="false" aria-label="Search this category">
+      <button class="clear" id="clear" type="button" aria-label="Clear search">&times;</button>
+    </label>
+    <p class="count" id="count" aria-live="polite">
+      <b>{{ len $entries }}</b> plugins in this category
+    </p>
+  </div>
+</header>
+
+<div class="wrap wrap-single">
+  <main>
+    <p class="back"><a href="{{ "/" | relURL }}">All {{ len $all }} entries</a></p>
+    <ul class="list" id="list">
+      {{ partial "entries.html" (dict "section" "plugins" "entries" $entries) }}
+    </ul>
+    <p class="empty" id="empty" hidden>
+      <strong>Nothing matches that.</strong>
+      Try a shorter word, or
+      <a href="{{ "/" | relURL }}">search every section</a>.
+    </p>
+  </main>
+</div>
+{{ end }}

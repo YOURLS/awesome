@@ -1,0 +1,24 @@
+# Hugo
+.hugo_build.lock
+hugo/public/
+hugo/resources/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Packages
+bun.lock
+package.json
+package-lock.json
+node_modules/
+
+# Local link checker
+.lycheecache
+lychee/
+
+# OS and IDE
+.idea/
+.vscode/
+.DS_Store

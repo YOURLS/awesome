@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $all := partial "collect.html" . }}
+{{ $plugins := where $all "section" "plugins" }}
+
+<header class="hero hero--plain">
+  <div class="hero-in">
+    <h1>Plugins by category</h1>
+    <p class="sub">{{ len $plugins }} plugins, {{ len .Pages }} categories.</p>
+    <p class="count"><a class="herolink" href="{{ "/" | relURL }}">Search every section instead</a></p>
+  </div>
+</header>
+
+<div class="wrap wrap-single">
+  <main>
+    <ul class="cats">
+      {{ range .Pages.ByTitle }}
+        <li>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a> <em>{{ .Params.count }}</em></h3>
+          <p>{{ .Params.blurb }}</p>
+        </li>
+      {{ end }}
+    </ul>
+  </main>
+</div>
+{{ end }}

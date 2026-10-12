@@ -1,0 +1,61 @@
+# Packaged ways to install and host YOURLS.
+#
+# Stuff you install: images, ports, one-click installers, OS packages, etc.
+# A blog post explaining how to do it by hand goes in data/guides.yml.
+#
+# Fields:
+#   name        (required)
+#   url         (required)
+#   description (required)
+#   category    (required) one of the slugs in the `categories` block below
+#   official    (optional) true = maintained by the YOURLS team
+
+categories:
+  - slug: container
+    label: Containers
+    description: Run YOURLS as a container.
+  - slug: oneclick
+    label: One-click hosting
+    description: Platforms that install and update YOURLS for you.
+  - slug: package
+    label: OS packages
+    description: YOURLS packaged for an OS or distribution.
+
+deployments:
+
+  - name: YOURLS Docker image
+    url: https://hub.docker.com/_/yourls/
+    description: The official Docker image.
+    category: container
+    official: true
+
+  - name: YOURLS Helm chart
+    url: https://artifacthub.io/packages/helm/yourls/yourls
+    description: The official Helm chart, to run YOURLS on Kubernetes.
+    category: container
+    official: true
+
+  - name: Dockerize YOURLS
+    url: https://github.com/guessi/docker-yourls
+    description: A YOURLS image with several integrated plugins.
+    category: container
+
+  - name: Cloudron
+    url: https://www.cloudron.io/store/org.yourls.cloudronapp.html
+    description: YOURLS packaged for Cloudron, with automatic updates and backups.
+    category: oneclick
+
+  - name: Installatron
+    url: https://installatron.com/yourls
+    description: One-click YOURLS install on any host offering Installatron.
+    category: oneclick
+
+  - name: Yunohost
+    url: https://github.com/YunoHost-Apps/yourls_ynh
+    description: YOURLS packaged as a Yunohost application.
+    category: oneclick
+
+  - name: FreeBSD Freshport
+    url: https://www.freshports.org/www/yourls/
+    description: A FreeBSD package.
+    category: package

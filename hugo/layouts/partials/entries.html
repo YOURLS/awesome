@@ -1,0 +1,95 @@
+{{/* Renders one <li> per entry of a section.
+     Most sections use the default row. Themes and translations have no
+     description to fill a full-width row, so they get their own shapes and
+     the list switches to a grid. */}}
+{{ $section := .section }}
+{{ $sectionLabel := .label }}
+{{ range .entries }}
+  <li class="row row--{{ $section }}" data-section="{{ $section }}"
+      data-category="{{ .category }}">
+    {{/* Only shown while every section is listed together. */}}
+    <span class="section-tag" hidden>{{ $sectionLabel }}</span>
+
+    {{ if eq $section "themes" }}
+      {{/* $ is the partial's context, not the entry: keep the url first. */}}
+      {{ $url := .url }}
+      {{ with .screenshot }}
+        <a class="shot" href="{{ $url }}" rel="noopener" tabindex="-1" aria-hidden="true">
+          <img src="{{ . }}" alt="" loading="lazy" decoding="async">
+        </a>
+      {{ end }}
+      <h3><a href="{{ .url }}" rel="noopener">{{ .name }}</a></h3>
+      <p>{{ .description }}</p>
+      <div class="meta">
+        {{ if .official }}
+          <button class="chip badge team" type="button"
+                  data-tag="YOURLS team">YOURLS team</button>
+        {{ end }}
+        {{ if .tested }}
+          <button class="chip badge tested" type="button"
+                  data-tag="Unit tested">Unit tested</button>
+        {{ end }}
+        {{ with .handle }}
+          <button class="chip chip--handle" type="button" data-tag="{{ . }}">{{ . }}</button>
+        {{ end }}
+        {{ range .tags }}<button class="chip" type="button" data-tag="{{ . }}">{{ . }}</button>{{ end }}
+      </div>
+
+    {{ else if eq $section "translations" }}
+      {{ if gt (len .links) 1 }}
+        {{/* Several maintainers: the language is a heading, each repository
+             gets its own link, exactly as in the README. */}}
+        <h3>{{ .name }}</h3>
+      {{ else }}
+        <h3><a href="{{ .url }}" rel="noopener">{{ .name }}</a></h3>
+      {{ end }}
+      {{ with .native }}<span class="native" lang="und">{{ . }}</span>{{ end }}
+        {{ if .official }}
+          <button class="chip badge team" type="button"
+                  data-tag="YOURLS team">YOURLS team</button>
+        {{ end }}
+        {{ if .tested }}
+          <button class="chip badge tested" type="button"
+                  data-tag="Unit tested">Unit tested</button>
+        {{ end }}
+      {{ if eq (len .links) 1 }}
+        <button class="chip chip--handle" type="button" data-tag="{{ .handle }}">{{ .handle }}</button>
+      {{ end }}
+      <span class="locale">{{ .meta }}</span>
+      {{ if gt (len .links) 1 }}
+        <ul class="repos">
+          {{ range .links }}
+            <li><a href="{{ .url }}" rel="noopener">{{ .label }}</a>
+              {{ with .note }}<span>{{ . }}</span>{{ end }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+      {{ with .description }}<p>{{ . }}</p>{{ end }}
+
+    {{ else }}
+      <h3><a href="{{ .url }}" rel="noopener">{{ .name }}</a></h3>
+      {{ with .description }}<p>{{ . }}</p>{{ end }}
+      <div class="meta">
+        {{/* Clickable like the other chips: the wording is in the row text,
+             so searching for it gathers every entry carrying the badge. */}}
+        {{ if .official }}
+          <button class="chip badge team" type="button"
+                  data-tag="YOURLS team">YOURLS team</button>
+        {{ end }}
+        {{ if .tested }}
+          <button class="chip badge tested" type="button"
+                  data-tag="Unit tested">Unit tested</button>
+        {{ end }}
+        {{/* Section and category are read from the parent <li>, which already
+             carries them: no need to repeat them here. */}}
+        {{ with .categoryLabel }}
+          <button class="chip chip--cat" type="button" data-cat-label>{{ . }}</button>
+        {{ end }}
+        {{ with .handle }}<button class="chip chip--handle" type="button"
+                                  data-tag="{{ . }}">{{ . }}</button>{{ end }}
+        {{ range .tags }}<button class="chip" type="button" data-tag="{{ . }}">{{ . }}</button>{{ end }}
+      </div>
+    {{ end }}
+
+  </li>
+{{ end }}
