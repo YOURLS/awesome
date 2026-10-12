@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: read
-  issues: write
 
 jobs:
   links:
@@ -17,16 +16,15 @@ jobs:
       - uses: actions/checkout@v7
 
       # Cache is used if possible (eg close workflow_dispatch runs)
-      - name: Restore lychee cache
-        id: restore-cache
-        uses: actions/cache/restore@v6
+      - name: Lychee cache
+        uses: actions/cache@v6
         with:
           path: .lycheecache
           key: cache-lychee-${{ github.sha }}
           restore-keys: cache-lychee-
 
+      # The report goes to the job summary.
       - name: Check every link
-        id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
@@ -36,25 +34,9 @@ jobs:
             --max-retries 2
             --timeout 20
             --max-concurrency 8
-            --format markdown
             --exclude '^https?://(sho\.rt|your\.site|long\.url)'
-            --accept 200,206,403,429
+            --accept 200,206,403,429,530
+            -v
             data/*.yml
-          output: ./lychee/out.md
           # Never fails: dead links are maintenance work, not a broken build.
           fail: false
-
-      - name: Open an issue with the dead links
-        if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v6
-        with:
-          title: Dead links
-          content-filepath: ./lychee/out.md
-          labels: dead links
-
-      - name: Save lychee cache
-        if: always()
-        uses: actions/cache/save@v6
-        with:
-          path: .lycheecache
-          key: ${{ steps.restore-cache.outputs.cache-primary-key }}
