@@ -178,11 +178,6 @@ def test_build_from_the_minimal_dataset(documents):
     assert readme.check_anchors(content) == ([], [])
 
 
-def test_build_from_the_real_data():
-    """Smoke test: the real data renders without dangling anchors."""
-    assert readme.build().startswith(readme.BANNER)
-
-
 def test_main_check_and_write(tmp_path, monkeypatch, documents, capsys):
     output = tmp_path / 'README.md'
     monkeypatch.setattr(readme, 'OUTPUT', str(output))

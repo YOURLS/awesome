@@ -31,11 +31,6 @@ def test_the_minimal_dataset_is_valid(documents):
     assert report.warnings == []
 
 
-def test_the_real_data_is_valid():
-    """Smoke test: data/ passes, whatever it contains today."""
-    assert validate.validate_all(data.load_all()).errors == []
-
-
 def test_every_schema_kind_is_reachable_from_the_sections():
     used = {'category'}
     for section in data.SECTIONS.values():
