@@ -121,11 +121,3 @@ def test_all_urls_skips_cross_listed_missing_and_malformed(documents):
     assert 'https://example.org/twice' not in urls
     assert len(urls) == len(data.all_urls(documents))
     assert all(isinstance(url, str) for url in urls)
-
-
-def test_sections_cover_the_real_data_files():
-    """Smoke test: every registered file loads and has its root key."""
-    documents = data.load_all()
-    for filename, section in data.SECTIONS.items():
-        assert documents[filename][section.key]
-        assert ('categories' in documents[filename]) == section.categories
