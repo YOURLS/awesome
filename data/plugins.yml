@@ -1056,7 +1056,7 @@ plugins:
 
   - name: Multi Fallback URL
     url: https://github.com/lex-media/multi-fallback-url
-    description: Redirect to a fallback page for unknown shortlink, based on domain name. Plugin in German only.
+    description: Redirect to a fallback page for unknown shortlink, based on domain name. Localized in English and German.
     category: redirection
     tags: [notfound, fallback, multi domain, "404", error]
 
