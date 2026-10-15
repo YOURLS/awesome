@@ -28,7 +28,7 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Contents [▴](#custom-top "Back to top")
 
 - [Official Links](#official-links-) - Official guides and tools
-- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **261** plugins listed.
+- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **262** plugins listed.
 - [Themes](#themes-) - to customize how YOURLS looks
 - [Translations](#translations-) - YOURLS in your language
 - [Integrations](#integrations-) - Clients, plugins and apps built on YOURLS
@@ -61,7 +61,7 @@ What the YOURLS team provides to build and test a plugin.
 
 ## Plugins [▴](#custom-top "Back to top")
 
-All known plugins, from the community or the YOURLS team. Currently **261** of them.
+All known plugins, from the community or the YOURLS team. Currently **262** of them.
 
 **🔍 [Search and filter these plugins on awesome.yourls.org](https://awesome.yourls.org/#plugins)**
 
@@ -74,7 +74,7 @@ Willing to get your plugin featured here? Please [contribute](CONTRIBUTING.md)!
 | Category | Plugins |
 | --- | ---: |
 | [Link creation, keywords & metadata](#link-creation-keywords--metadata-) | 32 |
-| [Redirection & link behaviour](#redirection--link-behaviour-) | 32 |
+| [Redirection & link behaviour](#redirection--link-behaviour-) | 33 |
 | [Authentication, users & access control](#authentication-users--access-control-) | 30 |
 | [Anti-spam, security, privacy & moderation](#anti-spam-security-privacy--moderation-) | 23 |
 | [Statistics, logs & analytics](#statistics-logs--analytics-) | 20 |
@@ -152,6 +152,7 @@ Anything changing what happens when a short URL is visited: status code, destina
 - [Keyword not found](https://github.com/8thwall/keyword-not-found-set-field-yourls) - If keyword isn't found in the database, redirect to admin page and pre-populate the short URL field.
 - [Meta Redirect](https://github.com/pureexe/Yourls-meta-redirect) - Redirect using HTML meta tag when you prepend the short URL with an underscore (eg `http://sho.rt/_bleh`).
 - [Mobile Detect](https://github.com/guessi/yourls-mobile-detect) - Add ability to redirect by user device OS.
+- [Multi Fallback URL](https://github.com/lex-media/multi-fallback-url) - Redirect to a fallback page for unknown shortlink, based on domain name. Localized in English and German.
 - [Query String Keeper @jessemaps](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://long.url/bleh/?hey`).
 - [Query String Keeper @littleskyfish](https://github.com/littleskyfish/query-string-keeper) - Pass the query string from the shortlink to the long URL (tested on YOURLS version 1.8.3 and PHP version 8.0.12).
 - [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
