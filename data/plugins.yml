@@ -1054,6 +1054,12 @@ plugins:
     category: stats
     tags: [geolite2, user agent, viewer]
 
+  - name: Multi Fallback URL
+    url: https://github.com/lex-media/multi-fallback-url
+    description: Redirect to a fallback page for unknown shortlink, based on domain name. Localized in English and German.
+    category: redirection
+    tags: [notfound, fallback, multi domain, "404", error]
+
   - name: No Tracking Admins
     url: https://github.com/joshp23/YOURLS-No-Tracking-Admins
     description: No logging of clicks for authenticated users (compatible with OIDC).
