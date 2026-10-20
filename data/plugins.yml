@@ -1277,6 +1277,13 @@ plugins:
     category: preview
     tags: [qr, selfhosted]
 
+  - name: QR Code Designer
+    url: https://github.com/Waterproof-Web-Wizard-GmbH/yourls-qr-code-designer
+    description: Design print-ready QR codes with colours, gradients, dot and corner shapes, a logo placed in the safe area, print check and built-in scan test.
+    category: preview
+    tags: [qr, logo, print, svg, download]
+    tested: true
+
   - name: QueryString Forward
     url: https://github.com/llonchj/yourls_plugins
     description: Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
