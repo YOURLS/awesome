@@ -28,7 +28,7 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Contents [▴](#custom-top "Back to top")
 
 - [Official Links](#official-links-) - Official guides and tools
-- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **262** plugins listed.
+- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **263** plugins listed.
 - [Themes](#themes-) - to customize how YOURLS looks
 - [Translations](#translations-) - YOURLS in your language
 - [Integrations](#integrations-) - Clients, plugins and apps built on YOURLS
@@ -61,7 +61,7 @@ What the YOURLS team provides to build and test a plugin.
 
 ## Plugins [▴](#custom-top "Back to top")
 
-All known plugins, from the community or the YOURLS team. Currently **262** of them.
+All known plugins, from the community or the YOURLS team. Currently **263** of them.
 
 **🔍 [Search and filter these plugins on awesome.yourls.org](https://awesome.yourls.org/#plugins)**
 
@@ -82,7 +82,7 @@ Willing to get your plugin featured here? Please [contribute](CONTRIBUTING.md)!
 | [Admin interface](#admin-interface-) | 16 |
 | [Database, cache, performance & infrastructure](#database-cache-performance--infrastructure-) | 15 |
 | [Sharing & notifications](#sharing--notifications-) | 16 |
-| [Preview, QR codes & thumbnails](#preview-qr-codes--thumbnails-) | 15 |
+| [Preview, QR codes & thumbnails](#preview-qr-codes--thumbnails-) | 16 |
 | [Bulk operations & link lifecycle](#bulk-operations--link-lifecycle-) | 16 |
 | [Public pages, content & files](#public-pages-content--files-) | 12 |
 | [Monetization & affiliation](#monetization--affiliation-) | 8 |
@@ -344,6 +344,7 @@ Anything rendering a visual artefact for a short URL, or showing an interstitial
 - [Preview URL](https://yourls.org/docs/development/examples/preview) ☑️ - Add the character '~' to a short URL to display a preview screen before redirection.
 - [Preview URL with QR Code](https://github.com/dennydai/yourls-preview-url-with-qrcode) - Add the character '~' to a short URL to display a preview screen and QR code before redirection.
 - [Preview URL with QR Code And Thumbnail](https://github.com/prog-it/yourls-preview-url-with-qrcode-thumbnail) - Add the character '~' to a short URL to display a QR code and thumbnail image before redirection.
+- [QR Code Designer](https://github.com/Waterproof-Web-Wizard-GmbH/yourls-qr-code-designer) 🧪 - Design print-ready QR codes with colours, gradients, dot and corner shapes, a logo placed in the safe area, print check and built-in scan test.
 - [QR Google Charts](https://aiaraldea.github.io/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
 - [QRCode](https://yourls.org/docs/development/examples/qrcode) ☑️ - Add ".qr" to short URLs to display the shorturl's QR code.
 - [QRCode Local](https://github.com/alexkolodko/yourls-local-qr-code) - Add ".qr" to short URLs to display the shorturl's QR code in SVG, PDF, PNG or JPG (local generation with JS).
