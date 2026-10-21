@@ -1128,6 +1128,13 @@ plugins:
     category: auth
     tags: [private, secret, gated]
 
+  - name: Path Passthrough
+    url: https://github.com/breakzplatform/yourls-path-passthrough
+    description: Pass the path after the keyword through to the long URL, golink style (`sho.rt/gh/org/repo`), with optional `{{.Path}}` templates.
+    category: redirection
+    tags: [golink, path, query string, redirect, templates]
+    tested: true
+
   - name: Phishtank
     url: https://yourls.org/blog/2011/04/yourls-abuse-anti-spam-plugins
     description: Prevent spam links using Phishtank's API.
