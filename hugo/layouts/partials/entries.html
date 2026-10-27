@@ -6,7 +6,7 @@
 {{ $sectionLabel := .label }}
 {{ range .entries }}
   <li class="row row--{{ $section }}" data-section="{{ $section }}"
-      data-category="{{ .category }}">
+      data-category="{{ .category }}"{{ with .native }} data-native="{{ . }}"{{ end }}>
     {{/* Only shown while every section is listed together. */}}
     <span class="section-tag" hidden>{{ $sectionLabel }}</span>
 

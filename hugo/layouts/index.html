@@ -99,6 +99,11 @@
   </aside>
   <main>
     <p class="blurb" id="blurb" hidden></p>
+    <div class="sort" id="sort" role="group" aria-label="Sort languages" hidden>
+      Sort by
+      <button type="button" data-sort="">English name</button>
+      <button type="button" data-sort="native">Native name</button>
+    </div>
     <ul class="list" id="list">
       {{ range $section := $sections }}
         {{ partial "entries.html" (dict

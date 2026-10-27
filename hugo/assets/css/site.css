@@ -233,10 +233,31 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 /* Translation rows are short: keep the locale badge close to the name. */
 .list[data-showing="translations"] { max-width: 62ch; }
 
+/* translations: sort by English or native name */
+.sort {
+    display: flex; align-items: center; gap: 6px; margin: 0 0 14px;
+    color: var(--text-dim); font-size: 14px;
+}
+.sort[hidden] { display: none; }
+.sort button {
+    font: inherit; color: var(--text); background: none; cursor: pointer;
+    border: 1px solid var(--line); border-radius: 5px; padding: 4px 9px;
+}
+.sort button:hover { background: var(--surface); }
+.sort button[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+[data-theme="dark"] .sort button[aria-pressed="true"] { color: #10232f; }
+
 /* translations: name, native name, locale badge on one line */
 .row--translations { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
 .row--translations h3 { font-size: 15.5px; }
 .native { color: var(--text-dim); font-size: 14px; }
+/* sorted by native name: the native name leads, in bold, the English one follows */
+.list[data-sort="native"] .native {
+    order: -1; color: var(--text); font-size: 15.5px; font-weight: 600; letter-spacing: -.01em;
+}
+.list[data-sort="native"] .row--translations h3 { font-size: 14px; font-weight: 400; letter-spacing: 0; }
+.list[data-sort="native"] .row--translations h3,
+.list[data-sort="native"] .row--translations h3 a:not(:hover) { color: var(--text-dim); }
 .locale {
     margin-left: auto;
     font: 400 12px/1 "JetBrains Mono", ui-monospace, monospace;

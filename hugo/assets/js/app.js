@@ -15,7 +15,17 @@
 
     // An empty section means "everything", which is the default view: a
     // search for "captcha" should reach plugins and guides at once.
-    var state = { section: '', category: '', q: '' };
+    var state = { section: '', category: '', q: '', sort: '' };
+
+    // Translations come sorted by English name from data/. The native order is
+    // computed once; 'und' is the root collation, which groups scripts together.
+    var byEnglish = rows.filter(function (row) { return row.dataset.section === 'translations'; });
+    var collator = new Intl.Collator('und');
+    var byNative = byEnglish.slice().sort(function (a, b) {
+        return collator.compare(a.dataset.native || '', b.dataset.native || '');
+    });
+    var afterTranslations = byEnglish.length ? byEnglish[byEnglish.length - 1].nextElementSibling : null;
+    var sortButtons = Array.prototype.slice.call(document.querySelectorAll('#sort button'));
 
     /**
      * Normalize a tag so it can be typed after a hash: "dark mode" -> "dark-mode".
@@ -69,6 +79,18 @@
             return row._handles.indexOf(word) !== -1;
         }
         return new RegExp('\\b' + escapeRe(word)).test(row._hay);
+    }
+
+    /**
+     * Order the translation rows by English or native name.
+     *
+     * They form one contiguous block in the list, so they are moved back in
+     * front of whatever follows that block. Only they move, so that never changes.
+     *
+     * @param {Element[]} order The translation rows, in the wanted order
+     */
+    function sortTranslations(order) {
+        order.forEach(function (row) { $('list').insertBefore(row, afterTranslations); });
     }
 
     /**
@@ -133,6 +155,15 @@
         $('list').dataset.showing = state.section;
         notes.forEach(function (note) { note.hidden = note.dataset.note !== state.section; });
 
+        // Sorting by native name only applies while translations are shown alone.
+        var native = state.section === 'translations' && state.sort === 'native';
+        sortTranslations(native ? byNative : byEnglish);
+        $('list').dataset.sort = native ? 'native' : '';
+        $('sort').hidden = state.section !== 'translations';
+        sortButtons.forEach(function (button) {
+            button.setAttribute('aria-pressed', String(button.dataset.sort === (native ? 'native' : '')));
+        });
+
         $('rail').hidden = !facets.some(function (f) { return f.dataset.section === state.section; });
         $('empty').hidden = hits > 0;
 
@@ -154,6 +185,7 @@
         if (state.section) { params.set('in', state.section); }
         if (state.category) { params.set('category', state.category); }
         if (state.q) { params.set('q', state.q); }
+        if (state.section === 'translations' && state.sort) { params.set('sort', state.sort); }
         var query = params.toString();
         history.replaceState(null, '', query ? '?' + query : location.pathname);
     }
@@ -163,6 +195,13 @@
         if (!tab) { return; }
         state.section = tab.dataset.section;
         state.category = '';
+        render();
+    });
+
+    $('sort').addEventListener('click', function (event) {
+        var button = event.target.closest('button');
+        if (!button) { return; }
+        state.sort = button.dataset.sort;
         render();
     });
 
@@ -292,6 +331,7 @@
     var params = new URLSearchParams(location.search);
     if (params.get('in')) { state.section = params.get('in'); }
     if (params.get('category')) { state.category = params.get('category'); }
+    if (params.get('sort') === 'native') { state.sort = 'native'; }
     if (params.get('q')) {
         state.q = params.get('q').toLowerCase();
         $('q').value = params.get('q');
