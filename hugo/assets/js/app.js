@@ -140,9 +140,12 @@
         var label = document.querySelector('.tab[data-section="' + state.section + '"]')
             .firstChild.textContent.trim().toLowerCase();
         var where = state.section ? ' in ' + label : '';
-        $('count').innerHTML = state.q || state.category
-            ? '<b>' + hits + '</b> of ' + total + where
-            : '<b>' + rows.length + '</b> entries across ' + (tabs.length - 1) + ' sections';
+        var filtered = Boolean(state.q || state.category);
+        var bold = document.createElement('b');
+        bold.textContent = filtered ? hits : rows.length;
+        $('count').replaceChildren(bold, filtered
+            ? ' of ' + total + where
+            : ' entries across ' + (tabs.length - 1) + ' sections');
 
         sync();
     }
