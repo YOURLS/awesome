@@ -73,8 +73,8 @@
             function (chip) { return slug(chip.dataset.tag); }
         );
         row._handles = Array.prototype.map.call(
-            row.querySelectorAll('.chip--handle, .repos a'),
-            function (node) { return (node.dataset.tag || node.textContent).toLowerCase().trim(); }
+            row.querySelectorAll('.chip--handle'),
+            function (chip) { return chip.dataset.tag.toLowerCase().trim(); }
         );
     });
 

@@ -137,7 +137,6 @@ translations:
     locale: pt_BR
     urls:
       - url: https://github.com/didi3d/YOURLS-pt_BR
-        label: omg
       - url: https://github.com/henriquecrang/YOURLS-pt_BR
 
   - language: Russian

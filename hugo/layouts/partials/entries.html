@@ -59,8 +59,9 @@
       {{ if gt (len .links) 1 }}
         <ul class="repos">
           {{ range .links }}
-            <li><a href="{{ .url }}" rel="noopener">{{ .label }}</a>
-              {{ with .note }}<span>{{ . }}</span>{{ end }}</li>
+            <li><a href="{{ .url }}" rel="noopener">Translation</a> by
+              <button class="chip chip--handle" type="button" data-tag="{{ .handle }}">{{ .handle }}</button>
+              {{ with .note }}<span class="repo-note">{{ . }}</span>{{ end }}</li>
           {{ end }}
         </ul>
       {{ end }}

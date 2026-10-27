@@ -366,12 +366,16 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 }
 
 /* --- a language maintained in several places --- */
-.repos {
-    flex-basis: 100%; list-style: none; margin: 4px 0 0; padding: 0;
-    display: flex; flex-wrap: wrap; gap: 4px 14px;
+/* One line per repository, shaped like a single-repository row: the link,
+   then the account chip. */
+.repos { flex-basis: 100%; list-style: none; margin: 2px 0 0; padding: 0 0 0 14px; }
+.repos li {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px;
+    color: var(--text-dim); font-size: 14px;
 }
-.repos a { font-size: 14px; }
-.repos span { color: var(--text-dim); font-size: 13px; }
+.repos li + li { margin-top: 4px; }
+.repos .chip--handle { align-self: center; }
+.repo-note { font-size: 13px; }
 
 /* --- who publishes it: an account, or the host when it is not a forge --- */
 .chip--handle { color: var(--brand-bright); }

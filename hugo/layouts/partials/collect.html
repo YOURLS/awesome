@@ -42,18 +42,10 @@
 {{ range hugo.Data.translations.translations }}
   {{ $links := slice }}
   {{ range .urls }}
-    {{/* Same rule as awesome_data.owner(): an explicit label wins, then
-         @account on a known forge, then the bare host. */}}
-    {{ $label := default "" .label }}
-    {{ if not $label }}
-      {{ $parts := split (replaceRE "^https?://" "" .url) "/" }}
-      {{ $label = index $parts 0 }}
-      {{ $forges := slice "github.com" "gist.github.com" "gitlab.com" "bitbucket.org" "codeberg.org" }}
-      {{ if and (in $forges $label) (gt (len $parts) 1) (index $parts 1) }}
-        {{ $label = printf "@%s" (index $parts 1) }}
-      {{ end }}
-    {{ end }}
-    {{ $links = $links | append (dict "url" .url "label" $label "note" (default "" .note)) }}
+    {{/* The handle, not the README label: it becomes a chip, and a chip
+         must hold the exact value that "@" searches match. */}}
+    {{ $links = $links | append (dict
+      "url" .url "handle" (partial "handle.html" .url) "note" (default "" .note)) }}
   {{ end }}
   {{ $first := index .urls 0 }}
   {{ $out = $out | append (dict
