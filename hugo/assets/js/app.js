@@ -47,10 +47,27 @@
         return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
 
+    /**
+     * Collect the text of an element, one space between each text node.
+     *
+     * textContent would glue adjacent elements together once the HTML is
+     * minified ("<span>Translations</span><h3>Finnish" -> "TranslationsFinnish"),
+     * and words would no longer start on a boundary.
+     *
+     * @param {Element} element The element to read
+     * @return {string} Its text, with every node kept apart
+     */
+    function textOf(element) {
+        var walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+        var parts = [];
+        while (walker.nextNode()) { parts.push(walker.currentNode.nodeValue); }
+        return parts.join(' ');
+    }
+
     // Read once, never recomputed: the rendered text is the full-text index,
     // and the chips give the exact tag and account values behind # and @.
     rows.forEach(function (row) {
-        row._hay = row.textContent.toLowerCase();
+        row._hay = textOf(row).toLowerCase();
         row._tags = Array.prototype.map.call(
             row.querySelectorAll('.chip:not(.chip--cat):not(.chip--handle):not(.badge)'),
             function (chip) { return slug(chip.dataset.tag); }
