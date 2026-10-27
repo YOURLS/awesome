@@ -222,13 +222,16 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .cats em { font-style: normal; color: var(--text-dim); font-size: 13px; font-weight: 400; }
 .cats p { margin: 4px 0 0; color: var(--text-dim); font-size: 14.5px; max-width: 60ch; }
 
-/* --- sections laid out in columns: themes and translations --- */
+/* --- sections laid out in columns: themes --- */
 .list--grid {
     display: grid; gap: 2px 36px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .list--grid .row { border-top: 1px solid var(--line); }
 .list--grid .row:first-child { border-top: 1px solid var(--line); }
+
+/* Translation rows are short: keep the locale badge close to the name. */
+.list[data-showing="translations"] { max-width: 62ch; }
 
 /* translations: name, native name, locale badge on one line */
 .row--translations { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
@@ -336,7 +339,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 /* --- responsive overrides, kept last so they win on equal specificity --- */
 @media (max-width: 860px) {
     /* Same breakpoint as the rest of the layout: below it the page is one
-       column, and so are themes and translations. */
+       column, and so are themes. */
     .list--grid { grid-template-columns: minmax(0, 1fr); }
     .list--grid .shot { max-width: 320px; }
 }

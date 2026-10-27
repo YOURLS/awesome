@@ -10,9 +10,8 @@
     var facets = Array.prototype.slice.call(document.querySelectorAll('.facet'));
     var notes = Array.prototype.slice.call(document.querySelectorAll('.note'));
 
-    // Sections whose entries have no description are laid out in columns
-    // instead of full-width rows.
-    var GRID = ['themes', 'translations'];
+    // Themes are laid out in columns instead of full-width rows.
+    var GRID = ['themes'];
 
     // An empty section means "everything", which is the default view: a
     // search for "captcha" should reach plugins and guides at once.
