@@ -1,12 +1,12 @@
 {{/* Renders one <li> per entry of a section.
      Most sections use the default row. Themes and translations have no
      description to fill a full-width row, so they get their own shapes and
-     the list switches to a grid. */}}
+     themes switch the list to a grid. */}}
 {{ $section := .section }}
 {{ $sectionLabel := .label }}
 {{ range .entries }}
   <li class="row row--{{ $section }}" data-section="{{ $section }}"
-      data-category="{{ .category }}">
+      data-category="{{ .category }}"{{ with .native }} data-native="{{ . }}"{{ end }}>
     {{/* Only shown while every section is listed together. */}}
     <span class="section-tag" hidden>{{ $sectionLabel }}</span>
 
@@ -59,8 +59,9 @@
       {{ if gt (len .links) 1 }}
         <ul class="repos">
           {{ range .links }}
-            <li><a href="{{ .url }}" rel="noopener">{{ .label }}</a>
-              {{ with .note }}<span>{{ . }}</span>{{ end }}</li>
+            <li><a href="{{ .url }}" rel="noopener">Translation</a> by
+              <button class="chip chip--handle" type="button" data-tag="{{ .handle }}">{{ .handle }}</button>
+              {{ with .note }}<span class="repo-note">{{ . }}</span>{{ end }}</li>
           {{ end }}
         </ul>
       {{ end }}

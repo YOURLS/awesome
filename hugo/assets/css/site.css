@@ -222,7 +222,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .cats em { font-style: normal; color: var(--text-dim); font-size: 13px; font-weight: 400; }
 .cats p { margin: 4px 0 0; color: var(--text-dim); font-size: 14.5px; max-width: 60ch; }
 
-/* --- sections laid out in columns: themes and translations --- */
+/* --- sections laid out in columns: themes --- */
 .list--grid {
     display: grid; gap: 2px 36px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -230,10 +230,34 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .list--grid .row { border-top: 1px solid var(--line); }
 .list--grid .row:first-child { border-top: 1px solid var(--line); }
 
+/* Translation rows are short: keep the locale badge close to the name. */
+.list[data-showing="translations"] { max-width: 62ch; }
+
+/* translations: sort by English or native name */
+.sort {
+    display: flex; align-items: center; gap: 6px; margin: 0 0 14px;
+    color: var(--text-dim); font-size: 14px;
+}
+.sort[hidden] { display: none; }
+.sort button {
+    font: inherit; color: var(--text); background: none; cursor: pointer;
+    border: 1px solid var(--line); border-radius: 5px; padding: 4px 9px;
+}
+.sort button:hover { background: var(--surface); }
+.sort button[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+[data-theme="dark"] .sort button[aria-pressed="true"] { color: #10232f; }
+
 /* translations: name, native name, locale badge on one line */
 .row--translations { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
 .row--translations h3 { font-size: 15.5px; }
 .native { color: var(--text-dim); font-size: 14px; }
+/* sorted by native name: the native name leads, in bold, the English one follows */
+.list[data-sort="native"] .native {
+    order: -1; color: var(--text); font-size: 15.5px; font-weight: 600; letter-spacing: -.01em;
+}
+.list[data-sort="native"] .row--translations h3 { font-size: 14px; font-weight: 400; letter-spacing: 0; }
+.list[data-sort="native"] .row--translations h3,
+.list[data-sort="native"] .row--translations h3 a:not(:hover) { color: var(--text-dim); }
 .locale {
     margin-left: auto;
     font: 400 12px/1 "JetBrains Mono", ui-monospace, monospace;
@@ -336,18 +360,22 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 /* --- responsive overrides, kept last so they win on equal specificity --- */
 @media (max-width: 860px) {
     /* Same breakpoint as the rest of the layout: below it the page is one
-       column, and so are themes and translations. */
+       column, and so are themes. */
     .list--grid { grid-template-columns: minmax(0, 1fr); }
     .list--grid .shot { max-width: 320px; }
 }
 
 /* --- a language maintained in several places --- */
-.repos {
-    flex-basis: 100%; list-style: none; margin: 4px 0 0; padding: 0;
-    display: flex; flex-wrap: wrap; gap: 4px 14px;
+/* One line per repository, shaped like a single-repository row: the link,
+   then the account chip. */
+.repos { flex-basis: 100%; list-style: none; margin: 2px 0 0; padding: 0 0 0 14px; }
+.repos li {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px;
+    color: var(--text-dim); font-size: 14px;
 }
-.repos a { font-size: 14px; }
-.repos span { color: var(--text-dim); font-size: 13px; }
+.repos li + li { margin-top: 4px; }
+.repos .chip--handle { align-self: center; }
+.repo-note { font-size: 13px; }
 
 /* --- who publishes it: an account, or the host when it is not a forge --- */
 .chip--handle { color: var(--brand-bright); }
