@@ -463,7 +463,7 @@ YOURLS supports localization: this means if a language file for YOURLS is availa
 - [Polish](https://github.com/tomslominski/YOURLS-pl_PL) (`pl_PL`)
 - [Portuguese](https://github.com/oscarmarcelo/YOURLS-pt_PT) (`pt_PT`)
 - Portuguese (Brazil) (`pt_BR`)
-  - [omg](https://github.com/didi3d/YOURLS-pt_BR)
+  - [@didi3d](https://github.com/didi3d/YOURLS-pt_BR)
   - [@henriquecrang](https://github.com/henriquecrang/YOURLS-pt_BR)
 - [Russian](https://github.com/nsauk/YOURLS-ru_RU) (`ru_RU`)
 - [Slovak](https://github.com/filyph/YOURLS-sk_SK) (`sk_SK`)
