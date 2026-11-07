@@ -1010,6 +1010,12 @@ plugins:
     category: links
     tags: [scheme, deeplink, security]
 
+  - name: Matomo Tracker
+    url: https://github.com/KrakenHubMx/kh-matomo
+    description: Track YOURLS short-link redirects in Matomo using server-side events, without JavaScript on destination websites.
+    category: stats
+    tags: [analytics, matomo, tracking, statistics]
+  
   - name: Master/Slave DB Setup
     url: https://gist.github.com/ozh/553c2519878984271584939355e91b8e
     description: Uses a Master/Slave DB setup.
