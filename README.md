@@ -28,7 +28,7 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Contents [▴](#custom-top "Back to top")
 
 - [Official Links](#official-links-) - Official guides and tools
-- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **264** plugins listed.
+- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **265** plugins listed.
 - [Themes](#themes-) - to customize how YOURLS looks
 - [Translations](#translations-) - YOURLS in your language
 - [Integrations](#integrations-) - Clients, plugins and apps built on YOURLS
@@ -61,7 +61,7 @@ What the YOURLS team provides to build and test a plugin.
 
 ## Plugins [▴](#custom-top "Back to top")
 
-All known plugins, from the community or the YOURLS team. Currently **264** of them.
+All known plugins, from the community or the YOURLS team. Currently **265** of them.
 
 **🔍 [Search and filter these plugins on awesome.yourls.org](https://awesome.yourls.org/#plugins)**
 
@@ -84,7 +84,7 @@ Willing to get your plugin featured here? Please [contribute](CONTRIBUTING.md)!
 | [Sharing & notifications](#sharing--notifications-) | 16 |
 | [Preview, QR codes & thumbnails](#preview-qr-codes--thumbnails-) | 16 |
 | [Bulk operations & link lifecycle](#bulk-operations--link-lifecycle-) | 16 |
-| [Public pages, content & files](#public-pages-content--files-) | 12 |
+| [Public pages, content & files](#public-pages-content--files-) | 13 |
 | [Monetization & affiliation](#monetization--affiliation-) | 8 |
 | [Development & debugging](#development--debugging-) | 7 |
 | [Misc / Others / Unsorted](#misc--others--unsorted-) | 3 |
@@ -383,6 +383,7 @@ Anything acting on many links at once, or managing what happens to a link over t
 Anything adding a user-facing page served by YOURLS beyond the plain redirection: a public shortener form, a landing page, a contact form, or file hosting.
 
 - [Alternative Index](https://github.com/gioxx/YOURLS-AlternativeIndex) - Transform the unused YOURLS root page into a Linktree-style profile page with social links and custom branding.
+- [Asyntai AI Chatbot](https://github.com/asyntai/yourls-ai-chatbot) - Adds an AI chatbot to your public pages. It answers visitor questions from your own content. Needs an Asyntai account (free plan available).
 - [Frontend Links](https://github.com/sangcent/yourls.frontend-links) - Link-in-bio page served directly by YOURLS, with sections, links, profile and icons managed from the admin panel. Adds a branded interstitial, a custom 404 page and subdirectory support.
 - [Link Front Page](https://github.com/toineenzo/YOURLS-Link-Front-Page) - Generate a personal landing page with a Linktree-style link list, an Instagram-style image grid, and an About-me block with social-media icons.
 - [Link List](https://gitlab.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page.
