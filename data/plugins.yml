@@ -292,6 +292,12 @@ plugins:
     category: redirection
     tags: [query string, parameters, utm]
 
+  - name: Asyntai AI Chatbot
+    url: https://github.com/asyntai/yourls-ai-chatbot
+    description: Adds an AI chatbot to your public pages. It answers visitor questions from your own content. Needs an Asyntai account (free plan available).
+    category: public-pages
+    tags: [chat, chatbot, ai, support, footer]
+
   - name: Auth Manager Plus
     url: https://github.com/joshp23/YOURLS-AuthMgrPlus
     description: Separates user data and manages authorization with role-based access controls (RBAC).
