@@ -28,7 +28,7 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Contents [▴](#custom-top "Back to top")
 
 - [Official Links](#official-links-) - Official guides and tools
-- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **265** plugins listed.
+- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **266** plugins listed.
 - [Themes](#themes-) - to customize how YOURLS looks
 - [Translations](#translations-) - YOURLS in your language
 - [Integrations](#integrations-) - Clients, plugins and apps built on YOURLS
@@ -61,7 +61,7 @@ What the YOURLS team provides to build and test a plugin.
 
 ## Plugins [▴](#custom-top "Back to top")
 
-All known plugins, from the community or the YOURLS team. Currently **265** of them.
+All known plugins, from the community or the YOURLS team. Currently **266** of them.
 
 **🔍 [Search and filter these plugins on awesome.yourls.org](https://awesome.yourls.org/#plugins)**
 
@@ -77,7 +77,7 @@ Willing to get your plugin featured here? Please [contribute](CONTRIBUTING.md)!
 | [Redirection & link behaviour](#redirection--link-behaviour-) | 34 |
 | [Authentication, users & access control](#authentication-users--access-control-) | 30 |
 | [Anti-spam, security, privacy & moderation](#anti-spam-security-privacy--moderation-) | 23 |
-| [Statistics, logs & analytics](#statistics-logs--analytics-) | 20 |
+| [Statistics, logs & analytics](#statistics-logs--analytics-) | 21 |
 | [API](#api-) | 16 |
 | [Admin interface](#admin-interface-) | 16 |
 | [Database, cache, performance & infrastructure](#database-cache-performance--infrastructure-) | 15 |
@@ -244,6 +244,7 @@ Anything collecting, filtering, enriching or displaying click data, or forwardin
 - [GeoIP Update](https://github.com/ozh/yourls-geoip-update) ☑️ - Update the GeoIP database.
 - [Google Analytics Link Tagging](https://katz.co/2300/) - Add GA tags (utm_source and others) to your shortened links.
 - [GTM for YOURLS](https://github.com/dorks-delivered/GTM-for-YOURLS) - Google Tag Manager for every single click.
+- [Matomo Tracker](https://github.com/KrakenHubMx/kh-matomo) - Track YOURLS short-link redirects in Matomo using server-side events, without JavaScript on destination websites.
 - [Modern Clicks Log Viewer](https://github.com/Bluscream/yourls-modern-log-viewer-plugin) - Click log viewer with GeoLite2 and user agent parsing.
 - [No Tracking Admins](https://github.com/joshp23/YOURLS-No-Tracking-Admins) - No logging of clicks for authenticated users (compatible with OIDC).
 - [Piwik-YOURLS](https://github.com/interfasys/piwik-yourls) - Piwik and a few other features.
