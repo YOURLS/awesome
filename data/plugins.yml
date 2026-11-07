@@ -1011,6 +1011,12 @@ plugins:
     tags: [mysql, replication, scale]
     official: true
 
+  - name: Matomo Tracker
+    url: https://github.com/KrakenHubMx/kh-matomo
+    description: Track YOURLS short-link redirects in Matomo using server-side events, without JavaScript on destination websites.
+    category: analytics
+    tags: [analytics, matomo, tracking, statistics]
+
   - name: Mass Remove Link
     url: https://github.com/YOURLS/mass-remove-links/
     description: Remove several links at once. Select by date, date range, IP or URL matching.
