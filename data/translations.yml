@@ -78,6 +78,13 @@ translations:
       - url: https://github.com/ozh/YOURLS-fr_FR
         note: maintained by the YOURLS teams
 
+  - language: German (Germany)
+    native: Deutsch (Deutschland)
+    locale: de_DE
+    urls:
+      - url: https://github.com/DJaeger/YOURLS-de_DE
+        note: includes formal (Sie) and informal (du) versions
+
   - language: German (Switzerland)
     native: Deutsch (Schweiz)
     locale: de_CH
