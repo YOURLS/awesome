@@ -1703,7 +1703,7 @@ plugins:
   - name: YOURLS Telegram Bot
     url: https://github.com/HedleyLamaar/yourls-telegram-bot
     description: Adds a Telegram bot to create generic or custom short links, view recent links, and send link notifications.
-    category: Sharing & notifications
+    category: sharing
     tags: [telegram, bot, notifications]
 
   - name: YOURLS-RBAC
