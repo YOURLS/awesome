@@ -1700,6 +1700,12 @@ plugins:
     category: infrastructure
     tags: [performance, opcache]
 
+  - name: YOURLS Telegram Bot
+    url: https://github.com/HedleyLamaar/yourls-telegram-bot
+    description: Adds a Telegram bot to create generic or custom short links, view recent links, and send link notifications.
+    category: sharing
+    tags: [telegram, bot, notifications]
+
   - name: YOURLS-RBAC
     url: https://github.com/saahmadnejad/YOURLS-RBAC
     description: Role-Based Access Control, with database-backed users, roles and permissions with a full admin UI, replacing the single-user `config.php` login.
