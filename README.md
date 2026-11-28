@@ -28,7 +28,7 @@ _Something missing or incorrect? Want to get your work listed? See how you can [
 ## Contents [▴](#custom-top "Back to top")
 
 - [Official Links](#official-links-) - Official guides and tools
-- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **266** plugins listed.
+- [Plugins](#plugins-) - what makes YOURLS so versatile and powerful. Currently: **267** plugins listed.
 - [Themes](#themes-) - to customize how YOURLS looks
 - [Translations](#translations-) - YOURLS in your language
 - [Integrations](#integrations-) - Clients, plugins and apps built on YOURLS
@@ -61,7 +61,7 @@ What the YOURLS team provides to build and test a plugin.
 
 ## Plugins [▴](#custom-top "Back to top")
 
-All known plugins, from the community or the YOURLS team. Currently **266** of them.
+All known plugins, from the community or the YOURLS team. Currently **267** of them.
 
 **🔍 [Search and filter these plugins on awesome.yourls.org](https://awesome.yourls.org/#plugins)**
 
@@ -81,7 +81,7 @@ Willing to get your plugin featured here? Please [contribute](CONTRIBUTING.md)!
 | [API](#api-) | 16 |
 | [Admin interface](#admin-interface-) | 16 |
 | [Database, cache, performance & infrastructure](#database-cache-performance--infrastructure-) | 15 |
-| [Sharing & notifications](#sharing--notifications-) | 16 |
+| [Sharing & notifications](#sharing--notifications-) | 17 |
 | [Preview, QR codes & thumbnails](#preview-qr-codes--thumbnails-) | 16 |
 | [Bulk operations & link lifecycle](#bulk-operations--link-lifecycle-) | 16 |
 | [Public pages, content & files](#public-pages-content--files-) | 13 |
@@ -336,6 +336,7 @@ Anything pushing a short URL or an event about it somewhere else: a share button
 - [wallabag](https://github.com/jonrandoem/yourls-wallabag) - Allows the sharing of the URL to a Wallabag installation (previously named Poche).
 - [Webhook Notification](https://github.com/Bluscream/yourls-webhook-plugin) - Sends a JSON POST webhook notification when a new link is created.
 - [Whatsapp quickshare](https://github.com/wissehes/Whatsapp-quickshare) - Allows you to share your short URL via WhatsApp.
+- [YOURLS Telegram Bot](https://github.com/HedleyLamaar/yourls-telegram-bot) - Adds a Telegram bot to create generic or custom short links, view recent links, and send link notifications.
 
 ### Preview, QR codes & thumbnails [▵](#plugins- "Back to plugins")
 
